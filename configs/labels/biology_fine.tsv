@@ -1,0 +1,81 @@
+id	name	terms
+0	Cell lines and cell culture	cells, lines, human, stem, cellular
+1	Population variation and gene flow	population, variation, individuals, diversity, selection
+2	Breast cancer	breast, cancer, node, lymph, women
+3	Broiler diets and feed supplementation	diet, feed, fed, weight, broiler
+4	Multidrug-resistant clinical isolates	resistance, antibiotic, resistant, isolates, antimicrobial
+5	Innate immune responses	immune, response, cytokines, macrophages, innate
+6	Microbial strains and yeasts	strains, isolated, isolates, yeast, virulence
+7	Cancer types and biomarkers	cancer, lung, colorectal, prostate, crc
+8	Drug delivery and targeted therapy	drug, therapeutic, therapy, target, strategies
+9	Taxonomy and new species	species, genus, nov, china, records
+10	Laying hens and egg quality	egg, hens, laying, yolk, production
+11	Molecular markers and breeding	genetic, markers, loci, diversity, traits
+12	Enzymes, kinetics and immobilization	enzyme, substrate, activity, reaction, enzymatic
+13	Gene cloning and expression	gene, expression, transcription, expressed, promoter
+14	MicroRNAs and their targets	mir, mirna, microrna, target, biomarkers
+15	DNA repair and replication	dna, repair, strand, damage, replication
+16	Machine learning and bioinformatics tools	data, algorithm, datasets, learning, information
+17	Tumor growth and metastasis	tumor, antitumor, metastasis, carcinoma, growth
+18	Sexual behavior and mating	male, female, sex, sexual, mating
+19	Ligand binding sites and affinity	binding, site, domain, bind, affinity
+20	Rat liver and kidney studies	rat, liver, days, animals, dose
+21	Real-time PCR detection	detection, pcr, samples, assay, reaction
+22	HIV and AIDS	hiv, immunodeficiency, infected, aids, antiretroviral
+23	Receptor ligands and agonists	receptor, ligand, agonist, estrogen, antagonist
+24	Climate change and agriculture	climate, changes, crop, temperature, farmers
+25	Cancer cell proliferation and invasion	proliferation, migration, invasion, expression, assay
+26	Protein function, folding and degradation	protein, function, family, domain, kda
+27	Membranes, vesicles and lipid bilayers	membrane, lipid, vesicles, plasma, bilayer
+28	Virus replication and viral vectors	virus, viral, replication, vector, antiviral
+29	Mutations and mutant phenotypes	mutations, mutant, wild, phenotype, gene
+30	Sequence analysis and alignment	sequence, region, nucleotide, phylogenetic, cdna
+31	Disease pathogenesis	disease, human, cardiovascular, cause, chronic
+32	Control groups and species groups	group, control, divided, higher, randomly
+33	Meat quality and processing	meat, quality, products, content, food
+34	Systems biology and molecular networks	interaction, molecular, process, complex, mechanisms
+35	Muscle fibers and contraction	muscle, skeletal, fiber, exercise, smooth
+36	RNA transcripts and noncoding RNAs	rna, mrna, noncoding, lncrna, transcripts
+37	Dairy cattle breeding and milk yield	milk, traits, animals, cattle, breed
+38	SNP association studies	polymorphism, association, genotype, allele, snps
+39	Gut microbiota and probiotics	gut, microbiota, microbiome, microbial, intestinal
+40	Vaccines and immunization	vaccine, vaccination, immunization, vaccinated, protection
+41	Mouse models and knockout mice	mice, vivo, induced, transgenic, deficient
+42	Microscopy and imaging	microscopy, electron, imaging, fluorescence, image
+43	Protein purification and chromatography	gel, chromatography, purified, purification, electrophoresis
+44	Bioactive natural products and derivatives	activity, compounds, extract, derivatives, inhibition
+45	Genome sequencing and CRISPR editing	genome, genomic, sequencing, chromosome, gene
+46	Biofilms and quorum sensing	formation, biofilm, aeruginosa, pseudomonas, surface
+47	Inflammatory bowel disease	inflammatory, ibd, colitis, bowel, ulcerative
+48	Apoptosis and caspases	apoptosis, induced, caspase, death, apoptotic
+49	Antibodies and serology	antibody, antigen, monoclonal, serum, igg
+50	Embryonic development	development, stage, embryos, early, embryonic
+51	Escherichia coli genetics and toxins	coli, escherichia, plasmid, recombinant, producing
+52	Tissue-specific expression	tissue, normal, organs, expression, brain
+53	Molecular structure and conformation	structure, structural, conformation, nmr, conformational
+54	Voltage-gated ion channels	channel, voltage, ion, current, calcium
+55	Psoriasis treatment and trials	treatment, treated, days, dose, psoriasis
+56	Oxidative and heat stress	stress, oxidative, heat, response, antioxidant
+57	Insect pests and biological control	insect, pest, larvae, control, adult
+58	Amino acid and fatty acid composition	acid, amino, fatty, synthesis, nucleic
+59	Peptide synthesis and MHC epitopes	peptide, residues, antimicrobial, class, mhc
+60	Cytokines and protein subunits	beta, alpha, gamma, subunit, ifn
+61	Mitochondria and mtDNA	mitochondrial, mitochondria, mtdna, atp, cytochrome
+62	Insulin, diabetes and obesity	insulin, diabetes, glucose, diabetic, mellitus
+63	Micropropagation and callus culture	culture, medium, shoot, growth, explants
+64	Clinical outcomes and prognosis	patients, clinical, outcomes, therapy, hospital
+65	Angiogenesis and VEGF	endothelial, vascular, vegf, angiogenesis, growth
+66	Fish growth and aquaculture	fish, water, growth, aquaculture, rate
+67	Bone remodeling and osteoclasts	bone, marrow, differentiation, osteoclast, osteoblasts
+68	Peripheral blood cells	blood, peripheral, lymphocytes, plasma, serum
+69	Gram-positive and Gram-negative bacteria	bacteria, bacterial, gram, negative, positive
+70	Rare congenital syndromes	syndrome, disorders, rare, diagnosis, clinical
+71	Child health and epidemiology	age, children, risk, health, women
+72	Parasitic infections and toxoplasmosis	infection, host, infected, parasite, pathogens
+73	Kinase signaling pathways	kinase, signaling, pathway, activation, phosphorylation
+74	Mathematical modeling and simulation	model, modeling, parameters, simulations, experimental
+75	Electromagnetic field effects	field, magnetic, exposure, frequency, electromagnetic
+76	DNA methylation and histone modification	methylation, epigenetic, histone, chromatin, modification
+77	Honey bees and pollination	bee, honey, pollen, colony, pollinators
+78	Plant biology and crops	plant, leaf, seed, fungi, root
+79	Metabolism and metabolomics	metabolic, metabolism, metabolites, pathway, lipid

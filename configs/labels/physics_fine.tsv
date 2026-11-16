@@ -1,0 +1,41 @@
+id	name	terms
+0	Ab initio and DFT calculations	energy, calculations, potential, density, calculated
+1	Stellar evolution and binary stars	star, stellar, mass, binary, dwarf
+2	Cross section measurements	section, cross, differential, measurements, production
+3	Chaotic systems and synchronization	dynamics, systems, time, chaotic, simulations
+4	Optical beams and fiber optics	optical, light, beam, polarization, optics
+5	Magnetic properties and anisotropy	magnetic, field, electric, magnetization, external
+6	Tokamak plasmas and turbulence	plasma, ion, density, tokamak, instability
+7	Laser sources and fiber lasers	laser, pulse, fiber, frequency, generation
+8	Cosmic rays and gamma-ray bursts	ray, gamma, cosmic, energy, bursts
+9	Epitaxial film growth and interfaces	films, layer, surface, substrate, growth
+10	Distribution and correlation functions	function, distribution, correlation, momentum, angular
+11	Quantum mechanics and quantum dots	quantum, dot, classical, mechanics, photon
+12	Dark matter and dark energy	dark, matter, universe, cosmological, gravitational
+13	Gauge theories, strings and branes	theory, gauge, symmetry, space, field
+14	Superconducting and thermal phase transitions	phase, temperature, transition, critical, superconducting
+15	Galaxy evolution and redshift surveys	galaxy, redshift, survey, gas, sample
+16	Particle physics and particle motion	particle, charged, interaction, force, motion
+17	Meson decays and branching fractions	decay, branching, meson, measurements, ratio
+18	Analytical solutions of differential equations	equation, solution, nonlinear, soliton, exact
+19	Black holes, horizons and entropy	hole, black, horizon, gravitational, spacetime
+20	Traveling, solitary and gravitational waves	wave, frequency, mode, amplitude, gravitational
+21	Electron properties and interactions	electron, beam, ionization, charge, phonon
+22	GaN HEMTs and power diodes	current, gan, voltage, devices, junction
+23	Soft and hard X-ray sources	xray, source, kev, soft, hard
+24	Nuclear reactions and structure	neutron, reaction, nuclei, nuclear, mev
+25	Ground and excited states	state, ground, excited, excitation, bound
+26	Emission line profiles	line, spectrum, emission, spectral, absorption
+27	Photonic crystals and waveguides	crystal, photonic, band, structure, mode
+28	Spin coupling and spintronics	spin, orbit, interaction, coupling, exchange
+29	QCD, quarks and gluons	quark, qcd, meson, heavy, mass
+30	Higgs boson searches at the LHC	boson, collisions, tev, higgs, production
+31	Community detection and social networks	network, nodes, social, algorithm, neural
+32	Elastic and inelastic scattering	scattering, elastic, inelastic, amplitude, angle
+33	Model building and predictions	model, parameters, standard, data, predictions
+34	Radiotherapy treatment planning	dose, treatment, patients, radiation, radiotherapy
+35	Neutrino oscillations and mixing	neutrino, oscillations, mass, mixing, experiments
+36	Globular and open star clusters	cluster, globular, ngc, age, size
+37	Particle detectors and sensors	detector, measurements, resolution, imaging, performance
+38	Solar wind and solar activity	solar, wind, earth, observations, activity
+39	Atomic physics and ultracold atoms	atoms, atomic, molecules, ion, hydrogen

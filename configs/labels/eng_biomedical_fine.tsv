@@ -1,0 +1,81 @@
+id	name	terms
+0	MHD stretching-sheet flow equations	equations, parameters, differential, velocity, boundary
+1	Biomass pyrolysis, gasification and char	biomass, pyrolysis, gas, gasification, waste
+2	Bone defect regeneration and grafts	bone, defects, regeneration, implants, osteogenic
+3	Knee and hip joint kinematics	knee, joint, angle, hip, kinematic
+4	Nanofluid heat transfer enhancement	heat, nanofluid, transfer, thermal, fluid
+5	CMOS voltage references and regulators	voltage, current, power, supply, output
+6	Photoacoustic and microwave imaging	imaging, resolution, photoacoustic, contrast, microwave
+7	Flexible and tactile sensors	sensor, sensing, sensitivity, flexible, wearable
+8	Legged and humanoid robot locomotion	robot, control, motion, locomotion, controller
+9	Biodiesel blends in diesel engines	diesel, engine, fuel, emission, blends
+10	Focused ultrasound and microbubbles	ultrasound, microbubbles, intensity, hifu, transducer
+11	Superconducting coils and SMES	superconducting, magnet, coil, current, hts
+12	Surface and bulk acoustic waves	wave, acoustic, saw, propagation, transducer
+13	Photothermal and photodynamic cancer therapy	tumor, cancer, therapy, photothermal, treatment
+14	Droplet microfluidics and microchannels	microfluidic, channel, droplet, microchannel, pdms
+15	Muscle activation and fatigue	muscle, emg, activity, contraction, activation
+16	Optical, nerve and polymer fibers	fiber, probe, optics, tip, optical
+17	Oil transesterification for biodiesel	oil, biodiesel, transesterification, methanol, production
+18	Bioethanol fermentation	ethanol, fermentation, production, sugar, hydrolysis
+19	Surface plasmon resonance and polaritons	plasmon, resonance, metal, polaritons, graphene
+20	Catalytic conversion and hydrogenation	catalyst, reaction, catalytic, conversion, selectivity
+21	Biosignal acquisition and processing	signal, noise, processing, emg, ppg
+22	Metal and oxide nanoparticle synthesis	nanoparticles, oxide, nps, gold, synthesis
+23	Delta-sigma modulators	modulator, delta, sigma, noise, ratio
+24	SAR and flash ADC design	adc, digital, converter, bit, analog
+25	Triboelectric nanogenerators and energy harvesting	energy, teng, triboelectric, harvesting, nanogenerator
+26	Particle size and colloids	particles, size, distribution, diameter, shape
+27	Vapor–liquid equilibria of binary mixtures	liquid, equilibrium, vapor, mixture, data
+28	Lab-on-chip and organ-on-chip	chip, integrated, lab, cmos, organ
+29	Plasmonic waveguides and nanostructures	plasmonic, mode, waveguide, coupling, nanostructures
+30	Lens design and aberrations	lens, optical, design, aberration, focal
+31	Surface modification and surface geometry	surface, roughness, adsorption, coating, titanium
+32	OCT systems and retinal imaging	oct, coherence, optical, tomography, depth
+33	Semiconductor nanowire growth	nanowires, growth, silicon, gaas, nws
+34	Sound absorption and insulation	sound, acoustic, absorption, noise, insulation
+35	Cell culture and stem cells	cell, culture, cellular, stem, vitro
+36	Flow mixing and stirred reactors	flow, fluid, mixing, rate, velocity
+37	Chemical mechanical polishing	polishing, process, abrasive, removal, cmp
+38	CT image reconstruction and artifacts	image, reconstruction, artifacts, quality, tomography
+39	Molecular adsorption and STM self-assembly	molecules, molecular, interaction, adsorption, tunneling
+40	Thin films and YBCO deposition	film, substrate, layer, thickness, deposition
+41	Temperature, heating and thermometry	temperature, thermal, heating, time, conditions
+42	Ion-exchange membranes and ion transport	ion, membrane, transport, exchange, ionic
+43	Tissue scaffolds and 3D bioprinting	tissue, scaffolds, engineering, printing, hydrogel
+44	Blood pressure and high-pressure systems	pressure, blood, supercritical, mpa, arterial
+45	Medical and electronic devices	devices, electronic, wearable, design, fabrication
+46	Nonlinear absorption and laser pulses	laser, nonlinear, absorption, photon, optical
+47	Rehabilitation exoskeletons and prostheses	limb, exoskeleton, rehabilitation, prosthetic, hand
+48	Near-field optics and field enhancement	field, electric, near, tip, emission
+49	Body area networks and antennas	body, wireless, antenna, communication, network
+50	Anatomy education	students, anatomy, teaching, medical, learning
+51	Hydroxyapatite synthesis and characterization	electron, hydroxyapatite, xray, microscopy, scanning
+52	Left ventricular assist devices	ventricular, heart, left, assist, lvad
+53	Lignin and pulping chemistry	lignin, pulp, cellulose, wood, kraft
+54	Operational amplifiers	amplifier, gain, operational, stage, bandwidth
+55	Carbon nanotubes and supercritical CO2	carbon, nanotubes, cnt, dioxide, supercritical
+56	Active and switched-capacitor filters	filter, pass, active, band, capacitor
+57	Ferrofluids and magnetic nanoparticles	magnetic, fluid, magnetization, field, resonance
+58	Light polarization and scattering	light, polarization, polarized, scattering, angle
+59	Analog integrated circuit design	circuit, analog, design, integrated, simulation
+60	Neural networks and pattern classification	network, neural, algorithm, learning, accuracy
+61	Exercise therapy trials for pain	group, control, pain, test, foot
+62	Gait patterns and gait recognition	gait, walking, foot, patterns, speed
+63	Rapid diagnostic assays and amplification	detection, samples, assay, rapid, sensitivity
+64	Water-retaining agents and supercritical water	water, soil, supercritical, fertilizer, release
+65	Ore leaching and bioleaching	leaching, iron, ore, oxidation, copper
+66	Mathematical modeling and simulation	model, simulation, modeling, experimental, dynamic
+67	PVDF and high-dielectric composites	composite, polymer, dielectric, properties, materials
+68	Soft actuators and grippers	soft, actuators, robotic, pneumatic, actuation
+69	Phase transitions and phase behavior	phase, transition, diagram, droplet, behavior
+70	Microlens arrays and microfabrication	array, patterns, fabrication, lithography, microlens
+71	ECMO support and outcomes	patients, ecmo, extracorporeal, oxygenation, membrane
+72	Quartz crystal resonators and oscillators	frequency, resonator, crystal, quartz, mhz
+73	Measurement accuracy and error analysis	measurements, measured, error, measuring, value
+74	Organic acids and esterification	acid, fatty, lactic, sulfuric, acetic
+75	Ground reaction and contact forces	force, contact, ground, reaction, vertical
+76	Periodic structures and phononic crystals	structure, layer, dimensional, structural, band
+77	Vital signs and remote monitoring	monitoring, health, rate, heart, wearable
+78	Nanotechnology and technology development	technology, development, systems, materials, nanotechnology
+79	Stress–strain and constitutive modeling	strain, stress, materials, deformation, mechanical

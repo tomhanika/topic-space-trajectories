@@ -1,0 +1,81 @@
+id	name	terms
+0	Hospital stay and discharge	hospital, days, stay, length, mortality
+1	Squamous cell carcinomas	carcinoma, squamous, cell, oral, hpv
+2	Muscle strength and contraction	muscle, strength, exercise, force, leg
+3	Fracture reduction and osteoporotic fractures	fracture, reduction, elderly, distal, radius
+4	Coronary bypass and revascularization	coronary, artery, bypass, cabg, myocardial
+5	Tissue scaffolds and regeneration	tissue, soft, engineering, scaffold, material
+6	Patient case presentations	left, right, old, rare, bilateral
+7	Sex differences and women's health	women, men, old, postmenopausal, pregnancy
+8	Anti-VEGF therapy for macular degeneration	macular, visual, eye, acuity, injection
+9	Nursing practice and care guidelines	care, management, practice, health, medical
+10	Kidney transplant rejection and survival	transplantation, transplant, recipients, graft, kidney
+11	Wound healing and dressings	wound, healing, skin, dressing, closure
+12	Control and experimental groups	group, control, divided, randomly, higher
+13	Total knee arthroplasty	knee, arthroplasty, tka, joint, osteoarthritis
+14	ACL reconstruction and knee ligaments	ligament, acl, cruciate, anterior, reconstruction
+15	Helicobacter pylori infection and eradication	pylori, helicobacter, eradication, infection, gastritis
+16	Sports injuries and chest trauma	injury, trauma, blunt, traumatic, sports
+17	Cholesterol, lipoproteins and statins	cholesterol, ldl, lipoprotein, lipid, hdl
+18	Peptic ulcer and gastric mucosa	gastric, ulcer, duodenal, stomach, gastritis
+19	Free and perforator flaps	flap, defects, reconstruction, free, skin
+20	Chronic pain management	pain, analgesic, opioid, analgesia, relief
+21	Insulin secretion and islet function	insulin, glucose, islet, secretion, pancreatic
+22	Diagnostic test accuracy	value, test, correlation, sensitivity, measurements
+23	Spinal fusion and spinal cord	spinal, cervical, spine, cord, fusion
+24	Bladder cancer and voiding dysfunction	bladder, urinary, tract, cystectomy, urothelial
+25	Pediatric and adolescent patients	children, pediatric, adult, adolescent, boy
+26	Stroke rehabilitation and motor recovery	stroke, rehabilitation, motor, function, functional
+27	Diabetic retinopathy	diabetic, diabetes, retinopathy, mellitus, hba
+28	Inguinal and ventral hernia repair	hernia, repair, inguinal, mesh, recurrence
+29	Systematic reviews and meta-analyses	systematic, metaanalysis, search, pubmed, database
+30	Barrett's esophagus and esophageal disease	esophageal, esophagus, endoscopic, barrett, esophagectomy
+31	Blood pressure and hemodynamics	blood, pressure, heart, flow, arterial
+32	Rotator cuff and shoulder instability	shoulder, cuff, rotator, tear, arthroscopic
+33	Cell culture and stem cells	cell, human, proliferation, stem, vitro
+34	Liver transplantation and biliary complications	liver, hepatic, transplantation, biliary, bile
+35	Sinusitis and nasal polyps	nasal, sinus, endoscopic, polyps, maxillary
+36	Laparoscopic and robotic cholecystectomy	laparoscopic, open, invasive, cholecystectomy, minimally
+37	Nerve blocks and brachial plexus	nerve, block, plexus, brachial, ultrasound
+38	Cataract surgery and intraocular lenses	lens, cataract, eye, iol, intraocular
+39	Total hip arthroplasty	hip, arthroplasty, femoral, acetabular, tha
+40	Acute and severe pancreatitis	pancreatitis, acute, pancreatic, severe, pancreas
+41	Bone mineral density in osteoporosis	bone, osteoporosis, bmd, mineral, density
+42	Glaucoma and intraocular pressure	glaucoma, iop, angle, eye, intraocular
+43	Gene expression and mutations	expression, gene, protein, mrna, pathway
+44	Retinal OCT and layer thickness	oct, optical, coherence, retinal, thickness
+45	Drug-eluting stents and restenosis	stent, lesions, eluting, restenosis, coronary
+46	Surgical site infection and osteomyelitis	infection, antibiotics, bacterial, culture, site
+47	Perioperative care and recovery	postoperative, preoperative, intraoperative, operation, postoperatively
+48	Head-neck cancer and femoral osteonecrosis	neck, head, femoral, hnscc, necrosis
+49	Risk associations and odds ratios	risk, regression, ratio, association, cohort
+50	Benign prostatic hyperplasia	prostate, prostatic, bph, benign, hyperplasia
+51	Behçet's, Kawasaki and inflammatory disease	disease, chronic, behcet, cardiovascular, inflammatory
+52	Breast reconstruction and implants	breast, implant, reconstruction, mastectomy, nipple
+53	Athletic training programs	training, exercise, program, weeks, athletes
+54	MRI and CT imaging	imaging, mri, magnetic, resonance, images
+55	Sleeve gastrectomy and weight loss	body, weight, mass, obesity, bmi
+56	Screw and plate internal fixation	fixation, screw, internal, plate, pedicle
+57	Propofol and intravenous anesthesia	anesthesia, anesthetic, propofol, epidural, analgesia
+58	Randomized controlled trials	trial, randomized, controlled, placebo, efficacy
+59	Bowel obstruction and acute abdomen	abdominal, bowel, obstruction, intestinal, colon
+60	Surgical specialties and elective surgery	surgery, bariatric, undergoing, bypass, cataract
+61	Achilles and hand tendon repair	tendon, rupture, achilles, repair, flexor
+62	Age and sex distribution	age, mean, female, male, months
+63	Lymph node metastasis	node, lymph, metastasis, dissection, cervical
+64	Congenital cysts and malformations	congenital, cyst, anomalies, malformations, cystic
+65	Otitis media and cholesteatoma	ear, otitis, media, middle, hearing
+66	Health-related quality of life	quality, life, score, questionnaire, health
+67	Surgical complications and reoperation	complications, rate, outcomes, term, retrospective
+68	Soccer and team sport performance	players, performance, soccer, sports, football
+69	Drug therapy and treatment options	treatment, therapy, treated, drug, months
+70	Varicose veins and venous thrombosis	vein, venous, vascular, artery, limb
+71	Experimental rat models	rats, model, animals, induced, days
+72	Platelet-rich plasma injections	plasma, platelet, prp, rich, concentration
+73	Differential diagnosis and tuberculosis	diagnosis, diagnostic, clinical, tuberculosis, examination
+74	Salivary gland and adrenal tumors	tumor, gland, malignant, salivary, benign
+75	Alopecia and hair loss	hair, alopecia, loss, follicles, scalp
+76	Foot and ankle disorders	ankle, foot, joint, lateral, deformity
+77	Surgical management and indications	surgical, procedure, management, surgeons, intervention
+78	Compartment and inflammatory syndromes	syndrome, symptoms, compartment, disorders, conditions
+79	Chemoradiotherapy and cancer survival	cancer, survival, chemotherapy, radiotherapy, stage

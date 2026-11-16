@@ -1,0 +1,81 @@
+id	name	terms
+0	Physical activity behavior	physical, activity, sedentary, behavior, active
+1	Cell lines, proliferation and apoptosis	cells, human, apoptosis, proliferation, line
+2	Phenolics and radical scavenging	antioxidant, phenolic, radical, scavenging, content
+3	Drug development and new drugs	drug, interaction, medication, pharmaceutical, development
+4	Amyloid beta and APP	amyloid, alzheimer, disease, peptide, beta
+5	Sustained-release matrix tablets	release, tablets, formulation, polymer, vitro
+6	Quitting smoking and nicotine dependence	smoking, smokers, cessation, quit, cigarette
+7	Control-group experimental comparisons	group, control, divided, randomly, treated
+8	Asthma exacerbations and inhaled therapy	asthma, bronchial, asthmatic, exacerbations, severe
+9	Laboratory measurement and reliability	laboratory, test, values, testing, clinical
+10	Chronic musculoskeletal and back pain	pain, chronic, disability, neuropathic, neck
+11	Obstructive sleep apnea and CPAP	sleep, apnea, osa, obstructive, ahi
+12	Daily timing and duration	days, time, daily, period, weeks
+13	Cognitive impairment and memory	cognitive, function, memory, impairment, brain
+14	Traditional Chinese herbal medicine	medicine, chinese, traditional, tcm, herbal
+15	Spinal nociception and receptors	receptor, spinal, neurons, nerve, cord
+16	Single-dose pharmacokinetic studies	pharmacokinetic, plasma, dose, concentration, oral
+17	BMI and body fat measures	body, weight, fat, mass, bmi
+18	Isolated bioactive natural products	compounds, structure, isolated, chemical, nmr
+19	Blood pressure and blood sampling	blood, pressure, flow, systolic, hypertension
+20	SNPs, alleles and genotype frequencies	gene, polymorphisms, genetic, genotype, allele
+21	HPLC assays of herbal preparations	hplc, determination, column, rsd, mobile
+22	Adverse drug reaction reporting	adverse, reaction, adr, events, safety
+23	Liver injury and hepatotoxicity	liver, injury, hepatic, hepatotoxicity, alt
+24	Nitric oxide and endothelial dysfunction	oxide, nitric, endothelial, vascular, endothelium
+25	Depression, anxiety and antidepressants	depression, antidepressant, depressive, disorders, anxiety
+26	Simulation-based nursing education	students, simulation, nursing, skills, learning
+27	Cross-sectional questionnaire surveys	cross, questionnaire, sectional, female, male
+28	Cancer types and anticancer therapy	cancer, breast, tumor, lung, chemotherapy
+29	Rat experimental studies	rats, animals, model, wistar, male
+30	Perioperative blood transfusion	transfusion, blood, surgery, platelet, red
+31	Antibacterial activity of soil microbes	antibiotic, strain, bacteria, antimicrobial, antibacterial
+32	Eosinophilic allergic airway inflammation	airway, inflammation, lung, inflammatory, allergic
+33	Children, parents and schools	children, pediatric, school, parents, adolescents
+34	Oxidative stress and antioxidant enzymes	stress, oxidative, antioxidant, reactive, damage
+35	Transdermal and topical drug delivery	delivery, skin, systems, transdermal, formulation
+36	Phytochemical screening of leaf extracts	extract, leaves, plant, ethanol, aqueous
+37	Orthogonal extraction optimization	extraction, time, conditions, ethanol, solvent
+38	Systematic reviews and meta-analyses	systematic, metaanalysis, databases, evidence, search
+39	Gene expression and molecular mechanisms	expression, protein, pathway, gene, mrna
+40	Women, pregnancy and syphilis	women, men, pregnancy, pregnant, syphilis
+41	Insulin resistance and glucose tolerance	insulin, glucose, resistance, fasting, metabolic
+42	Transgenic and knockout mouse models	mice, model, animals, transgenic, vivo
+43	Muscle strength and sarcopenia	muscle, sarcopenia, strength, skeletal, mass
+44	Chromatography-mass spectrometry analysis	chromatography, liquid, mass, spectrometry, samples
+45	Acupuncture and moxibustion	acupuncture, acupoints, moxibustion, needle, meridian
+46	Diabetic neuropathy and complications	diabetes, diabetic, mellitus, neuropathy, complications
+47	Community pharmacy services	pharmacy, pharmacists, services, community, pharmaceutical
+48	Patient case series and outcomes	patients, hospital, months, severe, retrospective
+49	Induced injury and protective effects	induced, dose, inhibited, protective, injury
+50	Cytochrome P450 inhibition and interactions	cyp, cytochrome, enzyme, metabolism, substrate
+51	Older community-dwelling adults	adults, older, age, aged, elderly
+52	Mortality risk and cohort associations	risk, association, mortality, cohort, ratio
+53	Diet, nutrition and supplements	diet, dietary, intake, food, nutritional
+54	Tobacco control and youth use	tobacco, cigarette, ecigarettes, products, smoke
+55	NSAIDs and COX inhibition	antiinflammatory, cox, nsaids, inhibitor, nonsteroidal
+56	Amino, fatty and phenolic acids	acid, amino, fatty, chlorogenic, tranexamic
+57	Cannabis and cannabinoids	cannabis, cannabinoid, thc, cbd, marijuana
+58	Heart disease and heart failure	heart, cardiac, coronary, failure, disease
+59	Sjögren's syndrome and TCM syndromes	syndrome, gland, salivary, sjogren, deficiency
+60	Randomized placebo-controlled trials	trial, randomized, controlled, placebo, intervention
+61	Solid dispersions and solubility enhancement	solubility, particle, solid, size, dissolution
+62	Telomeres, telomerase and senescence	telomere, telomerase, length, dna, senescence
+63	Voice disorders and acoustic analysis	voice, vocal, speech, acoustic, fold
+64	Sarcoidosis and rare case reports	sarcoidosis, diagnosis, disease, lesions, rare
+65	Drug metabolites and excretion	metabolites, metabolism, urine, metabolic, secondary
+66	Health, wellbeing and lifestyle	health, life, public, mental, quality
+67	Thermoregulation and heat stress	temperature, heat, conditions, cold, thermal
+68	Brown adipose tissue and thermogenesis	tissue, adipose, brown, adipocytes, bat
+69	Exercise intensity and oxygen uptake	exercise, intensity, min, aerobic, max
+70	Therapies and treatment efficacy	treatment, therapy, clinical, therapeutic, efficacy
+71	Rate measures and heart rate	rate, min, higher, flow, heart
+72	Training programs and interval training	training, program, weeks, aerobic, sessions
+73	Primary care practice and guidelines	care, practice, management, medical, healthcare
+74	Serum protein and analyte assays	serum, concentration, albumin, measured, creatinine
+75	Organic synthesis reactions	synthesis, reaction, derivatives, yield, products
+76	Tau pathology and tauopathies	tau, pathology, brain, alzheimer, tauopathies
+77	Mushroom cultivation	mushroom, growth, production, cultivation, pleurotus
+78	Coffee and caffeine	coffee, caffeine, consumption, drink, beans
+79	Lipoproteins and lipid peroxidation	lipid, cholesterol, lipoprotein, ldl, peroxidation

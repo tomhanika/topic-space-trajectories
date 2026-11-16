@@ -1,0 +1,81 @@
+id	name	terms
+0	Odds ratios and regression analysis	risk, ratio, association, regression, odds
+1	Lung cancer, nodules and emphysema	lung, cancer, pulmonary, interstitial, nonsmall
+2	SARS-CoV-2 variants and spike protein	cov, sars, coronavirus, variants, viral
+3	People living with HIV/AIDS	hiv, aids, people, living, infected
+4	COVID-19 severity and comorbidities	covid, pandemic, coronavirus, disease, severe
+5	Coronary artery anomalies	coronary, artery, left, angiography, right
+6	MRSA and methicillin resistance	aureus, mrsa, staphylococcus, methicillin, resistant
+7	Pulmonary and latent tuberculosis	tuberculosis, mycobacterium, mtb, pulmonary, sputum
+8	Severity scores and prognostic indices	score, severity, correlation, scale, outcomes
+9	Public health programs and strategies	health, public, care, services, program
+10	Aortic dissection and arch replacement	aortic, dissection, aorta, arch, ascending
+11	Photodynamic therapy	pdt, photodynamic, photosensitizer, light, therapy
+12	COPD exacerbations and smoking	copd, chronic, obstructive, disease, pulmonary
+13	Mechanical and noninvasive ventilation	ventilation, mechanical, pressure, ventilator, respiratory
+14	Prostate cancer and PSA testing	prostate, cancer, psa, androgen, pca
+15	Screening and tuberculin skin tests	test, testing, screening, laboratory, skin
+16	Sensitivity, specificity and ROC analysis	sensitivity, specificity, value, diagnostic, accuracy
+17	Children, parents and families	children, pediatric, adult, adolescents, childhood
+18	EGFR tyrosine kinase inhibitors	egfr, nsclc, mutations, nonsmall, kinase
+19	Nosocomial infection surveillance	infection, nosocomial, control, tract, prevention
+20	Squamous and other carcinoma types	carcinoma, cell, rcc, squamous, metastatic
+21	Age and sex prevalence	age, male, female, prevalence, mean
+22	Nephrectomy and kidney function	renal, kidney, nephrectomy, rcc, function
+23	Intensive care and ventilator pneumonia	care, intensive, unit, icu, ill
+24	Candida and invasive fungal infection	candida, albicans, antifungal, fungal, species
+25	Pulmonary arterial hypertension	pulmonary, hypertension, arterial, pah, vascular
+26	Allergens, IgE and food allergy	allergic, allergy, allergen, food, ige
+27	Randomized control-group comparisons	group, control, divided, higher, rate
+28	Thoracoscopic and robotic lung surgery	surgery, surgical, postoperative, resection, preoperative
+29	Gastric cancer and gastrectomy	gastric, cancer, gastrectomy, stomach, chemotherapy
+30	Randomized placebo-controlled trials	trial, randomized, controlled, safety, efficacy
+31	Post-arrest hypothermia and outcomes	cardiac, arrest, heart, ohca, hypothermia
+32	Acute appendicitis and appendectomy	appendicitis, acute, appendectomy, appendix, abdominal
+33	Multiple trauma and vehicle crashes	injury, trauma, head, accident, traumatic
+34	CPR, chest compression and training	resuscitation, cpr, cardiopulmonary, compression, chest
+35	PCR detection in clinical samples	positive, samples, negative, pcr, detection
+36	Acute respiratory distress syndrome	syndrome, respiratory, acute, distress, ards
+37	Urinary calculi and lithotripsy	stone, calculi, urinary, lithotripsy, ureteral
+38	Pleural effusion and mesothelioma	pleural, effusion, malignant, fluid, mesothelioma
+39	Vaccination, boosters and antibody titers	vaccine, vaccination, antibody, vaccinated, dose
+40	Carotid stenosis and endarterectomy	carotid, artery, stenosis, stroke, cerebral
+41	Gene polymorphisms and sequence variants	gene, mutations, genetic, sequence, polymorphism
+42	ERCP and biliary drainage	duct, biliary, bile, endoscopic, ercp
+43	Brain metastases and radiosurgery	metastasis, brain, metastatic, primary, bone
+44	Rodent experimental models	mice, rats, induced, animals, days
+45	Rotavirus and norovirus gastroenteritis	rotavirus, diarrhea, gastroenteritis, norovirus, stool
+46	Preterm birth and bronchopulmonary dysplasia	infants, preterm, birth, neonatal, weeks
+47	ART adherence and viral suppression	art, antiretroviral, hiv, therapy, adherence
+48	Integrins and cell adhesion	integrin, adhesion, cell, binding, protein
+49	Proton and ion beam dosimetry	dose, radiation, beam, proton, energy
+50	Sexual behavior, MSM and PrEP	men, sexual, sex, msm, behavior
+51	Emergency department and prehospital care	emergency, department, medical, medicine, services
+52	Patient quality of life	life, quality, physical, qol, social
+53	Blood flow and viscosity	blood, flow, pressure, viscosity, plasma
+54	Laparoscopic cholecystectomy and cholecystitis	cholecystectomy, laparoscopic, gallbladder, cholecystitis, gallstone
+55	Immune response and inflammation	response, immune, cytokine, inflammatory, cell
+56	Gene expression and cancer signaling	expression, cell, gene, protein, pathway
+57	Mammography and breast density	breast, cancer, mammography, women, screening
+58	Percutaneous access and procedural complications	complications, procedure, percutaneous, closure, bleeding
+59	Cystic and idiopathic pulmonary fibrosis	fibrosis, cystic, ipf, cftr, idiopathic
+60	Drug resistance and MDR tuberculosis	drug, resistance, resistant, mdr, multidrug
+61	Ebola and viral outbreaks	virus, human, immunodeficiency, viral, fever
+62	Systematic reviews and meta-analyses	systematic, metaanalysis, search, pubmed, database
+63	Treatment options and management	treatment, therapy, treated, options, therapeutic
+64	Chemotherapy and survival in NSCLC	survival, months, median, chemotherapy, free
+65	Clinical features and differential diagnosis	diagnosis, clinical, disease, diagnostic, early
+66	Machine learning prediction models	model, prediction, validation, data, learning
+67	Case presentations, pain and fever	old, right, pain, rare, left
+68	Hand hygiene knowledge and attitudes	knowledge, nurses, practice, attitudes, students
+69	Serum markers and electrolytes	serum, concentration, plasma, sodium, hyponatremia
+70	Benign, malignant and canine tumors	tumor, malignant, dogs, benign, primary
+71	Image-guided needle biopsy	biopsy, lesions, ultrasound, needle, guided
+72	Hospital stay and mortality	hospital, mortality, days, stay, admission
+73	Lymph node dissection and staging	node, lymph, metastasis, staging, mediastinal
+74	Abdominal aortic aneurysm repair	aneurysm, abdominal, aortic, repair, endovascular
+75	CT, MRI and PET imaging	imaging, tomography, computed, mri, magnetic
+76	Lung function and spirometry	function, volume, fev, capacity, forced
+77	Clostridioides difficile infection	difficile, clostridium, cdi, antibiotics, toxin
+78	Delirium and cognitive impairment	delirium, cognitive, elderly, older, assessment
+79	Soft tissue and bone sarcomas	sarcoma, tissue, soft, bone, ewing

@@ -1,0 +1,65 @@
+id	name	terms
+0	Project planning, teams and delivery	project, managers, stakeholders, team, planning
+1	Model building and model fit	model, modeling, prediction, fit, dynamic
+2	Perceived usefulness and use intention	perceived, intention, usefulness, ease, acceptance
+3	Bibliometric mapping of research fields	publications, bibliometric, countries, database, field
+4	Decision making and decision support	decision, making, makers, multicriteria, alternative
+5	Item response theory and DIF	items, test, response, scores, irt
+6	Technical efficiency and DEA frontiers	efficiency, dea, envelopment, technical, input
+7	Schools, achievement and accountability	school, students, education, teachers, educational
+8	Time, delays and temporal change	time, series, change, real, period
+9	Portfolio selection and Markowitz model	portfolio, return, investment, asset, optimization
+10	Intuitionistic and hesitant fuzzy sets	fuzzy, intuitionistic, operators, interval, ideal
+11	Risk analysis and risk aversion	risk, assessment, measure, loss, aversion
+12	Machine learning and artificial intelligence	learning, machine, deep, intelligence, artificial
+13	Control charts, EWMA and CUSUM	control, chart, process, monitoring, statistical
+14	Big data analytics and mining	data, big, processing, sources, analytic
+15	Nuclear and industrial safety analysis	safety, accident, plant, failure, assessment
+16	Technology diffusion in organizations	technology, adoption, innovation, technological, acceptance
+17	Nash equilibria in noncooperative games	game, equilibrium, players, nash, strategies
+18	Learning media development and validation	media, material, experts, students, development
+19	Business ethics and ethical leadership	ethical, ethics, business, moral, organizations
+20	Optimal and factorial experimental design	design, experiments, experimental, optimal, factorial
+21	Discrete-event and distributed simulation	simulation, modeling, discrete, events, computer
+22	Information overload and information use	information, users, communication, satisfaction, library
+23	Stochastic finite elements and reliability	function, parameters, stochastic, random, reliability
+24	Quality assurance and data quality	quality, satisfaction, service, product, assurance
+25	Online shopping and e-commerce trust	online, consumer, shopping, trust, ecommerce
+26	Construction contracts, delays and supervision	construction, contractors, engineering, contract, building
+27	Auction mechanisms and bidding	auction, bid, bidders, price, bidding
+28	Measurement uncertainty and calibration	uncertainty, measurement, standard, calibration, laboratory
+29	Mobile banking services and satisfaction	service, banking, mobile, customer, bank
+30	Workplace tasks and work supervision	work, working, task, workers, employees
+31	Energy policy and regulation	energy, policy, economic, development, environmental
+32	Insurance ruin and tail distributions	distribution, probability, claims, asymptotic, insurance
+33	Artificial neural network models	network, neural, artificial, social, ann
+34	Evidence-based medicine and meta-analysis	systematic, evidence, trials, health, clinical
+35	Correlation and regression analysis	variables, regression, sample, correlation, sampling
+36	Open access publishing	open, access, publishing, community, scholarly
+37	Evaluation research and practice	evaluation, evaluating, evaluators, assessment, indicators
+38	Scale validation and psychometric properties	scale, reliability, validity, measure, psychometric
+39	Grey system and Dempster–Shafer theories	theory, grey, theoretical, evidence, concept
+40	Management practice and strategy	management, organizations, organizational, practice, engineering
+41	Universities and academic research	university, academic, faculty, students, education
+42	Soft sets and soft topology	set, soft, space, neutrosophic, topological
+43	Performance metrics and indicators	performance, indicators, measure, expectancy, metrics
+44	Supply chains and supplier selection	chain, supply, supplier, demand, logistics
+45	Science and society	science, social, scientists, society, national
+46	Project cost control and overruns	cost, control, benefits, overruns, budget
+47	ARIMA, smoothing and demand forecasting	forecasting, forecast, series, accuracy, arima
+48	Scientific research management	scientific, development, activities, scientists, technological
+49	Genetic algorithms and bandit problems	algorithm, optimization, genetic, bandit, solution
+50	Resource-constrained project scheduling	resources, scheduling, activities, human, allocation
+51	Behavioral choice and preferences	choice, preference, behavior, individual, experiments
+52	Fuzzy groups and group consensus	group, individual, members, consensus, experts
+53	AHP, TOPSIS and supplier selection	ahp, selection, process, hierarchy, analytic
+54	Companies, industries and manufacturing	companies, industry, product, manufacturing, business
+55	Government programs and funding	program, training, national, community, health
+56	Systems thinking and complexity	systems, complex, dynamic, modeling, complexity
+57	Knowledge management	knowledge, process, practice, interdisciplinary, understanding
+58	Citation impact and productivity indices	index, productivity, malmquist, indicators, citation
+59	Stock price prediction with LSTM	stock, price, market, prediction, financial
+60	Values and value transformations	value, attributes, originality, interval, extreme
+61	SMEs and enterprise competitiveness	enterprises, business, smes, medium, economic
+62	Journal citation analysis	journal, citation, published, cited, publications
+63	Error measures and forecast accuracy	error, mean, absolute, variance, square

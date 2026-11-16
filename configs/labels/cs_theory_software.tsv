@@ -1,0 +1,25 @@
+id	name	terms
+0	Machine learning for drug discovery	learning, drug, prediction, machine, discovery
+1	Graph structure, labelings and paths	graph, vertices, edge, connected, labeling
+2	Molecular docking and drug screening	binding, docking, protein, molecular, compounds
+3	Graph coloring and chromatic numbers	coloring, color, chromatic, vertices, graph
+4	UML and model-driven engineering	model, modeling, language, uml, software
+5	Software testing and test generation	test, testing, software, coverage, generation
+6	Matrix theory and eigenvalues	matrix, eigenvalue, inverse, symmetric, rank
+7	Rough sets and attribute reduction	rough, attributes, set, theory, decision
+8	Iterative solvers and linear equations	equations, solution, linear, numerical, solving
+9	Rendering and computer graphics	rendering, image, surface, visualization, graphics
+10	Complexity bounds and Boolean functions	polynomial, bound, complexity, function, class
+11	Petri nets	net, petri, transition, modeling, model
+12	Fixed points and variational inequalities	space, mapping, convergence, variational, inequality
+13	Shortest path and parallel algorithms	algorithm, time, parallel, approximation, computing
+14	Multi-objective evolutionary optimization	optimization, multiobjective, pareto, solution, evolutionary
+15	QSAR modeling	activity, structure, qsar, relationship, model
+16	Fuzzy logic algebras and lattices	algebra, lattice, fuzzy, semigroup, logic
+17	Web-based information management systems	management, information, data, web, database
+18	Discrete-event and optimal control	control, systems, optimal, dynamic, discrete
+19	Model checking, logics and automata	verification, formal, specification, checking, state
+20	Programming tools and debugging	program, code, execution, bugs, programming
+21	Visual media design and logic circuits	design, technology, computer, digital, visual
+22	Graph domination and set problems	set, domination, dominating, vertices, minimum
+23	Network flows and network pharmacology	network, neural, nodes, flow, path

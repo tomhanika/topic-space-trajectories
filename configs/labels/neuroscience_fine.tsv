@@ -1,0 +1,81 @@
+id	name	terms
+0	Treatment options and botulinum toxin	treatment, treated, clinical, efficacy, options
+1	Gene and protein expression	expression, protein, gene, mrna, signaling
+2	Task switching and dual-task performance	task, performance, participants, conditions, target
+3	Retrospective patient case series	patients, hospital, months, clinical, retrospective
+4	Alzheimer's amyloid and tau biomarkers	alzheimer, disease, biomarkers, amyloid, tau
+5	Autism spectrum disorder	autism, asd, spectrum, disorder, social
+6	Children and parents	children, parents, pediatric, palsy, age
+7	Health and mental health services	care, health, services, people, family
+8	Parkinson's disease	parkinson, disease, dopaminergic, dopamine, neurodegenerative
+9	EEG signal processing and BCI	eeg, signal, bci, interface, computer
+10	Bilingual word and sentence processing	language, words, processing, semantic, speech
+11	Epilepsy and seizure classification	seizures, epilepsy, epileptic, focal, generalized
+12	Risk factors and cohort studies	risk, association, cohort, population, ratio
+13	Hearing loss and hearing aids	hearing, loss, sensorineural, ear, noise
+14	Neuronal firing and projections	neurons, neuronal, nucleus, firing, input
+15	Intracranial aneurysms and embolization	aneurysm, artery, intracranial, endovascular, embolization
+16	Schwannomas and mediastinal tumors	tumor, schwannoma, cancer, malignant, neuroblastoma
+17	ADHD	adhd, hyperactivity, attention, deficits, disorder
+18	Working and episodic memory	memory, recall, working, retrieval, term
+19	Microglial activation and neuroinflammation	microglia, inflammatory, immune, activation, cytokines
+20	Placebo-controlled drug trials	trials, placebo, randomized, controlled, weeks
+21	Glutamate and GABA receptor pharmacology	receptor, antagonist, agonist, binding, glutamate
+22	Circadian rhythms and melatonin	circadian, rhythm, clock, light, melatonin
+23	Migraine and headache	migraine, headache, attacks, aura, tension
+24	Depression and antidepressants	depression, symptoms, anxiety, depressive, depressed
+25	Gene mutations and hereditary disorders	gene, genetic, mutations, variants, polymorphism
+26	Mild cognitive impairment	cognitive, impairment, mci, function, cognition
+27	Feature extraction and classifiers	classification, accuracy, features, detection, dataset
+28	Vision, eye movements and retina	visual, eye, vision, field, retinal
+29	Traumatic brain injury	injury, traumatic, tbi, head, severe
+30	Cerebral palsy and ischemic stroke	cerebral, palsy, ischemia, stroke, ischemic
+31	Antipsychotic and antiepileptic drugs	drug, antipsychotic, dose, administration, medication
+32	Evoked potentials and stimulus responses	response, stimuli, evoked, auditory, latency
+33	Bipolar disorder and mania	disorder, bipolar, psychiatric, mood, episodes
+34	Sexual dysfunction	sexual, dysfunction, women, erectile, men
+35	Older adults and aging	adults, older, age, young, aging
+36	COVID-19 and long COVID	covid, infection, cov, sars, symptoms
+37	Object and motion perception	object, perception, experiments, motion, information
+38	Food intake, obesity and leptin	food, weight, body, intake, obesity
+39	Schizophrenia and psychosis	schizophrenia, antipsychotic, symptoms, psychosis, schizophrenic
+40	Dementia and caregiving	dementia, alzheimer, caregivers, vascular, people
+41	Transgenic and knockout mice	mice, induced, wild, transgenic, knockout
+42	Rating scales and psychometric validation	scores, scale, test, correlation, assessment
+43	Facial emotion recognition	face, emotion, emotional, facial, recognition
+44	Peripheral nerve regeneration	nerve, peripheral, regeneration, axons, fibers
+45	Sleep stages and REM sleep	sleep, rem, wake, wakefulness, nrem
+46	Hydrocephalus and CSF shunts	csf, fluid, cerebrospinal, hydrocephalus, shunt
+47	Medical students and education	students, school, medical, education, university
+48	Control group clinical observations	group, control, divided, higher, randomly
+49	Neural stem cells	cells, stem, proliferation, differentiation, culture
+50	Intracerebral and subarachnoid hemorrhage	hemorrhage, hematoma, intracerebral, ich, subarachnoid
+51	Stress, cortisol and the HPA axis	stress, cortisol, axis, pituitary, adrenal
+52	Resting-state functional connectivity	network, connectivity, functional, state, resting
+53	Handedness and hemispheric asymmetry	right, left, hemisphere, asymmetry, frontal
+54	Human brain and neurotechnology	brain, human, regions, tissue, interface
+55	Systematic reviews and meta-analyses	systematic, metaanalysis, search, literature, evidence
+56	Early onset and developmental stages	early, development, stage, onset, late
+57	Chronic pain and fibromyalgia	pain, chronic, fibromyalgia, fatigue, intensity
+58	Synaptic plasticity and LTP	synaptic, synapses, plasticity, postsynaptic, hippocampal
+59	Frequency bands and oscillations	frequency, band, threshold, amplitude, oscillations
+60	Transcranial magnetic and current stimulation	stimulation, transcranial, tdcs, tms, rtms
+61	Structural MRI and white matter lesions	imaging, mri, magnetic, resonance, matter
+62	Rat models and drug administration	rats, days, induced, animals, injection
+63	Exercise and training interventions	intervention, training, exercise, program, sessions
+64	Cochlear implants and speech perception	cochlear, implant, auditory, speech, implantation
+65	Electroconvulsive and other therapies	therapy, ect, electroconvulsive, therapeutic, efficacy
+66	Learning, conditioning and reward	learning, machine, learned, training, learn
+67	Central nervous system and CNS lymphoma	central, nervous, cns, peripheral, lymphoma
+68	Computational modeling and simulation	model, computational, modeling, dynamics, prediction
+69	Amyotrophic lateral sclerosis	lateral, sclerosis, amyotrophic, spinal, cord
+70	Prefrontal cortex and cortical connections	cortex, cortical, regions, prefrontal, frontal
+71	Vertigo and vestibular disorders	vestibular, vertigo, nystagmus, canal, head
+72	Sex and age differences	female, male, age, sex, gender
+73	Quality of life	life, quality, qol, social, people
+74	Cerebral blood flow and blood-brain barrier	blood, pressure, flow, barrier, bbb
+75	Guillain-Barré syndrome	syndrome, diagnosis, clinical, barre, guillain
+76	Healthy control subjects	subjects, normal, healthy, test, control
+77	Spontaneous neural and physical activity	activity, neural, physical, spontaneous, daily
+78	Behavior, reward and decision making	behavior, behavioral, social, reward, self
+79	Motor control and limb movement	motor, movement, muscle, hand, limb

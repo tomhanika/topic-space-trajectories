@@ -1,0 +1,65 @@
+id	name	terms
+0	Algorithm design and analysis	algorithm, solving, solve, computing, fast
+1	Approximation algorithms and ratios	approximation, approximate, ratio, constant, hard
+2	Protein-ligand docking and SARS-CoV-2 inhibitors	binding, docking, ligand, protein, inhibitors
+3	Subgraphs, cycles and matchings	graph, subgraph, connected, planar, cycle
+4	Formal specification and verification	verification, formal, specification, systems, checking
+5	Automated test case generation	test, testing, generation, coverage, suite
+6	Matrix classes, inverses and eigenvalues	matrix, eigenvalue, inverse, symmetric, rank
+7	Computable sets and point sets	set, subset, rough, independent, valued
+8	Convex hulls, sets and duality	convex, hull, dual, polygon, programming
+9	Volume, image-based and realistic rendering	rendering, image, scene, texture, light
+10	Polynomials and polynomial factorization	polynomial, root, coefficients, field, algebraic
+11	Colored and timed Petri nets	net, petri, transition, colored, modeling
+12	Fixed points of nonexpansive mappings	mapping, convergence, space, nonexpansive, fixed
+13	UML diagrams and object-oriented analysis	object, uml, modeling, diagrams, oriented
+14	Machine and deep learning	learning, machine, prediction, deep, datasets
+15	Model integration and heterogeneous models	model, modeling, checking, driven, process
+16	Preconditioned solvers and multiscale methods	equations, linear, solving, numerical, systems
+17	Software reliability models	software, reliability, development, testing, quality
+18	Computational drug discovery and repurposing	drug, discovery, target, molecules, screening
+19	Finite state machines and state explosion	state, finite, transition, machine, sequence
+20	Topological data analysis and homology	topological, space, geometric, topology, structure
+21	Floating-point arithmetic units	arithmetic, floating, operations, precision, implementation
+22	Physical and dynamic simulation	simulation, dynamic, modeling, physical, fluid
+23	Domination numbers and Roman domination	domination, dominating, vertices, minimum, cardinality
+24	QSAR models of compound activity	activity, qsar, structure, relationship, compounds
+25	Cellular automata	automata, cellular, automaton, rules, timed
+26	Program analysis, debugging and symbolic execution	program, code, execution, bugs, tool
+27	Optimal and adaptive control	control, optimal, systems, controller, discrete
+28	Mesh generation and triangulation	mesh, surface, elements, contact, generation
+29	Neural, sorting and communication networks	network, neural, nodes, flow, communication
+30	Existence and construction of solutions	solution, optimal, equations, existence, approximate
+31	Pareto-based evolutionary algorithms	optimization, multiobjective, pareto, evolutionary, search
+32	Grammars and domain-specific languages	language, programming, grammar, domain, regular
+33	Variational inequalities and equilibrium problems	inequality, variational, generalized, equilibrium, existence
+34	Propositional and many-valued logic	logic, formula, valued, temporal, semantics
+35	Upper and lower complexity bounds	bound, upper, complexity, size, log
+36	Scientific data visualization and processing	data, visualization, processing, database, structure
+37	Parallel and distributed computation	parallel, distributed, memory, processors, performance
+38	BCK-algebras, ideals and filters	algebra, ideal, algebraic, boolean, notion
+39	Real-time computing and running time	time, real, run, running, log
+40	Spanning and Steiner trees	tree, spanning, minimum, steiner, nodes
+41	Vertex, edge and total colorings	coloring, color, chromatic, vertices, adjacent
+42	Model transformation and MDA	transformation, driven, rules, code, metamodel
+43	Boolean, convex and nonsmooth functions	function, boolean, variables, valued, continuous
+44	Design processes and optimum design	design, implementation, designers, designing, structure
+45	Digital media art and animation	animation, visual, digital, art, media
+46	Fuzzy and intuitionistic fuzzy sets	fuzzy, relation, operators, interval, intuitionistic
+47	Railway train safety and control	safety, railway, train, operations, rail
+48	Singular values and interval parameters	value, parameters, interval, singular, random
+49	Graph labelings, magic and antimagic	edge, vertices, labeling, integer, labels
+50	Shortest paths and Dijkstra	path, shortest, length, pair, directed
+51	Reversible gates and QCA circuits	circuit, gate, reversible, quantum, power
+52	Decision tables, reducts and rule mining	rough, attributes, decision, reduction, rules
+53	Optimality conditions and constraint qualification	conditions, constraints, optimality, existence, programming
+54	Products of graphs, matrices and goods	product, cartesian, natural, sales, customer
+55	Network pharmacology of herbal medicines	target, pathways, gene, mechanism, pharmacology
+56	Student and business information systems	management, information, web, database, students
+57	Computability, complexity and systems theory	theory, complexity, theorem, mathematical, proof
+58	Semigroups and monoids	semigroup, regular, group, inverse, idempotent
+59	Computer graphics and computer-aided drawing	computer, graphics, science, aided, display
+60	Lattices and concept lattices	lattice, concept, distributive, congruence, complete
+61	Fault detection, diagnosis and localization	fault, detection, failure, diagnosis, localization
+62	Molecular, formal and mathematical properties	properties, notion, relation, satisfy, characterization
+63	Classes, hierarchies and characterizations	class, equivalence, bounded, characterization, hierarchy

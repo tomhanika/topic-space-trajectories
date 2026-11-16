@@ -1,0 +1,33 @@
+id	name	terms
+0	Design, logistics and industrial management	design, development, technology, systems, industry
+1	Mechanical properties testing	properties, mechanical, strength, tensile, material
+2	Turbulent flow and boundary layers	flow, velocity, turbulent, reynolds, wall
+3	Heat exchangers and heat transfer	heat, transfer, temperature, thermal, cooling
+4	Stress, strain and plastic deformation	stress, strain, deformation, plastic, residual
+5	Road vehicles and driving	vehicle, control, driving, road, controller
+6	Cutting tools and machining	cutting, tool, machining, milling, speed
+7	Petroleum reservoirs and shale gas	reservoir, oil, fracture, formation, permeability
+8	Scheduling and optimization algorithms	algorithm, scheduling, optimization, time, job
+9	Ultrasonic and acoustic waves	wave, frequency, vibration, acoustic, ultrasonic
+10	Welding and joining	welding, weld, joint, welded, arc
+11	Power generation and energy storage	energy, power, efficiency, storage, plant
+12	Numerical solution of differential equations	equations, solution, boundary, numerical, scheme
+13	Modeling and simulation	model, simulation, modeling, prediction, data
+14	Pressure, pumps and valves	pressure, hydraulic, pump, valve, tube
+15	Lithium-ion batteries and management	battery, ion, lithium, cell, electric
+16	Engine combustion and emissions	engine, fuel, emission, combustion, diesel
+17	Coatings, friction and wear	coating, wear, friction, film, resistance
+18	Pulsed lasers and laser ablation	laser, pulse, beam, induced, ablation
+19	Fatigue cracks and fracture	crack, fatigue, fracture, life, growth
+20	Droplets, bubbles and phase change	liquid, phase, droplet, solid, film
+21	Steel microstructure and heat treatment	steel, stainless, microstructure, austenite, carbon
+22	Gas reactions, adsorption and separation	gas, reaction, temperature, carbon, concentration
+23	Metal alloys and microstructure	alloy, aluminum, temperature, microstructure, grain
+24	Deep learning defect detection	detection, image, defects, network, features
+25	Finite element method	element, finite, numerical, mesh, structure
+26	Surface roughness and topography	surface, roughness, layer, contact, rough
+27	Manufacturing and additive manufacturing	process, manufacturing, production, product, quality
+28	Coal mining and roadway support	rock, coal, mining, support, roof
+29	Particle size and powders	particle, size, powder, bed, distribution
+30	Gears and transmissions	gear, bearing, load, contact, speed
+31	Fiber-reinforced composites	composite, fiber, reinforced, matrix, carbon

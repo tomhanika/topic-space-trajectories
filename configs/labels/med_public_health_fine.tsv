@@ -1,0 +1,65 @@
+id	name	terms
+0	Indigenous and rural health services	services, community, access, rural, people
+1	Autophagy and apoptosis pathways	cell, protein, expression, mice, autophagy
+2	Dengue virus and dengue fever	dengue, mosquito, fever, vector, aedes
+3	Obesity and body mass index	obesity, overweight, weight, bmi, body
+4	Insulin resistance and adipokines	insulin, diabetes, glucose, serum, metabolic
+5	Women's reproductive health	women, contraceptive, contraception, men, reproductive
+6	Teaching and student learning	students, teaching, school, learning, university
+7	HPV infection and cervical neoplasia	hpv, cervical, papillomavirus, human, cin
+8	Drug abuse and addiction	drug, treatment, substance, abuse, users
+9	Hepatitis B virus infection	hepatitis, hbv, hbsag, chronic, dna
+10	Immunization coverage and hesitancy	vaccine, vaccination, immunization, vaccinated, coverage
+11	Hospital stay and patient outcomes	patients, hospital, treatment, outcomes, days
+12	Randomized controlled trials	trial, randomized, intervention, controlled, treatment
+13	Domestic and partner violence	violence, domestic, partner, intimate, ipv
+14	Tibial and femoral fracture fixation	fracture, fixation, bone, tibial, plate
+15	Healthcare AI and machine learning	intelligence, artificial, healthcare, technology, learning
+16	Ischemic stroke and thrombolysis	stroke, ischemic, acute, cerebral, infarction
+17	Children and parents	children, parents, pediatric, childhood, family
+18	Scale validation and psychometrics	score, test, scale, value, correlation
+19	Logistic regression and odds ratios	risk, association, regression, ratio, odds
+20	Breastfeeding and lactation	breastfeeding, mothers, infants, exclusive, feeding
+21	Predator-prey dynamics	model, dynamics, equilibrium, stability, prey
+22	Chronic and infectious disease burden	disease, chronic, cardiovascular, heart, infectious
+23	Urinary tract infections	infection, urinary, antibiotic, tract, uti
+24	Public health policy and inequalities	health, public, mental, countries, policy
+25	Congenital heart defects	heart, pulmonary, congenital, defects, cardiac
+26	Palliative and hospice care	care, palliative, hospice, primary, family
+27	Drinking patterns and heavy drinking	alcohol, drinking, consumption, substance, adolescents
+28	Medical profession and education	medical, medicine, education, physicians, doctors
+29	Traumatic brain injury and concussion	injury, brain, traumatic, tbi, cognitive
+30	Knowledge, attitudes and practice surveys	knowledge, attitudes, sectional, cross, questionnaire
+31	Residency and professional training	training, program, education, residents, skills
+32	Dietary intake and food patterns	food, dietary, intake, diet, consumption
+33	Neuroendocrine tumors and carcinomas	tumor, carcinoma, neuroendocrine, meningioma, cell
+34	Literature searches and review protocols	systematic, search, literature, database, metaanalysis
+35	Control and experimental groups	group, control, divided, higher, randomly
+36	Fatty liver disease and fibrosis	liver, nafld, fatty, nonalcoholic, fibrosis
+37	Plasmodium malaria and antimalarials	malaria, plasmodium, falciparum, parasite, vivax
+38	Oocyte maturation and embryo development	oocytes, embryo, vitro, ovarian, blastocyst
+39	Organ donation and kidney transplantation	donor, organ, transplant, transplantation, donation
+40	Pregnancy complications and preterm birth	pregnancy, pregnant, birth, maternal, preterm
+41	COVID-19 pandemic and telehealth	covid, pandemic, coronavirus, telemedicine, sars
+42	Frailty in older adults	older, adults, frailty, elderly, age
+43	Cancer screening and oncology	cancer, breast, screening, cervical, early
+44	Clinical practice guidelines	practice, guidelines, clinical, management, recommendations
+45	Avian and seasonal influenza	influenza, virus, avian, seasonal, season
+46	Myopia, refraction and dry eye	eye, visual, ocular, lens, dry
+47	Quality of life and wellbeing	life, quality, qol, physical, elderly
+48	Spirituality, religion and lived experience	experience, interviews, qualitative, spiritual, religious
+49	Acute lymphoblastic leukemia	leukemia, acute, lymphoblastic, chemotherapy, cell
+50	Herpes simplex and varicella zoster	virus, herpes, infection, hsv, antibody
+51	Medication adherence	medication, adherence, nonadherence, pharmacists, prescribed
+52	Sepsis and septic shock	sepsis, septic, shock, mortality, icu
+53	Clinical diagnosis and presentation	diagnosis, clinical, diagnostic, lesions, examination
+54	Postpartum depression and anxiety	depression, anxiety, mental, symptoms, postpartum
+55	Genetic sequencing and genotyping	gene, sequence, pcr, strains, genetic
+56	Opioid prescribing and overdose	opioid, pain, prescription, overdose, disorders
+57	Informed consent and medical law	ethical, law, legal, consent, ethics
+58	Respiratory syncytial virus infections	respiratory, pneumonia, rsv, syncytial, infection
+59	HIV, AIDS and risk behavior	hiv, aids, infected, infection, immunodeficiency
+60	Nurses and nursing practice	nursing, nurses, home, staff, professionals
+61	Social networks and social determinants	social, media, support, network, behavior
+62	Mortality and causes of death	mortality, rate, death, incidence, cause
+63	Burn injuries and wound care	burn, injury, wound, skin, burned

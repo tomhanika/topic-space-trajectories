@@ -1,0 +1,65 @@
+id	name	terms
+0	High-rise and green buildings	building, residential, rise, floor, green
+1	Concrete durability and chloride corrosion	concrete, reinforced, corrosion, durability, slab
+2	Compressive strength and recycled aggregates	strength, compressive, aggregate, properties, mechanical
+3	Pipeline, pore and earth pressures	pressure, pipe, pore, pipeline, valve
+4	Road traffic accidents and safety	accidents, traffic, drivers, crash, vehicle
+5	Soft and unsaturated soil properties	soil, clay, content, moisture, sand
+6	Enhanced oil recovery and flooding	oil, reservoir, recovery, injection, production
+7	Energy consumption and saving	energy, consumption, saving, efficiency, heating
+8	Seismic response and performance	seismic, earthquake, response, frame, displacement
+9	Asphalt pavements and mixtures	asphalt, pavement, mixture, mix, binder
+10	Bridge design and girders	bridge, girder, span, cable, deck
+11	Power system reliability analysis	reliability, failure, power, systems, components
+12	BIM and construction information management	information, management, bim, project, modeling
+13	Water supply and resource allocation	water, supply, resources, river, demand
+14	Structural systems, trusses and shells	structure, structural, frame, truss, engineering
+15	Data collection and monitoring	data, monitoring, time, real, sensors
+16	Indoor thermal comfort and HVAC	temperature, thermal, heat, air, comfort
+17	Sustainable development and mining	sustainable, environmental, development, economic, resources
+18	Topology optimization and genetic algorithms	optimization, algorithm, optimal, topology, constraints
+19	Technology development and innovation	technology, development, technological, technical, intelligent
+20	Anaerobic digestion and biogas	anaerobic, biogas, production, digestion, methane
+21	Pile foundations and settlement	pile, foundation, settlement, bearing, bored
+22	Coal mining technology and hazards	coal, mining, seam, mines, methane
+23	Parameter estimation and calculation	parameters, value, coefficient, calculation, equations
+24	Steel members and concrete-filled tubes	steel, column, frame, tube, section
+25	Particle-laden turbulent flow	flow, particle, fluid, velocity, equations
+26	Slope stability and landslides	slope, stability, rock, failure, landslide
+27	Engineering education and teaching	students, engineering, course, teaching, education
+28	Vibration absorbers and isolation	vibration, frequency, dynamic, damping, damper
+29	Testing methods and laboratory tests	test, testing, laboratory, specimens, experimental
+30	Image detection and remote sensing	image, detection, features, accuracy, resolution
+31	Stress-strain behavior and triaxial tests	stress, strain, deformation, shear, loading
+32	Tunnel construction and excavation	tunnel, excavation, lining, rock, tunneling
+33	Shear walls and masonry	wall, shear, masonry, retaining, lateral
+34	FRP strengthening and fiber reinforcement	fiber, reinforced, reinforcement, frp, polymer
+35	Neural networks and traffic prediction	network, neural, prediction, learning, artificial
+36	Maintenance strategies and costs	maintenance, cost, equipment, repair, preventive
+37	Drilling and drilling fluids	drilling, wells, fluid, hole, drill
+38	Beam bending and flexural behavior	beam, shear, bending, moment, section
+39	Design process and conceptual design	design, requirements, designers, code, structural
+40	Active and semi-active control	control, controller, quality, systems, active
+41	Dams and reservoirs	dam, reservoir, river, flood, spillway
+42	Structural damage detection and monitoring	damage, structural, monitoring, detection, damaged
+43	Offshore wind and wave energy	wave, wind, floating, power, offshore
+44	Road design and highway infrastructure	road, traffic, pavement, highway, section
+45	Nuclear and radioactive waste disposal	waste, nuclear, disposal, radioactive, facilities
+46	Construction technology and site practice	construction, project, quality, cost, engineering
+47	Wood and timber properties	wood, moisture, timber, species, content
+48	Risk assessment and uncertainty	risk, assessment, evaluation, hazard, decision
+49	Load-bearing capacity and loads	load, capacity, bearing, loading, ultimate
+50	Autonomous underwater vehicles	underwater, vehicle, autonomous, auv, sensors
+51	Architecture, culture and aesthetics	architecture, architectural, space, architects, modern
+52	Cotton fabric dyeing	fabric, dye, dyeing, color, cotton
+53	Urban space and transport planning	urban, city, space, planning, spatial
+54	Finite element analysis software	element, finite, numerical, software, nonlinear
+55	Safety standards and regulations	safety, standard, requirements, safe, systems
+56	Ships, navigation and hull design	ship, vessel, hull, speed, sea
+57	Composite and insulating building materials	material, properties, composite, mechanical, raw
+58	Concrete cracks and prevention	crack, cracking, measures, width, cause
+59	Modeling and simulation	model, simulation, modeling, prediction, numerical
+60	Fly ash, slag and geopolymers	ash, fly, geopolymer, slag, alkali
+61	Gas production and pipelines	gas, pipeline, production, natural, liquid
+62	GPR surveys and ground motion	ground, site, motion, gpr, radar
+63	Portland cement hydration and mortar	cement, mortar, portland, hydration, paste

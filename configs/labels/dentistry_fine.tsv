@@ -1,0 +1,81 @@
+id	name	terms
+0	Shear and tensile bond strength	strength, bond, shear, mpa, resin
+1	Access to dental care services	care, dental, services, health, access
+2	Implant placement, stability and loading	implant, placement, placed, immediate, loading
+3	Root canal morphology and variations	root, canal, apical, apex, morphology
+4	Chronic and aggressive periodontitis	periodontitis, chronic, inflammatory, severe, generalized
+5	Malocclusion classes and correction	class, malocclusion, skeletal, iii, appliance
+6	Modern and esthetic dentistry	dentistry, clinical, technology, practice, aesthetic
+7	Benign oral lesions and biopsy	lesions, diagnosis, granuloma, examination, periapical
+8	Self-etch and total-etch adhesives	adhesive, self, etch, etching, systems
+9	Streptococcus mutans biology and cariogenicity	mutans, streptococcus, biofilm, strain, streptococci
+10	Caries risk and prevention	caries, dental, prevention, risk, carious
+11	Clinic patients, records and complaints	patients, treatment, treated, clinic, satisfaction
+12	Deep learning on dental radiographs	images, radiographs, panoramic, diagnostic, detection
+13	Composite and amalgam restorations	composite, restorations, resin, restorative, cavity
+14	Fixed prostheses and bridges	fixed, prosthesis, prostheses, prosthetic, supported
+15	Cytokine and gene expression in oral cells	cell, expression, protein, human, induced
+16	Systematic reviews and evidence synthesis	systematic, search, databases, pubmed, metaanalysis
+17	Complete and removable partial dentures	denture, complete, removable, partial, base
+18	Randomized group comparisons and ANOVA	group, control, divided, test, statistically
+19	Surface polishing and roughness	surface, roughness, polishing, electron, scanning
+20	Survival rates and follow-up trials	months, rate, survival, clinical, period
+21	Age and sex distribution of patients	age, female, male, gender, mean
+22	CAD/CAM ceramics and lithium disilicate	ceramic, zirconia, cad, cam, lithium
+23	Orthodontic treatment and tooth movement	orthodontic, treatment, appliance, movement, fixed
+24	MTA, calcium silicates and apexification	mta, calcium, mineral, trioxide, aggregate
+25	Finite element stress analysis	stress, finite, element, model, distribution
+26	Dental students' knowledge and practices	knowledge, students, attitude, questionnaire, practice
+27	Cone-beam CT imaging and dose	cbct, beam, cone, tomography, computed
+28	Maxillary incisors, canines and arch width	incisors, maxillary, canine, anterior, central
+29	Facial cephalometric measurements	facial, angle, cephalometric, measurements, vertical
+30	Orthognathic surgery and osteotomy	surgery, surgical, orthognathic, osteotomy, postoperative
+31	Maxillary sinus floor elevation	sinus, maxillary, floor, elevation, augmentation
+32	Oral health-related quality of life	quality, life, ohrqol, ohip, scores
+33	Fluoride toothpaste and varnish	fluoride, toothpaste, varnish, dentifrice, ppm
+34	Glass ionomer cements	cement, glass, ionomer, gic, modified
+35	Fracture resistance and fatigue testing	fracture, resistance, load, failure, testing
+36	Soft tissue, gingiva and lip profile	tissue, soft, hard, connective, gingival
+37	Parents and children's oral habits	children, parents, old, school, mothers
+38	Dentin structure and hypersensitivity	dentin, dentinal, tubules, hypersensitivity, layer
+39	Periodontal disease and systemic links	disease, periodontal, systemic, inflammatory, conditions
+40	Molar impaction, uprighting and distalization	molars, impacted, extraction, distal, impaction
+41	Color stability and staining	color, changes, shade, stability, values
+42	Periodontal pathogens and microbiota	gingivalis, bacteria, bacterial, species, porphyromonas
+43	Rotary NiTi files and canal shaping	files, instruments, rotary, protaper, preparation
+44	Enamel erosion and demineralization	enamel, acid, demineralization, remineralization, erosion
+45	Oral lichen planus	lichen, planus, olp, oral, erosive
+46	Endodontic treatment outcomes and retreatment	endodontic, treatment, periapical, therapy, management
+47	Orthodontic brackets, archwires and friction	brackets, wire, steel, stainless, archwire
+48	Tooth loss, wear and decay	teeth, loss, missing, anterior, natural
+49	Caries prevalence and DMFT in schoolchildren	prevalence, dmft, index, status, school
+50	Digital impressions and intraoral scanners	impression, digital, accuracy, scanner, model
+51	Vital pulp therapy and pulpitis	pulp, capping, pulpal, vital, pulpitis
+52	Scaling, root planing and probing depth	probing, depth, pocket, periodontal, attachment
+53	Root canal irrigation with NaOCl and EDTA	irrigation, naocl, solution, sodium, hypochlorite
+54	Ridge augmentation and socket preservation	ridge, graft, extraction, augmentation, socket
+55	Oral cancer and potentially malignant disorders	cancer, oral, malignant, carcinoma, squamous
+56	Fiber posts and cores	post, fiber, core, endodontically, treated
+57	Salivary and GCF biomarkers	salivary, saliva, healthy, fluid, concentration
+58	COVID-19 and dental practice	covid, pandemic, infection, coronavirus, sars
+59	Odontogenic tumors and ameloblastoma	tumor, odontogenic, ameloblastoma, rare, benign
+60	In-office and at-home bleaching	bleaching, peroxide, hydrogen, whitening, agents
+61	Antimicrobial agents against Enterococcus faecalis	antimicrobial, activity, antibacterial, faecalis, extract
+62	Dental anxiety and fear	anxiety, dental, fear, scale, behavior
+63	Root canal sealers and obturation leakage	sealer, gutta, percha, filling, obturation
+64	Peri-implantitis and mucositis	peri, implantitis, implant, mucositis, loss
+65	Diabetes mellitus and glycemic control	diabetes, mellitus, diabetic, glycemic, hba
+66	Metal-ceramic crowns and marginal fit	crown, metal, abutment, porcelain, alloy
+67	Local anesthesia and pain control	pain, anesthesia, local, anesthetic, injection
+68	Pregnancy and oral health	women, pregnant, pregnancy, birth, men
+69	Oral health risk associations in adults	association, regression, risk, adults, logistic
+70	Dental lasers	laser, yag, irradiation, diode, ysgg
+71	Odontogenic and dentigerous cysts	cyst, dentigerous, odontogenic, radicular, keratocyst
+72	Light curing and polymerization	light, curing, cured, resin, polymerization
+73	Pit and fissure sealants	sealant, fissure, pit, occlusal, retention
+74	Alveolar bone loss and remodeling	bone, alveolar, loss, resorption, density
+75	Mechanical properties of dental materials	properties, mechanical, material, flexural, strength
+76	Oral health education and hygiene behavior	oral, health, hygiene, status, education
+77	Primary dentition and pulpotomy	primary, dentition, permanent, stability, mixed
+78	Toothbrushes, plaque and gingivitis	plaque, index, gingival, gingivitis, hygiene
+79	Mandibular foramen and nerve anatomy	mandibular, mandible, nerve, inferior, foramen

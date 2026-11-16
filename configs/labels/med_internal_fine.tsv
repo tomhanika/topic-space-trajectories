@@ -1,0 +1,81 @@
+id	name	terms
+0	Odds and hazard ratio analyses	ratio, association, cohort, regression, risk
+1	Cell culture and proliferation	cells, proliferation, culture, human, lymphocytes
+2	Pacemakers and conduction system pacing	pacing, pacemaker, ventricular, block, tachycardia
+3	Left ventricular systolic and diastolic function	left, ventricular, function, diastolic, ejection
+4	Thyroid nodules and papillary carcinoma	thyroid, nodules, carcinoma, papillary, ptc
+5	Insulin resistance and glucose tolerance	insulin, glucose, resistance, fasting, hypoglycemia
+6	Mortality rates and causes of death	mortality, cause, death, outcomes, morbidity
+7	Blood pressure measurement and monitoring	pressure, blood, systolic, mmhg, diastolic
+8	Hepatitis C virus infection	hcv, hepatitis, virus, infection, viral
+9	Hypertension and blood pressure control	hypertension, hypertensive, antihypertensive, portal, arterial
+10	Chronic kidney disease and GFR estimation	renal, kidney, ckd, chronic, glomerular
+11	Acute myocardial infarction and thrombolysis	myocardial, infarction, acute, ami, elevation
+12	Aortic stenosis and TAVI	aortic, valve, replacement, transcatheter, stenosis
+13	Primary PCI and antiplatelet therapy	intervention, pci, percutaneous, stemi, primary
+14	Thyroid function and hypothyroidism	thyroid, tsh, hypothyroidism, hormone, hyperthyroidism
+15	Catheter ablation of atrial fibrillation	atrial, fibrillation, ablation, catheter, rhythm
+16	Control-group comparisons	group, control, divided, higher, randomly
+17	ECG signal processing and classification	ecg, signal, electrocardiogram, algorithm, detection
+18	Systemic lupus erythematosus	sle, lupus, erythematosus, systemic, nephritis
+19	Liver cirrhosis and its complications	liver, cirrhosis, hepatic, portal, fibrosis
+20	Heart failure and preserved ejection fraction	failure, heart, chf, congestive, ejection
+21	MRI and CT imaging	imaging, magnetic, resonance, mri, tomography
+22	Gene polymorphisms and disease susceptibility	gene, polymorphism, genotype, genetic, allele
+23	Experimental rat studies	rats, induced, days, animals, weeks
+24	Solitary fibrous and stromal tumors	tumor, resection, malignant, gist, recurrence
+25	ACE inhibitors and ARBs	angiotensin, renin, inhibitor, receptor, ace
+26	Diabetes mellitus and its complications	diabetes, mellitus, hba, glycemic, complications
+27	Skin aging, cosmetics and sun exposure	skin, cutaneous, exposure, facial, cosmetic
+28	Deep vein thrombosis and prophylaxis	venous, thrombosis, vte, vein, deep
+29	Depression and anxiety in patients	depression, anxiety, symptoms, psychological, scale
+30	Perioperative care and surgical complications	surgery, postoperative, surgical, complications, preoperative
+31	Menopause and sex hormones	women, men, menopause, postmenopausal, menopausal
+32	Acne vulgaris	acne, vulgaris, severe, moderate, severity
+33	Growth hormone and pituitary adenomas	growth, igf, hormone, pituitary, igfbp
+34	Health-related quality of life	life, quality, qol, score, physical
+35	Obesity and body mass index	body, bmi, obesity, mass, index
+36	Children, adolescents and parents	children, pediatric, adolescents, childhood, age
+37	Knee osteoarthritis and cartilage	knee, cartilage, osteoarthritis, joint, articular
+38	Oral anticoagulation and stroke prevention	stroke, anticoagulant, warfarin, ischemic, oral
+39	Metabolic, nephrotic and other syndromes	syndrome, metabolic, nephrotic, mets, acs
+40	Rheumatoid arthritis and DMARDs	arthritis, rheumatoid, joint, disease, inflammatory
+41	Clinical practice guidelines	management, guidelines, practice, clinical, care
+42	Gastroesophageal reflux disease	reflux, esophageal, gerd, gastroesophageal, symptoms
+43	Acute kidney injury and sepsis	aki, injury, acute, kidney, renal
+44	Coronary artery disease and angiography	coronary, artery, cad, disease, angiography
+45	Diabetic foot ulcers and amputation	diabetic, foot, ulcer, nephropathy, amputation
+46	ROC curves and predictive value	value, sensitivity, predictive, curve, specificity
+47	Prevalence by age and sex	age, prevalence, female, male, population
+48	Hepatocellular carcinoma and TACE	hcc, hepatocellular, carcinoma, survival, tace
+49	Antidiabetic and antioxidant plant extracts	activity, extract, antioxidant, antidiabetic, leaves
+50	Serum uric acid and biochemical markers	serum, concentration, acid, plasma, uric
+51	Hyperparathyroidism and calcium metabolism	calcium, bone, parathyroid, pth, hyperparathyroidism
+52	Upper gastrointestinal bleeding and varices	bleeding, gastrointestinal, endoscopic, gastric, upper
+53	Tissue gene expression and microRNAs	expression, protein, mrna, gene, tissue
+54	Randomized placebo-controlled trials	trial, randomized, placebo, weeks, controlled
+55	Inflammatory mechanisms and therapeutic targets	mechanisms, pathway, inflammatory, inflammation, therapeutic
+56	Heart rate variability and autonomic function	rate, variability, hrv, autonomic, heart
+57	Stress urinary incontinence and pelvic floor	incontinence, urinary, pelvic, stress, floor
+58	Pregnancy and maternal-fetal outcomes	pregnancy, maternal, pregnant, fetal, women
+59	Lipid profiles and dyslipidemia	cholesterol, lipid, lipoprotein, hdl, triglyceride
+60	Rare presentations and differential diagnosis	diagnosis, old, rare, clinical, presentation
+61	Hospital admissions and length of stay	hospital, days, care, department, admission
+62	Arterial stiffness and pulse wave velocity	arterial, stiffness, wave, pulse, velocity
+63	Cardiovascular risk factors and prevention	cardiovascular, risk, disease, cvd, events
+64	Cardiac rehabilitation and arrhythmias	cardiac, arrhythmia, rehabilitation, sudden, heart
+65	Atopic and contact dermatitis	dermatitis, atopic, contact, allergic, eczema
+66	Health education and self-care	health, self, care, education, knowledge
+67	Hemodialysis and peritoneal dialysis	dialysis, hemodialysis, peritoneal, renal, peritonitis
+68	Irritable bowel syndrome	ibs, bowel, irritable, symptoms, constipation
+69	Cancer therapy and cardiotoxicity	cancer, breast, chemotherapy, incidence, lung
+70	Treatment efficacy and options	treatment, treated, months, efficacy, options
+71	Antihypertensive and cardiovascular drugs	drug, agents, dose, antihypertensive, administration
+72	Hypertrophic and dilated cardiomyopathy	cardiomyopathy, hypertrophic, hcm, dilated, dcm
+73	Mouse models and knockout studies	mice, model, induced, animals, wild
+74	Therapy regimens and treatment response	therapy, replacement, response, benefit, term
+75	Autoantibody testing and immunoassays	antibodies, positive, igg, antigen, autoimmune
+76	Carotid intima-media thickness and plaque	carotid, thickness, imt, intima, media
+77	Pulmonary embolism	pulmonary, embolism, right, lung, acute
+78	Systematic reviews and meta-analyses	metaanalysis, systematic, pubmed, database, cochrane
+79	Mitral regurgitation and valve repair	mitral, valve, regurgitation, repair, tricuspid

@@ -1,0 +1,57 @@
+id	name	terms
+0	Control group comparisons	group, control, divided, randomly, higher
+1	Transgenic mouse behavior	mice, induced, behavior, wild, model
+2	Motor control and limb movement	motor, movement, muscle, hand, limb
+3	Patient outcomes and surgery	patients, months, hospital, outcomes, surgery
+4	Fluid biomarkers of Alzheimer's disease	csf, biomarkers, tau, amyloid, alzheimer
+5	Deep learning and brain tumor classification	classification, accuracy, features, detection, dataset
+6	Autism spectrum disorder	autism, asd, spectrum, disorder, social
+7	Health care and quality of life	health, care, life, people, quality
+8	Parkinson's disease	disease, parkinson, neurodegenerative, alzheimer, dopaminergic
+9	EEG and brain-computer interfaces	eeg, signal, bci, interface, computer
+10	Attention and task performance	task, performance, participants, experiments, conditions
+11	Epilepsy and seizures	seizures, epilepsy, epileptic, antiepileptic, focal
+12	Epidemiological risk and cohort studies	risk, association, cohort, population, regression
+13	Hearing loss and cochlear implants	hearing, loss, cochlear, ear, noise
+14	Cortical neurons and circuits	neurons, neuronal, nucleus, cortex, cortical
+15	Intracranial aneurysms	aneurysm, artery, intracranial, endovascular, embolization
+16	Schwannomas and neurogenic tumors	tumor, schwannoma, cancer, malignant, neuroblastoma
+17	ADHD	adhd, attention, hyperactivity, deficits, disorder
+18	Working and episodic memory	memory, recall, working, retrieval, episodic
+19	Neuroinflammation and microglia	microglia, inflammatory, immune, activation, pathways
+20	Drug treatment and electroconvulsive therapy	treatment, therapy, drug, efficacy, therapeutic
+21	Neurotransmitter receptor pharmacology	receptor, antagonist, agonist, binding, acid
+22	Circadian rhythms and melatonin	circadian, rhythm, clock, light, melatonin
+23	Migraine and headache	migraine, headache, pain, attacks, aura
+24	Stress, cortisol and the HPA axis	stress, cortisol, axis, chronic, adrenal
+25	Transcranial and deep brain stimulation	stimulation, transcranial, tdcs, electrodes, tms
+26	Mild cognitive impairment	cognitive, impairment, mci, function, mild
+27	Aging and older adults	adults, older, age, young, aging
+28	Visual perception	visual, object, perception, eye, motion
+29	Traumatic brain injury	injury, traumatic, tbi, brain, head
+30	Neuropsychiatric symptoms and pain	symptoms, depression, anxiety, pain, negative
+31	Rat models and drug effects	rats, days, induced, animals, dose
+32	Auditory evoked responses	response, stimuli, auditory, frequency, amplitude
+33	Bipolar and mood disorders	disorder, bipolar, depression, depressive, mood
+34	Sexual dysfunction	sexual, women, dysfunction, men, erectile
+35	Language processing and bilingualism	language, words, speech, processing, semantic
+36	COVID-19 and long COVID	covid, infection, cov, sars, coronavirus
+37	Rating scales and test validity	scores, scale, test, correlation, assessment
+38	Food intake, obesity and leptin	food, weight, body, intake, obesity
+39	Schizophrenia and antipsychotics	schizophrenia, antipsychotic, schizophrenic, psychosis, psychotic
+40	Dementia and caregiving	dementia, alzheimer, caregivers, vascular, disease
+41	Gene mutations and genetic variants	gene, genetic, mutations, expression, variants
+42	Facial emotion recognition	face, emotion, emotional, facial, recognition
+43	Child development and parenting	children, parents, palsy, pediatric, age
+44	Learning, training and conditioning	learning, training, students, machine, skills
+45	Sleep stages and REM sleep	sleep, rem, wake, eye, stage
+46	Peripheral nerve regeneration	nerve, peripheral, regeneration, axons, fibers
+47	Hemispheric lateralization	left, right, cortex, frontal, temporal
+48	Guillain-Barré and rare syndromes	syndrome, diagnosis, clinical, diagnostic, rare
+49	Neural stem cells and neurogenesis	cells, stem, differentiation, expression, protein
+50	Functional connectivity and resting state	network, connectivity, functional, state, resting
+51	Structural MRI and brain volume	imaging, mri, resonance, magnetic, brain
+52	Computational models and neural dynamics	model, human, neural, dynamics, behavior
+53	Cerebral blood flow and stroke	cerebral, blood, hemorrhage, stroke, flow
+54	Synaptic plasticity	synaptic, synapses, plasticity, postsynaptic, hippocampal
+55	Randomized controlled trials	trials, randomized, controlled, placebo, outcomes

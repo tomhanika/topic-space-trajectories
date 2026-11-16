@@ -1,0 +1,41 @@
+id	name	terms
+0	Major trauma and injury severity	injury, trauma, head, accident, traumatic
+1	Gastric cancer and nodal metastasis	gastric, cancer, node, lymph, metastasis
+2	Cell adhesion and signaling pathways	cell, expression, protein, induced, mice
+3	HIV/AIDS and antiretroviral therapy	hiv, aids, antiretroviral, infected, art
+4	COVID-19 and SARS-CoV-2	covid, sars, cov, coronavirus, pandemic
+5	Aortic aneurysm and dissection	aortic, aneurysm, repair, aorta, dissection
+6	Staphylococcus aureus and MRSA	aureus, staphylococcus, mrsa, resistant, methicillin
+7	Interstitial lung disease and fibrosis	lung, fibrosis, pulmonary, interstitial, ipf
+8	Blood flow and dose modeling	blood, flow, model, dose, concentration
+9	Health worker knowledge and training	health, care, knowledge, practice, services
+10	Carotid stenosis and stroke	artery, carotid, stenosis, coronary, stroke
+11	Drug regimens, efficacy and toxicity	treatment, therapy, drug, treated, dose
+12	COPD and pulmonary rehabilitation	copd, chronic, obstructive, disease, pulmonary
+13	Mechanical ventilation and ARDS	ventilation, respiratory, mechanical, pressure, ards
+14	Prostate cancer and PSA	prostate, cancer, psa, men, pca
+15	Control-group clinical observations	group, control, divided, higher, rate
+16	Diagnostic imaging and guided biopsy	imaging, ultrasound, lesions, biopsy, diagnostic
+17	Allergic rhinitis and food allergy	allergic, allergy, allergen, food, ige
+18	EGFR-mutant non-small cell lung cancer	nsclc, egfr, nonsmall, cancer, lung
+19	Mortality risk factors and regression	risk, age, regression, cohort, mortality
+20	Preterm infants and bronchopulmonary dysplasia	infants, preterm, birth, neonatal, weeks
+21	Tuberculosis and drug resistance	tuberculosis, mycobacterium, drug, resistant, mdr
+22	Renal cell carcinoma	renal, carcinoma, kidney, cell, rcc
+23	ICU admission and hospital stay	hospital, care, icu, unit, admission
+24	Nosocomial infection control	infection, nosocomial, difficile, risk, control
+25	Pulmonary arterial hypertension	pulmonary, hypertension, arterial, pah, heart
+26	Biliary disease, ERCP and cholecystectomy	duct, bile, biliary, endoscopic, cholecystectomy
+27	Sarcomas and metastatic tumors	tumor, sarcoma, metastasis, tissue, soft
+28	Postoperative complications and laparoscopy	surgery, postoperative, complications, surgical, laparoscopic
+29	Childhood illness and gastroenteritis	children, pediatric, age, rotavirus, adult
+30	Systematic reviews and meta-analyses	trial, randomized, systematic, metaanalysis, controlled
+31	Cardiac arrest and resuscitation	cardiac, arrest, resuscitation, cpr, cardiopulmonary
+32	Case reports and abdominal pain	old, diagnosis, acute, pain, symptoms
+33	Candida and antifungal susceptibility	candida, antifungal, albicans, fungal, species
+34	Vaccine antibody responses to SARS-CoV-2	vaccine, antibody, vaccination, response, cov
+35	Urinary stones and lithotripsy	stone, calculi, urinary, lithotripsy, ureteral
+36	Diagnostic test accuracy and PCR	test, positive, sensitivity, specificity, negative
+37	Breast cancer screening and mammography	breast, cancer, mammography, women, screening
+38	Pleural effusion and mesothelioma	pleural, effusion, malignant, fluid, mesothelioma
+39	Genetic variants and sequencing	gene, mutations, genetic, sequence, genome

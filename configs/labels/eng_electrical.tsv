@@ -1,0 +1,33 @@
+id	name	terms
+0	MIMO-OFDM wireless communication	channel, mimo, scheme, rate, performance
+1	Thin films and plasma processing	film, layer, surface, substrate, deposition
+2	Inverters, harmonics and power quality	voltage, inverter, current, phase, harmonic
+3	Renewable integration and microgrids	energy, grid, renewable, electricity, demand
+4	Fuzzy, PID and sliding-mode control	control, controller, adaptive, loop, disturbances
+5	Magnetic fields and discharge plasmas	field, magnetic, plasma, electron, electromagnetic
+6	Solid-state and diode lasers	laser, pulse, diode, beam, cavity
+7	Integrated circuit and chip design	design, circuit, chip, integrated, digital
+8	Electric machines and motor drives	motor, torque, magnet, permanent, rotor
+9	Lithium-ion batteries	battery, ion, lithium, electrolyte, materials
+10	Solar cells and photovoltaics	cell, solar, perovskite, efficiency, photovoltaic
+11	Image classification and remote sensing	image, classification, features, fusion, data
+12	IoT and smart systems	technology, data, communication, smart, monitoring
+13	Neural and communication networks	network, neural, distribution, node, wireless
+14	Fault diagnosis and detection	fault, diagnosis, detection, bearing, protection
+15	Optical fibers and Bragg gratings	fiber, optical, wavelength, optic, grating
+16	Frequency, phase and signal measurement	frequency, signal, phase, measurement, domain
+17	Traffic flow and signal control	traffic, vehicle, road, flow, intersection
+18	MOSFETs and semiconductor devices	devices, gate, transistors, mosfet, oxide
+19	Modeling, simulation and identification	model, modeling, simulation, parameters, dynamic
+20	Robot manipulators and motion planning	robot, motion, manipulator, robotic, kinematic
+21	Optimization and metaheuristic algorithms	algorithm, optimization, optimal, solution, genetic
+22	DC–DC power converters	converter, switching, switch, boost, output
+23	CMOS low-noise amplifiers	ghz, amplifier, noise, gain, band
+24	Electric vehicle charging	electric, vehicle, charging, evs, station
+25	Power systems and reactive power	power, load, supply, reactive, flow
+26	Wind turbines and generators	wind, turbine, generator, speed, farm
+27	Nonlinear and time-delay system stability	systems, linear, nonlinear, time, state
+28	Engineering education and curricula	engineering, students, teaching, education, course
+29	Microwave filters and waveguides	filter, waveguide, line, mode, resonator
+30	Thermal measurement and temperature control	temperature, thermal, heat, room, test
+31	Gas, humidity and strain sensors	sensor, detection, sensing, sensitivity, measurement

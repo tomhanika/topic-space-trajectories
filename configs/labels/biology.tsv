@@ -1,0 +1,65 @@
+id	name	terms
+0	Stem cells and differentiation	cells, lines, stem, differentiation, proliferation
+1	Genetic diversity and molecular markers	genetic, population, diversity, markers, loci
+2	Clinical outcomes and psoriasis therapy	patients, clinical, treatment, therapy, psoriasis
+3	Broiler diets and growth performance	diet, feed, fed, weight, broiler
+4	Antibiotic resistance in clinical isolates	resistance, antibiotic, resistant, antimicrobial, isolates
+5	Innate immunity and cytokines	immune, response, cytokines, macrophages, ifn
+6	Candidate genes and gene transfer	gene, vector, encoding, plasmid, candidate
+7	Species records and distribution	species, distribution, habitat, forest, records
+8	Egg and larval development	egg, stage, larvae, development, adult
+9	New genera and taxonomy	genus, nov, species, china, phylogenetic
+10	Viruses and viral vectors	virus, viral, vector, replication, antiviral
+11	Gene polymorphisms and disease risk	polymorphism, association, genotype, snps, allele
+12	Enzyme activity and kinetics	enzyme, activity, substrate, reaction, enzymatic
+13	Plants, pollinators and crop pests	plant, leaf, seed, fruit, flowers
+14	MicroRNAs in cancer	mir, mirna, microrna, target, proliferation
+15	DNA repair and replication	dna, repair, strand, damage, methylation
+16	Bioinformatics and machine learning	data, model, network, prediction, algorithm
+17	Tumor metastasis and microenvironment	tumor, cancer, metastasis, carcinoma, growth
+18	Drug development and targeted therapy	drug, therapy, therapeutic, treatment, strategies
+19	Binding sites and affinity	binding, site, domain, interaction, bind
+20	Rat organ and toxicity studies	rat, liver, days, dose, kidney
+21	PCR detection assays	samples, detection, pcr, assay, sensitivity
+22	Gut microbiota	gut, microbiota, microbiome, microbial, intestinal
+23	Amino acids and fatty acids	acid, amino, fatty, synthesis, nucleic
+24	Climate change and agriculture	climate, crop, changes, production, agricultural
+25	Wnt and other signaling pathways	pathway, signaling, mechanisms, wnt, signal
+26	Protein function and interactions	protein, function, family, domain, yeast
+27	Ion channels and membrane transport	membrane, channel, plasma, transport, vesicles
+28	Gene expression in normal and tumor tissue	expression, mrna, tissue, expressed, regulated
+29	Rare genetic syndromes and mutations	mutations, syndrome, disorders, variants, phenotype
+30	Complete genome sequencing	sequence, genome, region, genomic, sequencing
+31	Inflammatory bowel disease	disease, inflammatory, ibd, bowel, colitis
+32	Control group comparisons	group, control, divided, higher, serum
+33	Cattle breeds, milk and meat	meat, milk, quality, traits, animals
+34	Lipids and cholesterol	lipid, fatty, cholesterol, phospholipid, bilayer
+35	Muscle fibers and exercise	muscle, skeletal, fiber, smooth, exercise
+36	RNA biology and noncoding RNAs	rna, mrna, noncoding, lncrna, transcripts
+37	Temperature and rate effects	temperature, rate, concentration, time, conditions
+38	Glucose, insulin and diabetes	glucose, insulin, diabetes, metabolic, diabetic
+39	Electromagnetic field effects	field, magnetic, exposure, frequency, electromagnetic
+40	Infections, pathogens and parasites	infection, host, pathogens, infected, parasite
+41	Mouse models	mice, model, vivo, bone, induced
+42	Microscopy and imaging	microscopy, electron, imaging, image, fluorescence
+43	Protein purification and electrophoresis	gel, purified, chromatography, molecular, purification
+44	Mitochondria and energy metabolism	mitochondrial, mitochondria, mtdna, atp, cytochrome
+45	Plant tissue culture	culture, medium, shoot, explants, growth
+46	Bioactive compounds and derivatives	compounds, activity, extract, derivatives, chemical
+47	Apoptosis and cell death	apoptosis, induced, caspase, death, cells
+48	Fish and aquaculture	fish, water, aquaculture, growth, length
+49	Human and animal studies	human, animals, health, lines, dogs
+50	Sex, mating and reproduction	male, female, sex, sexual, mating
+51	Child health and epidemiology	age, children, risk, health, women
+52	Microbial strain isolation	strains, isolated, isolates, mutant, bacillus
+53	Evolution and natural selection	evolution, selection, evolutionary, traits, environment
+54	Antibodies, antigens and vaccines	antibody, antigen, vaccine, serum, monoclonal
+55	HIV infection and AIDS	hiv, immunodeficiency, infected, aids, antiretroviral
+56	Escherichia coli and Salmonella	coli, escherichia, plasmid, bacteria, bacterial
+57	Peptides and MHC epitopes	peptide, residues, antimicrobial, class, mhc
+58	Breast cancer	cancer, breast, women, node, chemotherapy
+59	Receptors, agonists and antagonists	receptor, beta, ligand, alpha, agonist
+60	Transcriptional regulation and chromatin	transcription, promoter, transcriptional, regulation, chromatin
+61	Protein kinases and phosphorylation	kinase, phosphorylation, activation, inhibitor, activated
+62	Oxidative and heat stress	stress, oxidative, heat, antioxidant, response
+63	Molecular structure and dynamics	structure, structural, dynamics, conformation, conformational

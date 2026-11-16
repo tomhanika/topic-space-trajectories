@@ -1,0 +1,81 @@
+id	name	terms
+0	Progression-free survival and prognosis	survival, prognostic, prognosis, free, outcomes
+1	JAK-STAT and kinase signaling	signaling, pathway, activation, kinase, stat
+2	Image reconstruction, noise and artifacts	images, reconstruction, noise, resolution, quality
+3	Cancer survivorship and registries	cancer, prostate, gastric, ovarian, death
+4	Quality of life, fatigue and depression	life, quality, physical, depression, psychological
+5	Rectal cancer and mesorectal excision	rectal, resection, recurrence, local, excision
+6	Differential diagnosis and autopsy	diagnosis, diagnostic, clinical, differential, disease
+7	Radiomics nomograms and machine learning	model, radiomics, features, auc, validation
+8	Allogeneic stem cell transplantation and GVHD	transplantation, donor, graft, gvhd, allogeneic
+9	Surgical procedures and complications	surgery, surgical, postoperative, complications, procedure
+10	Myocardial ischemia-reperfusion injury	myocardial, ischemia, reperfusion, heart, ischemic
+11	Gene mutations and hereditary disease	mutations, gene, genetic, dna, sequencing
+12	MRI and diffusion imaging	mri, imaging, magnetic, resonance, diffusion
+13	Non-Hodgkin and B-cell lymphoma	lymphoma, nonhodgkin, diffuse, nhl, dlbcl
+14	Ionizing radiation dose and protection	radiation, dose, exposure, irradiation, ionizing
+15	Iron deficiency and ferritin	iron, anemia, deficiency, ferritin, serum
+16	Cell lines and proliferation assays	cell, line, proliferation, human, growth
+17	Breast imaging and pathology	breast, women, carcinoma, mammography, screening
+18	Disease stage and early detection	stage, early, iii, disease, late
+19	Tomographic imaging modalities	tomography, computed, imaging, emission, spect
+20	Enzyme activity and inhibition assays	activity, enzyme, physical, concentration, active
+21	Monoclonal antibodies and hybridomas	antibody, monoclonal, antigen, igg, mab
+22	Multiple sclerosis	sclerosis, disease, autoimmune, inflammatory, systemic
+23	Acute myeloid leukemia and MDS	aml, leukemia, acute, myeloid, remission
+24	Colorectal cancer screening and colonoscopy	colorectal, crc, colonoscopy, screening, polyps
+25	Lumbar disc herniation and fusion	lumbar, disc, pain, spine, intervertebral
+26	FDG PET/CT and tracer uptake	pet, fdg, uptake, positron, emission
+27	Vitamin D deficiency and supplementation	vitamin, deficiency, serum, supplementation, calcium
+28	Lung cancer and lung disease	lung, nsclc, nonsmall, pulmonary, sclc
+29	Spinal cord injury and recovery	spinal, cord, injury, sci, motor
+30	Cancer incidence and mortality statistics	age, incidence, rate, mortality, population
+31	Immune checkpoint inhibitors and adverse events	immune, checkpoint, immunotherapy, response, inhibitor
+32	Control-group comparison studies	group, control, divided, higher, randomly
+33	Schiff base metal complexes	complex, ligand, metal, synthesis, synthesized
+34	Atmospheric pressure plasma discharges	plasma, discharge, atmospheric, gas, pressure
+35	Deep learning medical image classification	learning, deep, images, network, classification
+36	ABO blood groups and blood flow	blood, flow, peripheral, vessels, red
+37	Gene expression and RNA interference	expression, gene, protein, mrna, expressed
+38	Cutaneous melanoma	melanoma, malignant, cutaneous, metastatic, primary
+39	Pancreatic ductal adenocarcinoma	pancreatic, adenocarcinoma, pdac, pancreas, ductal
+40	Epstein-Barr virus infection	ebv, virus, barr, epstein, infection
+41	Therapeutic targets and molecular mechanisms	therapeutic, development, target, molecular, potential
+42	Carpal tunnel syndrome and nerve compression	nerve, syndrome, tunnel, carpal, neuropathy
+43	Randomized controlled trials	trials, randomized, clinical, controlled, efficacy
+44	Retinal detachment and vitrectomy	retinal, eye, detachment, macular, vitrectomy
+45	Alcoholic liver disease	liver, hepatic, alcohol, metastasis, alcoholic
+46	Systematic reviews and meta-analyses	systematic, metaanalysis, pubmed, search, literature
+47	Multidrug resistance and drug efflux	drug, resistance, mdr, multidrug, resistant
+48	Mesenchymal stem cell differentiation	mscs, stem, mesenchymal, cell, differentiation
+49	Coronary CT angiography and stenosis	coronary, artery, angiography, cad, stenosis
+50	COVID-19 and hospital care	covid, pandemic, coronavirus, infection, sars
+51	Sickle cell disease and thalassemia	sickle, thalassemia, hemoglobin, anemia, scd
+52	Hydatid cysts and rare presentations	old, rare, cyst, right, hydatid
+53	Phase trials, dosing and response	months, median, days, response, dose
+54	Multiple myeloma	myeloma, plasma, bortezomib, lenalidomide, dexamethasone
+55	Cornea, keratoconus and keratoplasty	corneal, eye, cornea, keratoconus, visual
+56	Diagnostic sensitivity and specificity	value, sensitivity, specificity, correlation, positive
+57	Treatment options and management	treatment, therapy, treated, options, management
+58	CAR-T cell therapy	car, antigen, receptor, chimeric, cell
+59	Adjuvant and neoadjuvant chemotherapy	chemotherapy, radiotherapy, adjuvant, regimen, neoadjuvant
+60	Glioma and glioblastoma	glioma, brain, glioblastoma, grade, gbm
+61	Tumor biology and microenvironment	tumor, malignant, solid, carcinoma, metastasis
+62	Protein binding domains and peptides	binding, protein, domain, site, acid
+63	Platelet aggregation and thrombocytopenia	platelet, aggregation, count, thrombocytopenia, itp
+64	Hemophilia and coagulation disorders	hemophilia, bleeding, coagulation, viii, inhibitor
+65	Biopsy of benign and malignant lesions	lesions, benign, malignant, biopsy, needle
+66	Tissue optical properties and spectroscopy	tissue, optical, measurements, light, scattering
+67	Pediatric and juvenile disease	children, pediatric, childhood, adult, age
+68	Bone marrow and hematopoiesis	bone, marrow, colony, progenitor, cfu
+69	Health services and screening programs	care, health, medical, screening, program
+70	Risk factors, smoking and alcohol	risk, association, ratio, odds, confidence
+71	Green tea polyphenols	tea, green, polyphenols, catechins, egcg
+72	Chronic myeloid and lymphocytic leukemia	chronic, leukemia, cml, cll, lymphocytic
+73	Foreign body ingestion and removal	body, foreign, weight, ingestion, removal
+74	Lymph node metastasis and sentinel biopsy	node, lymph, metastasis, lymphatic, sentinel
+75	Rat nephrotoxicity and oxidative stress	rats, induced, days, renal, kidney
+76	Maternal anemia and pregnancy outcomes	women, pregnancy, pregnant, maternal, birth
+77	Scleroderma, pemphigus and skin disease	skin, systemic, ssc, pemphigus, cutaneous
+78	Laser therapy and surgery	laser, irradiation, yag, diode, power
+79	Mouse models and xenografts	mice, model, vivo, animals, murine

@@ -1,0 +1,65 @@
+id	name	terms
+0	Model calibration and uncertainty	model, modeling, simulation, data, parameters
+1	Oxidative degradation of organic pollutants	organic, compounds, chemical, degradation, oxidation
+2	Sustainable development concepts	development, sustainable, economy, technology, sustainability
+3	Species records, richness and invasions	species, habitat, diversity, richness, birds
+4	Drinking water quality and supply	water, quality, drinking, supply, parameters
+5	Human health risks of exposure	health, risk, human, exposure, disease
+6	Soil properties, moisture and contamination	soil, moisture, content, properties, contaminated
+7	Climate change impacts and adaptation	climate, change, global, adaptation, warming
+8	Dye and metal ion adsorption	adsorption, adsorbent, removal, isotherm, kinetics
+9	Indoor and ambient air quality	air, pollution, quality, pollutants, indoor
+10	Spatio-temporal patterns and scale	spatial, distribution, scale, temporal, patterns
+11	Watershed rainfall-runoff processes	runoff, watershed, rainfall, catchment, hydrological
+12	Urbanization and urban planning	urban, city, planning, urbanization, heat
+13	Forest resources and deforestation	forest, forestry, fires, tropical, timber
+14	Wastewater treatment processes	wastewater, treatment, removal, effluent, sludge
+15	Greenhouse gas emissions and carbon	emissions, gas, greenhouse, ghg, fuel
+16	Land use and cover change	land, cover, change, cultivated, gis
+17	Municipal solid waste disposal	waste, solid, landfill, recycling, disposal
+18	Heavy metal toxicity and accumulation	metal, heavy, cadmium, lead, copper
+19	Rat toxicity and oxidative stress	exposure, groups, exposed, cell, rats
+20	Bacterial isolates and novel species	bacteria, strain, bacterial, microbial, isolated
+21	Flood risk and damage	flood, flooding, risk, events, disaster
+22	Integrated management and decision support	management, strategies, practices, decision, planning
+23	Fishing effort and catch	fish, fisheries, fishing, catch, stock
+24	Environmental impact assessment and LCA	environmental, environment, assessment, life, cycle
+25	Ecological and local communities	community, diversity, structure, composition, microbial
+26	Aerosols, clouds and lidar	cloud, aerosol, particles, measurements, optical
+27	Breeding biology and reproduction	population, females, breeding, male, size
+28	Lake plankton and algal blooms	lake, phytoplankton, blooms, zooplankton, eutrophication
+29	Membrane filtration and fouling	membrane, flux, fouling, separation, filtration
+30	Socio-economic policy and governance	economic, policy, social, sustainability, governance
+31	Ecosystem services and functioning	ecosystem, services, biodiversity, conservation, human
+32	Environmental education in schools	education, students, school, teachers, awareness
+33	Air temperature trends	temperature, heat, thermal, surface, conditions
+34	Sample analysis and measured concentrations	concentration, samples, values, higher, sampling
+35	Growth, survival and mortality rates	rate, growth, survival, mortality, seedlings
+36	River basins and discharge	river, basin, downstream, discharge, tributaries
+37	Oil spills and petroleum hydrocarbons	oil, spill, palm, hydrocarbons, crude
+38	Precipitation trends and drought	precipitation, drought, period, season, annual
+39	ENSO and sea surface temperature	sea, ocean, pacific, north, atlantic
+40	Groundwater and aquifers	groundwater, aquifer, wells, recharge, contamination
+41	Constructed and coastal wetlands	wetland, coastal, constructed, vegetation, marsh
+42	Chinese ecological construction and evaluation	ecological, china, environment, construction, ecology
+43	Solar and renewable energy	energy, power, solar, fuel, consumption
+44	Evaluation index systems and weighting	index, evaluation, values, indicators, assessment
+45	Sediment transport and deposition	sediment, transport, bed, suspended, particles
+46	Tree growth and stand structure	tree, stand, height, diameter, pine
+47	Resource use and carrying capacity	resources, natural, utilization, human, environment
+48	Satellite remote sensing of vegetation	remote, sensing, data, images, satellite
+49	Landslides and slope stability	landslide, slope, hazard, map, susceptibility
+50	Activated carbon and carbon sequestration	carbon, activated, dioxide, sequestration, biomass
+51	Machine learning and neural forecasting	network, prediction, learning, neural, machine
+52	Plant traits, uptake and phytoremediation	plant, leaf, root, vegetation, seed
+53	Natural gas hydrate reservoirs	gas, hydrate, reservoir, formation, methane
+54	Nitrogen and phosphorus nutrients	nitrogen, phosphorus, nutrient, nitrate, ammonia
+55	Bacteriophages and phage therapy	phage, host, bacteriophage, infection, gene
+56	Agriculture and food production	agricultural, production, crop, agriculture, yield
+57	Project evaluation and monitoring programs	project, design, construction, program, sites
+58	Debris flow and channel hydraulics	flow, velocity, channel, bed, transport
+59	National parks and environmental law	state, national, united, international, park
+60	Diet, predation and food webs	food, diet, prey, feeding, predators
+61	Coral reefs and bleaching	coral, reef, marine, island, coastal
+62	Green space and green infrastructure	green, space, park, roof, open
+63	Landscape ecology and design	landscape, design, habitat, patches, natural

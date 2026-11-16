@@ -1,0 +1,65 @@
+id	name	terms
+0	Total synthesis of alkaloids	synthesis, synthetic, cyclization, pot, route
+1	Liquid chromatography columns and separation	hplc, column, mobile, phase, min
+2	Crystal structure determination	crystal, structure, xray, diffraction, space
+3	Thermodynamics of binary mixtures	data, values, experimental, parameters, mixture
+4	Diesel and gasoline engine combustion	engine, fuel, combustion, diesel, emission
+5	Aromatic, carbonyl and sulfur compounds	compounds, title, carbonyl, heterocyclic, containing
+6	Catalytic hydrogenation and methanol synthesis	catalyst, catalytic, hydrogenation, activity, selectivity
+7	Phosphine and carbene metal complexes	complex, ligand, bis, coordination, pph
+8	Carboxylic acids and esterification	acid, carboxylic, esters, acetic, fatty
+9	Hydrogen bonding and networks	bond, hydrogen, bonding, intermolecular, intramolecular
+10	Electrospray and MALDI mass spectrometry	mass, spectrometry, ionization, electrospray, desorption
+11	Molecular simulation and host–guest binding	molecular, molecules, interactions, dynamics, guest
+12	Living, RAFT and vinyl polymerization	polymer, polymerization, copolymers, chain, poly
+13	ICP and AAS trace analysis	determination, samples, standard, limit, recovery
+14	Imidazolium ionic liquids	liquid, ionic, ils, methylimidazolium, phase
+15	NIR spectroscopy and PLS calibration	model, nir, infrared, prediction, near
+16	Amino acids and amino heterocycles	amino, amine, peptide, pyrimidine, protected
+17	Oil composition and quality	oil, fatty, content, crude, olive
+18	ChemInform synthesis abstracts	abstract, cheminform, title, vii, viii
+19	Proteomics and protein identification	protein, proteomics, peptide, cell, proteome
+20	Colloidal particles and silica surfaces	surface, particles, nanoparticles, size, silica
+21	Enantioselective catalysis and synthesis	chiral, asymmetric, enantioselective, enantioselectivity, enantiomers
+22	NMR chemical shift assignment	nmr, spectroscopy, spectra, shift, synthesized
+23	Vibrational and Raman spectra	spectra, absorption, band, laser, infrared
+24	Photoinduced electron and charge transfer	transfer, electron, charge, donor, acceptor
+25	Organic crystal structure reports	ring, angle, title, dihedral, ecules
+26	NMR spin coupling and relaxation	magnetic, resonance, nuclear, spin, field
+27	Ion pairs, exchange and mobility	ion, exchange, pair, charge, selective
+28	Metal–organic frameworks and catalysis	metal, organic, mof, transition, materials
+29	Adsorption isotherms and adsorbents	adsorption, isotherms, capacity, adsorbent, separation
+30	Fluorescent probes and chemosensors	fluorescence, sensor, detection, fluorescent, probe
+31	Palladium cross-coupling and Suzuki reactions	catalyzed, coupling, palladium, aryl, cross
+32	Non-Newtonian fluid rheology	flow, fluid, shear, viscosity, stress
+33	Singlet and triplet excited states	state, excited, transition, ground, solid
+34	Salts, anions and cations	anion, cation, salt, chloride, ammonium
+35	Diels–Alder and cycloaddition reactions	reaction, products, formation, intermediate, mechanism
+36	Electrodes and voltammetric sensors	electrode, electrochemical, voltammetry, potential, cyclic
+37	Chemical industry and production processes	process, materials, development, production, technology
+38	Free radicals and photoredox reactions	radical, free, light, cyclization, visible
+39	Methyl, ethyl and ester derivatives	methyl, esters, ethyl, dimethyl, phenyl
+40	Functional and protecting groups	group, functional, position, space, hydroxyl
+41	DFT and ab initio calculations	energy, calculations, theory, density, dft
+42	Solvent polarity and green solvents	solvent, extraction, organic, free, eutectic
+43	Chemistry teaching and laboratory courses	chemistry, students, experiments, laboratory, teaching
+44	Water, emulsions and hydration	water, soluble, emulsion, methanol, ethanol
+45	Heterocyclic derivative synthesis	derivatives, pyridine, pyrimidine, synthesized, indole
+46	Temperature and pressure effects	temperature, room, pressure, thermal, heat
+47	Antimicrobial and anticancer screening	activity, cell, antibacterial, antimicrobial, synthesized
+48	Micelles and critical micelle concentration	surfactant, micelles, concentration, micellar, sodium
+49	Oxidation reactions and oxidants	oxidation, oxygen, oxide, oxidative, oxidant
+50	Alcohols, amines and carbonyl compounds	alcohols, ketones, aldehydes, amine, aromatic
+51	Coordination geometry in crystal structures	atom, distorted, coordinated, coordination, bis
+52	Gas chromatography and gas analysis	gas, phase, chromatography, methane, hydrocarbons
+53	Efficient synthesis under mild conditions	yield, conditions, mild, excellent, free
+54	Reaction kinetics and rate constants	rate, kinetic, constant, mechanism, activation
+55	Aqueous electrolyte solutions	solution, aqueous, concentration, sodium, dilute
+56	Chemical and physical properties	chemical, properties, shift, physical, quantum
+57	Carbon dioxide and carbon materials	carbon, dioxide, monoxide, methane, nitrogen
+58	Schiff bases	base, schiff, condensation, lewis, synthesized
+59	Trivalent metal complexes and species	iii, iron, cobalt, chloride, chromium
+60	Zeolites and ZSM-5	zeolite, zsm, sites, pore, hydrothermal
+61	Substituent effects and substituted aryls	substituted, substituents, aryl, phenyl, alkyl
+62	Copper catalysis and click chemistry	copper, alkynes, azide, zinc, catalyzed
+63	Microwave-assisted synthesis and heating	microwave, irradiation, heating, assisted, time

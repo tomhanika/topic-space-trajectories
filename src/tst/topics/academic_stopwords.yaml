@@ -1,0 +1,120 @@
+# Generic words of academic prose, removed from the topic vocabulary (vectorize.academic_stopwords).
+#
+# Each word removes its whole variant group, so "study" also removes "studies". English function words are
+# removed earlier (scikit-learn's list). The bundle shows this file's categories and reasons (methods.json).
+# A field config can keep single words with vectorize.keep, or add its own with vectorize.stopwords.
+
+date: 2026-11-05
+method: >-
+  From the 14 OpenAlex field runs (biology ... sociology, about 45 million abstracts) every word group was scored by
+  its document frequency in the second-least frequent field (high = frequent everywhere), by its spread over the
+  topics of each field's NMF model (normalised entropy of its loadings) and by how often it was among a topic's 10
+  top words (scripts/stopword_candidates.py). The 1,000 best candidates were reviewed by hand, combining term
+  statistics with expert review as Sarica & Luo (2021) do. Kept on the list: words for research acts, rhetoric,
+  evaluation, quantity and generic relations. Left off: words that name a subject in at least one field.
+  Added on 2026-11-05 from the topics of the first recomputed fields: "collected" (in the data-collection
+  topics of four fields) and "stateoftheart" ("state-of-the-art" written as one word by the tokenizer).
+references: [sarica2021, schofield2017, gerlach2019]
+categories:
+  - name: Research acts, genres and parts of a paper
+    words: >-
+      paper article study research review thesis analysis method methodology approach technique framework
+      result finding conclusion implication limitation overview introduction summary topic investigation
+      author researcher keywords doi fig copyright elsevier licensee reserved
+  - name: Verbs of academic prose and their participles
+    words: >-
+      present presented presenting propose proposed proposing provide provided providing show shown showed
+      showing demonstrate demonstrated demonstrating investigate investigated investigating examine examined
+      examining explore explored exploring analyze analyzed analyzing discuss discussed discussing describe
+      described describing studied studying use used using apply applied applying develop developed based
+      include included including consider considered considering determine determined determining identify
+      identified identifying compare compared comparing obtain obtained obtaining perform performed
+      conducted carry carried employing utilize utilized utilizing evaluate evaluated assess assessed
+      observe observed find found suggest suggested indicate indicated indicating reveal revealed report
+      reported establish established establishing achieve achieved focus focused focusing aim aimed aiming
+      allow allowed allowing enable require required requiring need needed help make made give given giving
+      gave take taken taking led follow followed following introduce introduced introducing contribute
+      contributing involve involved involving relate related associate associated characterize characterized
+      represent representing define defined extend extended extending generate generated produce produced
+      create created improve improved improving increase increased increasing reduce reduced reducing
+      affected occur occurring exist appear remain depend depending consist consisting contain explain
+      explained confirm confirmed prove proved proven understand highlight emphasize illustrate clarify
+      summarize summarized tend serve rely ensure overcome offer combine combined combining select selected
+      choose chosen regard regarding concern concerning refer referred mention mentioned noted adopt adopted
+      derive derived estimate estimated know known called seen look begin starting continue reach reached
+      build attempt collected
+  - name: Function words missing from scikit-learn's English list
+    words: >-
+      does did doing shall according
+  - name: Qualifiers, quantifiers and connectives
+    words: >-
+      new novel different various several multiple important significant significantly main major key
+      particular general specific common recent recently previous previously possible high low lower large
+      small larger greater great good better best strong single total overall final initial additional basic
+      fundamental essential crucial relevant appropriate necessary sufficient effective efficient useful
+      successful unique typical typically similar distinct direct directly relative relatively respective
+      respectively wide widely highly strongly mainly largely primarily particularly especially specifically
+      generally usually commonly frequently clearly fully nearly approximately greatly considerably
+      substantially substantial considerable extensive comprehensive detailed simple difficult challenging
+      certain likely possibly potentially actually long short far little numerous variety existing original
+      proper properly suitable adequate available limited clear consistent comparable corresponding
+      interesting remarkable notable notably obvious apparent entire second third seven half extra prominent
+      dominant desirable acceptable conventional advanced future past subsequent subsequently finally lastly
+      firstly secondly furthermore additionally moreover consequently accordingly hence whilst versus
+      regardless despite instead unlike like just quite nearly stateoftheart
+  - name: Generic nouns of academic prose
+    words: >-
+      problem case example instance effect factor role impact influence importance significance purpose
+      objective goal basis way manner kind type form number level degree extent range order point portion
+      step end fact idea view perspective context situation respect addition comparison combination
+      difference characteristic application use ability possibility presence absence lack effort
+      contribution progress advance insight area direction trend challenge opportunity advantage success
+      improvement criterion principle version year decade consequence connection assumption description
+      consideration difficulty necessity quantity total lot one question aspect issue
+  - name: Fragments of hyphenated words written apart ("non linear", "multi scale")
+    words: >-
+      non multi semi pre sub anti inter intra
+# Candidates left off on purpose: each names a subject in at least one field.
+not_stopwords:
+  - words: model data theory system process time state structure value change development practice
+    reason: Name the subject of many papers in at least one field (data science, systems theory, state theory, development economics, climate change, practice theory).
+  - words: current
+    reason: Electric current (physics, engineering).
+  - words: affect attention
+    reason: Psychological constructs (affect, attention).
+  - words: higher
+    reason: Higher education.
+  - words: literature
+    reason: Literary studies; also "the literature" in other fields.
+  - words: gap
+    reason: Band gap (physics, materials); gender and wage gap (social sciences).
+  - words: reduction
+    reason: Chemical reduction; poverty and risk reduction.
+  - words: developing
+    reason: Developing countries.
+  - words: decision
+    reason: Decision making.
+  - words: evidence
+    reason: Evidence-based practice and medicine.
+  - words: iii
+    reason: III-V semiconductors.
+  - words: base
+    reason: Acid-base chemistry; bases of DNA.
+  - words: relation
+    reason: International relations.
+  - words: conduct
+    reason: Conduct disorder (psychology).
+  - words: employ employed
+    reason: Employment.
+  - words: built
+    reason: Built environment.
+  - words: play
+    reason: Play in child development; plays in theatre.
+  - words: deal
+    reason: New Deal; deals in business.
+  - words: determination identification
+    reason: Sex and self-determination; identification in econometrics and social identity.
+  - words: extension modification adjustment
+    reason: Agricultural extension; genetic and behaviour modification; structural adjustment, adjustment disorder.
+  - words: performing note call start vital discussion examination
+    reason: Performing arts; musical note; calls (biology, finance); start-ups; vital signs; deliberation and discussion groups; clinical examination.

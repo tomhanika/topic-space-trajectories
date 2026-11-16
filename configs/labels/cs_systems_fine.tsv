@@ -1,0 +1,57 @@
+id	name	terms
+0	Distributed systems and fault tolerance	distributed, systems, failure, environment, scale
+1	Ad hoc and multipath routing	routing, nodes, path, route, hoc
+2	Bit error rates and rate control	rate, error, bit, ber, correction
+3	Intrusion detection systems	detection, intrusion, ids, anomaly, detect
+4	Sensor network deployment and coverage	sensor, wireless, wsn, nodes, lifetime
+5	Spectrum sensing and sharing	spectrum, radio, cognitive, sensing, primary
+6	Task scheduling and multiprocessors	scheduling, task, schedule, scheduler, execution
+7	Video coding, H.264 and HEVC	video, coding, motion, compression, frame
+8	Information exchange and age of information	information, state, process, exchange, retrieval
+9	Relational and NoSQL database systems	database, relational, transactions, systems, sql
+10	Leader-follower consensus and formation control	control, agents, consensus, multiagent, formation
+11	LDPC, turbo and polar codes	code, decoding, ldpc, decoder, parity
+12	Fast algorithms and complexity	algorithm, fast, complexity, simulation, search
+13	Analytical and Markov models	model, modeling, prediction, parameters, behavior
+14	Fault diagnosis and test generation	fault, test, circuit, testing, tolerance
+15	IoT architectures, platforms and security	iot, internet, devices, things, smart
+16	Network security, privacy and trust	security, authentication, secure, threats, privacy
+17	Cache memory and hierarchies	memory, cache, access, performance, shared
+18	Real-time systems and time series	time, real, series, systems, world
+19	FIR and IIR digital filters	filter, digital, fir, frequency, response
+20	Mobile devices and mobility	mobile, hoc, manet, mobility, agents
+21	Fingerprint, iris and face biometrics	image, biometric, recognition, fingerprint, features
+22	DOA estimation and beamforming	array, estimation, doa, signal, arrival
+23	Parallel programming and MPI	parallel, program, programming, gpu, computer
+24	Digital media, social media and technology	technology, media, development, social, digital
+25	Internet protocols and RFCs	protocol, mac, layer, standard, ieee
+26	Energy consumption and power saving	energy, consumption, efficiency, lifetime, saving
+27	Speech enhancement and noise reduction	speech, noise, signal, enhancement, audio
+28	Client-server systems and web servers	server, client, web, requests, file
+29	Quality of service provisioning	service, qos, quality, requirements, multimedia
+30	Data streams and big data processing	data, storage, processing, big, stream
+31	Grid computing and middleware	grid, resources, computing, environment, job
+32	System-level design and synthesis	design, implementation, synthesis, tools, chip
+33	Authentication and coding schemes	scheme, authentication, simulation, overhead, coding
+34	Network management and SNMP	management, resources, monitoring, policy, manage
+35	XML queries and index structures	query, xml, index, tree, processing
+36	Cooperative relaying and relay selection	relay, cooperative, forward, relaying, nodes
+37	Coupled oscillators and network synchronization	synchronization, delay, stability, neural, oscillators
+38	Load balancing	load, balancing, dynamic, balance, strategy
+39	Edge computing and task offloading	computing, edge, cloud, latency, offloading
+40	Peer-to-peer overlays and content sharing	peer, overlay, content, file, streaming
+41	Network traffic measurement and ATM switching	traffic, flow, switch, sdn, atm
+42	WSN clustering and HPC clusters	cluster, clustering, head, nodes, leach
+43	User access, authentication and multiuser systems	user, access, interface, primary, secondary
+44	DDoS attacks and defense	attacks, ddos, denial, malicious, threats
+45	Deep learning, malware and audio classification	learning, machine, deep, dataset, classification
+46	Embedded software, FPGAs and accelerators	software, hardware, fpga, platform, implementation
+47	TCP performance, queues and packet loss	packet, tcp, congestion, delay, throughput
+48	Communication networks and group communication	communication, message, wireless, group, link
+49	Constrained optimization and heuristics	optimization, optimal, constraints, solution, allocation
+50	Blind source separation and ICA	source, separation, sound, blind, localization
+51	Processor architecture and multicore chips	architecture, processor, chip, core, instruction
+52	Network function virtualization and PUFs	function, virtual, cost, nfv, probability
+53	Object-oriented and spatio-temporal databases	object, oriented, spatial, moving, language
+54	Channel capacity, CDMA and multiple access	channel, interference, cdma, capacity, access
+55	Power control and low-power design	power, consumption, control, voltage, saving

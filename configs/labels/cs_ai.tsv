@@ -1,0 +1,25 @@
+id	name	terms
+0	LLMs, multimodal models and fine-tuning	model, datasets, task, training, performance
+1	Image processing and enhancement	image, color, pixel, features, resolution
+2	Bayesian estimation, filtering and optical metrology	filter, estimation, noise, error, measurement
+3	Neural networks and CNNs	network, neural, deep, convolutional, cnn
+4	Object detection and tracking	detection, object, tracking, target, yolov
+5	Security, encryption and privacy	security, encryption, scheme, attacks, secure
+6	Quantum computing and entanglement	quantum, state, qubit, entanglement, classical
+7	Speech recognition and synthesis	speech, speaker, recognition, voice, acoustic
+8	AI applications, HCI and data visualization	user, data, intelligence, artificial, technology
+9	Medical image segmentation and diagnosis	segmentation, cancer, medical, diagnosis, patient
+10	Natural language and text processing	text, language, word, natural, sentence
+11	Genetic and swarm optimization	algorithm, optimization, search, genetic, swarm
+12	Face, character and pattern recognition	recognition, face, facial, features, human
+13	Software engineering, programming languages and logic	software, program, programming, design, systems
+14	Robot path planning and navigation	robot, planning, path, obstacles, environment
+15	Image compression and watermarking	compression, wavelet, transform, watermarking, coding
+16	Fuzzy logic and control	fuzzy, control, controller, logic, rules
+17	Machine learning classification and SVMs	classification, learning, machine, features, classifier
+18	Graph neural networks and embeddings	graph, nodes, structure, representation, edge
+19	Video understanding and surveillance	video, frame, motion, temporal, sequence
+20	Clustering and k-means	clustering, cluster, data, means, algorithm
+21	Educational technology and augmented reality	students, teaching, education, technology, learning
+22	Multi-agent systems and reinforcement learning	agent, learning, reinforcement, multiagent, policy
+23	Semantic web, ontologies and retrieval	semantic, ontology, knowledge, web, information

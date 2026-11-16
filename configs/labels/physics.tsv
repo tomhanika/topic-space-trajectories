@@ -1,0 +1,33 @@
+id	name	terms
+0	Ground and excited states	state, ground, excited, excitation, bound
+1	Stars, binaries and planets	star, mass, stellar, binary, planet
+2	Higgs boson and LHC searches	boson, collisions, tev, higgs, production
+3	Gauge and string theory	theory, gauge, symmetry, space, field
+4	Detectors and imaging instruments	detector, measurements, resolution, images, imaging
+5	Magnetic fields and moments	magnetic, field, electric, external, magnetization
+6	Plasma physics and fusion	plasma, ion, density, instability, tokamak
+7	Ultrashort laser pulses	laser, pulse, fiber, generation, frequency
+8	Gamma-ray astronomy and cosmic rays	ray, gamma, cosmic, energy, bursts
+9	Thin films and epitaxial growth	films, layer, surface, substrate, growth
+10	Scattering cross sections	section, cross, scattering, differential, measurements
+11	Quantum systems and quantum dots	quantum, dot, classical, mechanics, systems
+12	Dark matter and cosmology	dark, matter, universe, cosmological, scale
+13	Exact solutions of nonlinear equations	equation, solution, nonlinear, soliton, exact
+14	Phase transitions and superconductivity	phase, temperature, transition, critical, superconducting
+15	Galaxies and galaxy clusters	galaxy, cluster, redshift, survey, formation
+16	Particle interactions and forces	particle, charged, interaction, force, motion
+17	Meson decays and flavor physics	decay, branching, neutrino, meson, measurements
+18	QCD, quarks and hadrons	quark, qcd, meson, heavy, gluon
+19	Black holes	hole, black, horizon, gravitational, spacetime
+20	Complex networks	network, nodes, social, dynamics, complex
+21	Electron scattering and ionization	electron, energy, beam, phonon, ionization
+22	GaN transistors and power devices	current, voltage, gan, devices, power
+23	Model predictions and simulations	model, parameters, data, simulations, standard
+24	X-ray sources and emission	xray, source, kev, soft, hard
+25	Nuclear reactions and structure	neutron, reaction, nuclei, nuclear, mev
+26	Wave propagation and dispersion	wave, frequency, amplitude, electromagnetic, propagation
+27	Spectral lines and continuum emission	line, emission, spectrum, region, spectral
+28	Spin interactions and magnetic order	spin, orbit, coupling, interaction, exchange
+29	Radiotherapy dose planning	dose, treatment, patients, radiation, beam
+30	Photonic crystals and waveguides	optical, crystal, photonic, light, mode
+31	Atomic and molecular calculations	atoms, calculations, energy, molecules, potential

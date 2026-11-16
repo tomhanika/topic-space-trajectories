@@ -1,0 +1,66 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the papers that introduced its methods."
+title: "topic-space-trajectories (tst)"
+type: software
+authors:
+  - family-names: Hanika
+    given-names: Tom
+version: 0.1.0
+license: AGPL-3.0-only
+repository-code: "https://github.com/tomhanika/topic-space-trajectories"
+keywords:
+  - topic models
+  - scientometrics
+  - research trajectories
+  - co-authorship networks
+  - OpenAlex
+preferred-citation:
+  type: article
+  title: "Topic space trajectories: A case study on machine learning literature"
+  authors:
+    - family-names: Schäfermeier
+      given-names: Bastian
+    - family-names: Stumme
+      given-names: Gerd
+    - family-names: Hanika
+      given-names: Tom
+  journal: Scientometrics
+  volume: 126
+  issue: 7
+  start: 5759
+  end: 5795
+  year: 2021
+  doi: 10.1007/s11192-021-03931-0
+references:
+  - type: article
+    title: "Topic space trajectories: A case study on machine learning literature"
+    authors:
+      - family-names: Schäfermeier
+        given-names: Bastian
+      - family-names: Stumme
+        given-names: Gerd
+      - family-names: Hanika
+        given-names: Tom
+    journal: Scientometrics
+    volume: 126
+    issue: 7
+    start: 5759
+    end: 5795
+    year: 2021
+    doi: 10.1007/s11192-021-03931-0
+  - type: article
+    title: "Research topic flows in co-authorship networks"
+    authors:
+      - family-names: Schäfermeier
+        given-names: Bastian
+      - family-names: Hirth
+        given-names: Johannes
+      - family-names: Hanika
+        given-names: Tom
+    journal: Scientometrics
+    volume: 128
+    issue: 9
+    start: 5051
+    end: 5078
+    year: 2023
+    doi: 10.1007/s11192-022-04529-w

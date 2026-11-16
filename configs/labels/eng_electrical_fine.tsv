@@ -1,0 +1,81 @@
+id	name	terms
+0	Wireless links and protocols	communication, wireless, protocol, link, radio
+1	Manufacturing processes and quality	process, production, manufacturing, industrial, quality
+2	Current sensing, leakage and ripple	current, density, leakage, harmonic, resistance
+3	Energy storage and energy efficiency	energy, storage, renewable, consumption, source
+4	PID and fuzzy controllers	controller, fuzzy, pid, disturbances, loop
+5	Induction and brushless motor drives	motor, speed, induction, drive, torque
+6	Diode-pumped and semiconductor lasers	laser, cavity, pumped, beam, diode
+7	Technology development and trends	technology, development, industry, integration, rfid
+8	Permanent magnet synchronous machines	magnet, permanent, machine, synchronous, torque
+9	Lithium-ion anodes and cathodes	battery, ion, lithium, capacity, electrolyte
+10	Perovskite and silicon solar cells	cell, solar, efficiency, perovskite, photovoltaic
+11	Soft switching and switching losses	switching, switch, loss, switched, soft
+12	Deep learning and forecasting	learning, machine, deep, neural, prediction
+13	Network routing and neural networks	network, neural, node, artificial, routing
+14	Fault diagnosis and fault tolerance	fault, diagnosis, detection, bearing, tolerant
+15	Fiber Bragg gratings and sensors	fiber, grating, optic, bragg, core
+16	Organic semiconductors and charge transport	materials, properties, organic, polymer, charge
+17	Urban traffic flow and congestion	traffic, vehicle, road, flow, intersection
+18	Optical communication and WDM	optical, wavelength, fibre, wdm, link
+19	Proton exchange membrane fuel cells	fuel, membrane, cell, water, proton
+20	Robot kinematics and manipulation	robot, manipulator, motion, robotic, kinematic
+21	Swarm and genetic optimization	algorithm, optimization, optimal, genetic, constraints
+22	Buck, boost and bidirectional converters	converter, boost, output, buck, input
+23	Image fusion and hyperspectral classification	image, classification, fusion, resolution, spatial
+24	Electric vehicle charging	electric, vehicle, charging, evs, station
+25	Dynamic response and multibody dynamics	dynamic, response, static, behavior, simulation
+26	Asymptotic and transient stability criteria	stability, conditions, lyapunov, stable, transient
+27	Silicon photonic waveguides	waveguide, silicon, loss, integrated, photonic
+28	Power supply and power factor	power, supply, reactive, efficiency, quality
+29	Sliding-mode control and optical modes	mode, sliding, operation, chattering, dual
+30	Control strategies, MPC and PLC	control, strategy, predictive, loop, controlled
+31	Measurement error and calibration	measurement, measuring, measured, measure, calibration
+32	Gas sensors and chemical sensing	sensor, sensing, sensitivity, monitoring, gas
+33	Temperature dependence and thermal effects	temperature, thermal, heat, room, heating
+34	Data acquisition and processing systems	data, acquisition, monitoring, rate, information
+35	Frequency, resonance and oscillators	frequency, domain, mhz, response, radio
+36	Bandpass and active filters	filter, resonator, bandpass, band, active
+37	Transmission lines and cables	line, transmission, impedance, cable, microstrip
+38	Indoor localization and position estimation	error, estimation, localization, accuracy, positioning
+39	Magnetic field finite element analysis	field, magnetic, electromagnetic, coil, electric
+40	Phase modulation and phase-locked loops	phase, shift, loop, locked, pll
+41	Cellular resource allocation and QoS	user, service, access, resources, allocation
+42	Wind turbines and generators	wind, turbine, speed, farm, generation
+43	Real-time and discrete-time systems	time, real, domain, discrete, varying
+44	IoT, smart cities and homes	smart, city, iot, internet, home
+45	Engineering teaching and training	engineering, students, teaching, education, course
+46	Analog and digital signal processing	signal, digital, processing, ratio, analog
+47	Circuits, logic and circuit analysis	circuit, integrated, cmos, logic, equivalent
+48	Low-noise and RF CMOS amplifiers	ghz, amplifier, gain, band, dbm
+49	Time-delay and networked control systems	delay, time, packet, inequality, varying
+50	Multilevel inverters and harmonic distortion	inverter, harmonic, multilevel, pwm, source
+51	Smart grids and grid-connected photovoltaics	grid, connected, microgrid, renewable, smart
+52	Cyber-physical and hybrid systems	systems, complex, class, integration, discrete
+53	Thin film deposition and ALD	film, deposition, substrate, deposited, chemical
+54	Synchronous generators and excitation	generator, synchronous, induction, dfig, excitation
+55	Design methods and requirements	design, designed, performance, requirements, optimization
+56	Pulse generation and pulse-width modulation	pulse, width, modulation, repetition, rate
+57	Differential equations and numerical solutions	equations, solution, numerical, differential, finite
+58	State estimation and steady state	state, steady, solid, space, observer
+59	Organic light-emitting diodes	light, emitting, diode, oleds, emission
+60	Structural design and MEMS structures	structure, structural, dimensional, element, size
+61	Electricity markets and demand response	electricity, market, cost, price, demand
+62	Load forecasting and demand	load, forecasting, demand, microgrid, peak
+63	Embedded hardware, software and FPGAs	software, hardware, digital, implementation, computer
+64	MIMO channels, fading and estimation	channel, mimo, ofdm, fading, rate
+65	Gas discharges and electron beams	plasma, electron, discharge, gas, pressure
+66	Voltage regulation and sag compensation	voltage, capacitor, supply, output, reactive
+67	Parameter identification and estimation	parameters, value, identification, variation, function
+68	Noise sources and signal-to-noise ratio	noise, ratio, figure, oscillator, snr
+69	MOSFETs and gate dielectrics	gate, transistors, mosfet, oxide, drain
+70	Solder joint and package reliability	test, solder, reliability, testing, failure
+71	Mathematical modeling and simulation	model, modeling, simulation, mathematical, predictive
+72	Power transformers and insulation	transformer, winding, oil, insulation, protection
+73	Adaptive and hybrid schemes	scheme, adaptive, protection, simulation, relay
+74	Millimeter-wave antennas and terahertz	wave, antenna, array, millimeter, thz
+75	Epitaxial layers and interfaces	layer, surface, interface, thickness, substrate
+76	Robust stability and Lyapunov methods	nonlinear, linear, feedback, output, input
+77	Modified electrodes for electrochemical sensing	electrode, carbon, electrochemical, detection, surface
+78	Electronic, memory and neuromorphic devices	devices, electronic, semiconductor, memory, performance
+79	Distributed generation in distribution networks	distribution, distributed, loss, generation, feeder

@@ -1,0 +1,49 @@
+id	name	terms
+0	Digital logistics and transport industry	technology, development, industry, logistics, management
+1	Aluminum, titanium and nickel alloys	alloy, aluminum, microstructure, grain, titanium
+2	Turbulent and vortex flows	flow, velocity, fluid, reynolds, turbulent
+3	Convective and boiling heat transfer	heat, transfer, exchanger, tube, flux
+4	Fatigue damage and life prediction	fatigue, life, damage, cycle, test
+5	PID, fuzzy and servo control	control, controller, hydraulic, strategy, valve
+6	Cutting, milling and turning	cutting, tool, machining, milling, speed
+7	Hydrocarbon reservoirs and basins	reservoir, oil, formation, permeability, basin
+8	Artificial neural networks	network, neural, learning, data, prediction
+9	Defect detection and nondestructive inspection	defects, detection, image, inspection, features
+10	Tensile strength and hardness	properties, mechanical, strength, tensile, test
+11	Energy storage, harvesting and saving	energy, power, efficiency, storage, consumption
+12	Arc and friction stir welding	welding, weld, joint, welded, metal
+13	Mathematical models and prediction	model, simulation, modeling, dynamic, numerical
+14	Premixed flames and combustors	flame, combustion, fuel, combustor, air
+15	Battery state of charge estimation	battery, ion, lithium, cell, charge
+16	Electric and autonomous vehicles	vehicle, road, driving, electric, car
+17	Sliding friction and tribology	friction, wear, coefficient, sliding, contact
+18	Robot teleoperation and haptics	robot, systems, environment, human, task
+19	Residual stress and plastic strain	stress, strain, deformation, residual, plastic
+20	Vibration and modal analysis	vibration, frequency, dynamic, response, mode
+21	Stainless steels and phase transformation	steel, stainless, microstructure, austenite, carbon
+22	Advanced and functionally graded materials	material, properties, metal, structure, polymer
+23	Laser ablation and laser-induced plasma	laser, pulse, beam, induced, ablation
+24	Design methodology and design education	design, structure, engineering, optimization, designers
+25	Finite element and difference schemes	equations, finite, element, solution, numerical
+26	Job shop scheduling and genetic algorithms	algorithm, scheduling, optimization, time, job
+27	Additive manufacturing and production	process, manufacturing, production, product, parts
+28	Thermal conductivity and temperature effects	temperature, thermal, heating, conductivity, change
+29	Coal mining, gasification and combustion	coal, plant, mining, gasification, seam
+30	Fiber-reinforced composites	composite, fiber, reinforced, matrix, carbon
+31	Crack growth and fracture toughness	crack, fracture, growth, propagation, tip
+32	Diesel engines	engine, diesel, fuel, emission, exhaust
+33	Particle size and fluidized beds	particle, size, powder, bed, distribution
+34	Surface roughness and topography	surface, roughness, contact, shape, rough
+35	Surrounding rock and roadway support	rock, failure, mass, tunnel, surrounding
+36	Measurement accuracy and sensors	measurements, data, test, error, measuring
+37	Gears and transmissions	gear, tooth, transmission, contact, meshing
+38	Thin films and sputtering	film, thickness, substrate, deposited, sputtering
+39	Pressure valves, vessels and cavitation	pressure, hydraulic, drop, tube, valve
+40	Wave propagation and shock waves	wave, ultrasonic, acoustic, propagation, shock
+41	Phase change, droplets and interfaces	phase, liquid, solid, droplet, change
+42	Natural gas and flue gas	gas, turbine, natural, flue, membrane
+43	Reaction kinetics and separation	reaction, concentration, acid, chemical, carbon
+44	Boundary layers and laminar transition	layer, boundary, plate, thickness, wall
+45	Air conditioning and refrigeration	air, water, cooling, pump, performance
+46	Railway track and trains	rail, railway, train, track, speed
+47	Protective and wear-resistant coatings	coating, resistance, corrosion, substrate, wear

@@ -1,0 +1,42 @@
+# OpenAlex: Engineering, part 3: civil and structural, building and construction, architecture, ocean, safety and reliability, general.
+# Ids: configs/openalex_subfields.csv. Needs the store next to the repository folder: tst openalex-fetch ../openalex
+name: eng_civil
+workdir: ../runs/eng_civil
+input:
+  path: ../../openalex                # relative to this file, i.e. <repository>/../openalex
+  format: openalex
+  openalex:
+    subfields: [2205, 2215, 2216, 2212, 2213, 2200]
+  min_year: 1960
+preprocess:
+  min_tokens: 20
+vectorize:
+  min_df: 50
+  max_df: 0.4
+  max_features: 60000
+topics:
+  k_grid: [24, 32, 40, 48, 56, 64, 80]
+  runs: 3
+  train_sample: 400000
+trajectories:
+  entities:
+    venue: {min_papers: 20, window: 3, smoothing: pooled}
+    author: {min_papers: 3, window: 3, smoothing: pooled, min_years: 3}
+  pairwise: {entity_type: venue, max_entities: 300}
+projection:
+  fit_sample: 200000
+  doc_sample: 1000000
+network:
+  min_author_papers: 10
+  window: 3
+export:
+  label: "Engineering: civil and building"
+  group: "Engineering and Computer Science"
+  labels_file: labels/eng_civil.tsv          # topic names (tst.topics.model.read_labels)
+  max_docs: 200000
+  url_template: "https://openalex.org/{source_id}"
+  notes:                           # why this corpus differs from the defaults; shown in the bundle
+    input.openalex.subfields: "Engineering (field 22) is split into five maps; part 3: Civil and Structural Engineering; Building and Construction; Architecture; Ocean Engineering; Safety, Risk, Reliability and Quality; General Engineering."
+    trajectories.entities.author: "3 papers a year: about the 95th percentile of papers per author and year in this field."
+fine:
+  enabled: true                    # second, finer topic resolution in <workdir>/fine

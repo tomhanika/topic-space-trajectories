@@ -1,0 +1,41 @@
+id	name	terms
+0	Crystal structure determination	structure, structural, space, crystal, diffraction
+1	Materials development and applications	materials, development, design, technology, performance
+2	Mechanical properties of blends	mechanical, strength, properties, tensile, modulus
+3	Thin film deposition and sputtering	films, substrate, deposition, deposited, thickness
+4	Protective coatings	coating, coated, resistance, layer, protection
+5	Steel corrosion and inhibitors	corrosion, steel, inhibitor, stainless, solution
+6	Targeted drug delivery for cancer	drug, delivery, cell, cancer, tumor
+7	Polymer synthesis and copolymers	polymer, poly, copolymer, chain, polymerization
+8	Luminescence and phosphors	emission, phosphor, luminescence, excitation, photoluminescence
+9	Electronic band structure and DFT	electronic, band, state, density, calculations
+10	Magnetic properties and magnets	magnetic, field, magnetization, spin, ferromagnetic
+11	Dielectric and ferroelectric properties	dielectric, ferroelectric, frequency, constant, polarization
+12	Metamaterials and metasurfaces	optical, absorption, metamaterial, wave, metasurface
+13	Carbon nanotubes	carbon, nanotubes, cnts, walled, mwcnts
+14	Thermal conductivity and thermoelectrics	thermal, conductivity, temperature, thermoelectric, electrical
+15	XRD and electron microscopy characterization	electron, xray, microscopy, scanning, diffraction
+16	Sintered and piezoelectric ceramics	ceramic, sintering, powder, sintered, sic
+17	Supercapacitor electrodes	electrode, supercapacitors, electrochemical, capacitance, performance
+18	Plastic deformation and strain rate	strain, stress, deformation, rate, dislocation
+19	Liquid crystals and displays	crystal, liquid, nematic, growth, crystalline
+20	Heterogeneous catalysis and oxidation	catalyst, reaction, catalytic, oxidation, activity
+21	Phase transitions and phase diagrams	phase, transition, temperature, transformation, changes
+22	Alloy microstructure and heat treatment	alloy, magnesium, microstructure, memory, shape
+23	Graphene and 2D materials	graphene, layer, sheet, devices, monolayer
+24	Silicate glasses and crystallization	glass, crystallization, transition, sio, temperature
+25	Zinc oxide nanostructures and doping	zno, zinc, doped, nanorods, nanowires
+26	Fiber-reinforced polymer composites	composite, matrix, reinforced, epoxy, filler
+27	Raman spectroscopy and SERS	raman, scattering, sers, spectra, mode
+28	High-voltage insulation and discharge	voltage, discharge, field, insulation, electric
+29	Irradiation damage and defects	ions, defects, irradiation, vacancy, radiation
+30	Modeling, simulation and prediction	model, simulation, experimental, data, parameters
+31	Solid oxide fuel cells	oxide, fuel, cell, solid, sofc
+32	Hydrogen storage and embrittlement	hydrogen, pressure, storage, gas, hydride
+33	Coordination complexes and ligands	complex, ligand, compounds, iii, synthesis
+34	Surface wettability and adsorption	surface, adsorption, layer, water, contact
+35	Silver nanoparticles and green synthesis	nanoparticles, silver, nps, extract, activity
+36	Particle size and silica powders	particles, size, distribution, silica, powder
+37	Quantum dots and nanocrystals	quantum, dots, qds, cds, shell
+38	Grain boundaries and grain growth	grain, boundary, growth, microstructure, size
+39	Fibers, textiles and electrospinning	fiber, fabric, nanofibers, yarn, cellulose

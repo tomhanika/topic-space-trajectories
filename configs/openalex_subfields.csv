@@ -1,0 +1,254 @@
+subfield,name,field,field_name,n,en,recent
+,?,0,?,2336456,1542327,436020
+1100,General Agricultural and Biological Sciences,11,Agricultural and Biological Sciences,616499,336116,200040
+1102,Agronomy and Crop Science,11,Agricultural and Biological Sciences,584091,375958,144153
+1103,Animal Science and Zoology,11,Agricultural and Biological Sciences,432537,311767,113801
+1104,Aquatic Science,11,Agricultural and Biological Sciences,258851,180915,75396
+1105,"Ecology, Evolution, Behavior and Systematics",11,Agricultural and Biological Sciences,879695,663429,193021
+1106,Food Science,11,Agricultural and Biological Sciences,1123375,757744,332354
+1107,Forestry,11,Agricultural and Biological Sciences,114385,67556,29028
+1108,Horticulture,11,Agricultural and Biological Sciences,11948,6237,3737
+1109,Insect Science,11,Agricultural and Biological Sciences,425057,322874,99652
+1110,Plant Science,11,Agricultural and Biological Sciences,2889947,2101698,777224
+1111,Soil Science,11,Agricultural and Biological Sciences,727129,493146,196269
+1200,General Arts and Humanities,12,Arts and Humanities,73377,18237,20412
+1202,History,12,Arts and Humanities,2348754,1016500,423569
+1203,Language and Linguistics,12,Arts and Humanities,1966889,978951,572707
+1204,Archeology,12,Arts and Humanities,1079286,450803,307352
+1205,Classics,12,Arts and Humanities,457879,243046,87688
+1206,Conservation,12,Arts and Humanities,403825,152757,100794
+1207,History and Philosophy of Science,12,Arts and Humanities,738746,435531,152780
+1208,Literature and Literary Theory,12,Arts and Humanities,2959037,1301372,697820
+1209,Museology,12,Arts and Humanities,637343,332871,145388
+1210,Music,12,Arts and Humanities,874118,445946,191255
+1211,Philosophy,12,Arts and Humanities,1457599,738062,375006
+1212,Religious studies,12,Arts and Humanities,858212,473790,243032
+1213,Visual Arts and Performing Arts,12,Arts and Humanities,1522998,671287,389754
+1302,Aging,13,"Biochemistry, Genetics and Molecular Biology",25274,22573,8314
+1303,Biochemistry,13,"Biochemistry, Genetics and Molecular Biology",94701,85482,12518
+1304,Biophysics,13,"Biochemistry, Genetics and Molecular Biology",192046,170043,44057
+1305,Biotechnology,13,"Biochemistry, Genetics and Molecular Biology",171954,140573,34178
+1306,Cancer Research,13,"Biochemistry, Genetics and Molecular Biology",445973,395834,114285
+1307,Cell Biology,13,"Biochemistry, Genetics and Molecular Biology",432822,378058,92700
+1308,Clinical Biochemistry,13,"Biochemistry, Genetics and Molecular Biology",97396,83852,22634
+1309,Developmental Biology,13,"Biochemistry, Genetics and Molecular Biology",39075,33483,8355
+1310,Endocrinology,13,"Biochemistry, Genetics and Molecular Biology",111389,95267,21120
+1311,Genetics,13,"Biochemistry, Genetics and Molecular Biology",1472106,1235667,343573
+1312,Molecular Biology,13,"Biochemistry, Genetics and Molecular Biology",3624240,3236957,829387
+1313,Molecular Medicine,13,"Biochemistry, Genetics and Molecular Biology",201491,175160,70087
+1314,Physiology,13,"Biochemistry, Genetics and Molecular Biology",78308,63895,13959
+1315,Structural Biology,13,"Biochemistry, Genetics and Molecular Biology",45680,42879,9871
+1402,Accounting,14,"Business, Management and Accounting",1593070,773202,539499
+1403,Business and International Management,14,"Business, Management and Accounting",39145,23938,11944
+1404,Management Information Systems,14,"Business, Management and Accounting",836043,466932,232182
+1405,Management of Technology and Innovation,14,"Business, Management and Accounting",499739,312100,168651
+1406,Marketing,14,"Business, Management and Accounting",831647,421096,296618
+1407,Organizational Behavior and Human Resource Management,14,"Business, Management and Accounting",987268,542522,326258
+1408,Strategy and Management,14,"Business, Management and Accounting",1840009,935827,559720
+1409,"Tourism, Leisure and Hospitality Management",14,"Business, Management and Accounting",59203,29665,15886
+1410,Industrial relations,14,"Business, Management and Accounting",39618,14195,12682
+1502,Bioengineering,15,Chemical Engineering,34133,28925,5526
+1503,Catalysis,15,Chemical Engineering,112322,95369,34705
+1504,Chemical Health and Safety,15,Chemical Engineering,21625,14376,4567
+1506,Filtration and Separation,15,Chemical Engineering,24335,19373,2387
+1507,Fluid Flow and Transfer Processes,15,Chemical Engineering,217122,183610,34810
+1508,Process Chemistry and Technology,15,Chemical Engineering,32420,26263,7828
+1602,Analytical Chemistry,16,Chemistry,393645,317889,77999
+1603,Electrochemistry,16,Chemistry,50455,41368,6279
+1604,Inorganic Chemistry,16,Chemistry,512584,434367,73206
+1605,Organic Chemistry,16,Chemistry,1917294,1579339,236554
+1606,Physical and Theoretical Chemistry,16,Chemistry,272620,229429,36285
+1607,Spectroscopy,16,Chemistry,471067,419378,64839
+1702,Artificial Intelligence,17,Computer Science,2655677,2170888,1066800
+1703,Computational Theory and Mathematics,17,Computer Science,723436,619323,197468
+1704,Computer Graphics and Computer-Aided Design,17,Computer Science,219800,154539,49180
+1705,Computer Networks and Communications,17,Computer Science,1568787,1291376,342711
+1706,Computer Science Applications,17,Computer Science,264346,182382,87978
+1707,Computer Vision and Pattern Recognition,17,Computer Science,1511291,1287356,556456
+1708,Hardware and Architecture,17,Computer Science,376655,328634,65065
+1709,Human-Computer Interaction,17,Computer Science,329791,249015,115822
+1710,Information Systems,17,Computer Science,2538776,1649659,978438
+1711,Signal Processing,17,Computer Science,387893,337963,90147
+1712,Software,17,Computer Science,298680,183285,80499
+1800,General Decision Sciences,18,Decision Sciences,84127,66041,26135
+1802,Information Systems and Management,18,Decision Sciences,520750,343837,171057
+1803,Management Science and Operations Research,18,Decision Sciences,996190,722714,302748
+1804,"Statistics, Probability and Uncertainty",18,Decision Sciences,368328,267982,116772
+1902,Atmospheric Science,19,Earth and Planetary Sciences,584033,488533,122516
+1904,Earth-Surface Processes,19,Earth and Planetary Sciences,299554,223005,51719
+1906,Geochemistry and Petrology,19,Earth and Planetary Sciences,147797,113962,28681
+1907,Geology,19,Earth and Planetary Sciences,230303,170567,50452
+1908,Geophysics,19,Earth and Planetary Sciences,617742,511019,117063
+1910,Oceanography,19,Earth and Planetary Sciences,437760,365733,86971
+1911,Paleontology,19,Earth and Planetary Sciences,329009,255834,59761
+1912,Space and Planetary Science,19,Earth and Planetary Sciences,124722,40651,46014
+2000,"General Economics, Econometrics and Finance",20,"Economics, Econometrics and Finance",716710,444124,179228
+2002,Economics and Econometrics,20,"Economics, Econometrics and Finance",2708663,1704469,682659
+2003,Finance,20,"Economics, Econometrics and Finance",898757,609620,210157
+2100,General Energy,21,Energy,58046,36777,15717
+2102,Energy Engineering and Power Technology,21,Energy,73723,53892,37498
+2103,Fuel Technology,21,Energy,23382,18063,3091
+2104,Nuclear Energy and Engineering,21,Energy,2638,2412,396
+2105,"Renewable Energy, Sustainability and the Environment",21,Energy,712222,571228,247779
+2200,General Engineering,22,Engineering,6330,3679,1697
+2202,Aerospace Engineering,22,Engineering,1779242,1528324,422385
+2203,Automotive Engineering,22,Engineering,456023,348109,163610
+2204,Biomedical Engineering,22,Engineering,1993709,1715198,561917
+2205,Civil and Structural Engineering,22,Engineering,1881060,1375786,473092
+2206,Computational Mechanics,22,Engineering,1008727,866143,199112
+2207,Control and Systems Engineering,22,Engineering,1613259,1318773,400997
+2208,Electrical and Electronic Engineering,22,Engineering,4759124,4113953,1197876
+2209,Industrial and Manufacturing Engineering,22,Engineering,606859,392754,190818
+2210,Mechanical Engineering,22,Engineering,2447426,1902660,582033
+2211,Mechanics of Materials,22,Engineering,982285,813999,202277
+2212,Ocean Engineering,22,Engineering,720625,595316,170804
+2213,"Safety, Risk, Reliability and Quality",22,Engineering,633955,476877,137484
+2214,Media Technology,22,Engineering,485937,356155,126422
+2215,Building and Construction,22,Engineering,992215,645137,310079
+2216,Architecture,22,Engineering,448393,205830,107493
+2302,Ecological Modeling,23,Environmental Science,57086,49062,18625
+2303,Ecology,23,Environmental Science,1225490,968164,298148
+2304,Environmental Chemistry,23,Environmental Science,291854,228239,69117
+2305,Environmental Engineering,23,Environmental Science,552365,418096,194523
+2306,Global and Planetary Change,23,Environmental Science,1180997,883584,329113
+2307,"Health, Toxicology and Mutagenesis",23,Environmental Science,536884,425334,152303
+2308,"Management, Monitoring, Policy and Law",23,Environmental Science,872921,493169,247861
+2309,Nature and Landscape Conservation,23,Environmental Science,419351,305833,92225
+2310,Pollution,23,Environmental Science,448518,346394,138038
+2311,Waste Management and Disposal,23,Environmental Science,324304,199878,108607
+2312,Water Science and Technology,23,Environmental Science,823682,578193,225293
+2402,Applied Microbiology and Biotechnology,24,Immunology and Microbiology,64573,50050,29008
+2403,Immunology,24,Immunology and Microbiology,721046,639381,153265
+2404,Microbiology,24,Immunology and Microbiology,203107,164879,42973
+2405,Parasitology,24,Immunology and Microbiology,253549,200678,58828
+2406,Virology,24,Immunology and Microbiology,128377,113093,25332
+2500,General Materials Science,25,Materials Science,34431,24682,4391
+2502,Biomaterials,25,Materials Science,391070,335064,129976
+2503,Ceramics and Composites,25,Materials Science,146973,117286,20455
+2504,"Electronic, Optical and Magnetic Materials",25,Materials Science,643018,574145,132286
+2505,Materials Chemistry,25,Materials Science,2092603,1818257,479070
+2506,Metals and Alloys,25,Materials Science,46695,38913,7789
+2507,Polymers and Plastics,25,Materials Science,453640,377935,94268
+2508,"Surfaces, Coatings and Films",25,Materials Science,135794,123149,24988
+2602,Algebra and Number Theory,26,Mathematics,165420,134362,53268
+2604,Applied Mathematics,26,Mathematics,789752,528459,229571
+2605,Computational Mathematics,26,Mathematics,10192,8959,4535
+2607,Discrete Mathematics and Combinatorics,26,Mathematics,126794,107184,33627
+2608,Geometry and Topology,26,Mathematics,441633,366378,107721
+2610,Mathematical Physics,26,Mathematics,434717,367534,97943
+2611,Modeling and Simulation,26,Mathematics,179833,134144,75357
+2612,Numerical Analysis,26,Mathematics,106774,91050,23072
+2613,Statistics and Probability,26,Mathematics,591145,478910,149567
+2614,Theoretical Computer Science,26,Mathematics,69655,35194,14520
+2702,Anatomy,27,Medicine,26567,17466,4735
+2703,Anesthesiology and Pain Medicine,27,Medicine,210962,175111,51964
+2704,Biochemistry,27,Medicine,187474,150657,49316
+2705,Cardiology and Cardiovascular Medicine,27,Medicine,1256165,1053068,336905
+2706,Critical Care and Intensive Care Medicine,27,Medicine,122262,96804,40334
+2707,Complementary and alternative medicine,27,Medicine,512824,386004,136333
+2708,Dermatology,27,Medicine,283054,228319,92927
+2711,Emergency Medicine,27,Medicine,279793,214820,85243
+2712,"Endocrinology, Diabetes and Metabolism",27,Medicine,808271,651995,231378
+2713,Epidemiology,27,Medicine,1934164,1560590,542776
+2714,Family Practice,27,Medicine,62245,44901,22429
+2715,Gastroenterology,27,Medicine,218550,179252,48714
+2716,Genetics,27,Medicine,313364,276463,89463
+2717,Geriatrics and Gerontology,27,Medicine,106202,74045,41426
+2718,Health Informatics,27,Medicine,70973,52940,65591
+2720,Hematology,27,Medicine,556603,485450,122831
+2721,Hepatology,27,Medicine,328004,279907,73786
+2723,Immunology and Allergy,27,Medicine,123536,105407,23700
+2724,Internal Medicine,27,Medicine,80059,66892,22791
+2725,Infectious Diseases,27,Medicine,1050044,854223,368271
+2726,Microbiology,27,Medicine,11733,10177,2583
+2727,Nephrology,27,Medicine,401237,330389,119958
+2728,Neurology,27,Medicine,584470,500915,189477
+2729,Obstetrics and Gynecology,27,Medicine,400611,301775,133442
+2730,Oncology,27,Medicine,1006206,866377,330842
+2731,Ophthalmology,27,Medicine,398020,330938,108856
+2732,Orthopedics and Sports Medicine,27,Medicine,416215,301158,137188
+2733,Otorhinolaryngology,27,Medicine,181520,151530,46634
+2734,Pathology and Forensic Medicine,27,Medicine,729157,619723,184717
+2735,"Pediatrics, Perinatology and Child Health",27,Medicine,553488,405728,186212
+2736,Pharmacology,27,Medicine,559500,454079,158917
+2737,Physiology,27,Medicine,1326581,1074130,380579
+2738,Psychiatry and Mental health,27,Medicine,897772,716714,278617
+2739,"Public Health, Environmental and Occupational Health",27,Medicine,2206142,1647093,696780
+2740,Pulmonary and Respiratory Medicine,27,Medicine,1710012,1446888,468301
+2741,"Radiology, Nuclear Medicine and Imaging",27,Medicine,1017349,871380,271694
+2742,Rehabilitation,27,Medicine,230336,179865,79521
+2743,Reproductive Medicine,27,Medicine,419316,331705,112116
+2745,Rheumatology,27,Medicine,540852,455960,141727
+2746,Surgery,27,Medicine,2629176,2191030,702739
+2747,Transplantation,27,Medicine,69785,61334,14742
+2748,Urology,27,Medicine,237950,194136,57904
+2802,Behavioral Neuroscience,28,Neuroscience,40401,33982,8496
+2803,Biological Psychiatry,28,Neuroscience,13073,11533,5053
+2804,Cellular and Molecular Neuroscience,28,Neuroscience,405204,369434,72144
+2805,Cognitive Neuroscience,28,Neuroscience,1007593,830025,310152
+2806,Developmental Neuroscience,28,Neuroscience,56777,50806,12450
+2807,Endocrine and Autonomic Systems,28,Neuroscience,122502,107881,25227
+2808,Neurology,28,Neuroscience,219444,186404,75810
+2809,Sensory Systems,28,Neuroscience,120921,104372,27200
+2910,"Issues, ethics and legal aspects",29,Nursing,63062,37425,13962
+2911,Leadership and Management,29,Nursing,32963,19051,11607
+2916,Nutrition and Dietetics,29,Nursing,526264,397362,147753
+2922,Research and Theory,29,Nursing,116667,76822,29356
+3002,Drug Discovery,30,"Pharmacology, Toxicology and Pharmaceutics",1544,1180,1145
+3003,Pharmaceutical Science,30,"Pharmacology, Toxicology and Pharmaceutics",212021,179220,61410
+3004,Pharmacology,30,"Pharmacology, Toxicology and Pharmaceutics",320153,253190,77528
+3005,Toxicology,30,"Pharmacology, Toxicology and Pharmaceutics",111980,90889,27084
+3102,Acoustics and Ultrasonics,31,Physics and Astronomy,18138,16969,5388
+3103,Astronomy and Astrophysics,31,Physics and Astronomy,1496188,1307775,378799
+3104,Condensed Matter Physics,31,Physics and Astronomy,415328,352992,65305
+3105,Instrumentation,31,Physics and Astronomy,61689,54828,12671
+3106,Nuclear and High Energy Physics,31,Physics and Astronomy,1177853,1032889,227251
+3107,"Atomic and Molecular Physics, and Optics",31,Physics and Astronomy,1643286,1466618,295258
+3108,Radiation,31,Physics and Astronomy,263654,232153,50619
+3109,Statistical and Nonlinear Physics,31,Physics and Astronomy,461921,381792,156861
+3200,General Psychology,32,Psychology,42231,21674,7544
+3202,Applied Psychology,32,Psychology,177335,117335,55024
+3203,Clinical Psychology,32,Psychology,1479514,943963,525427
+3204,Developmental and Educational Psychology,32,Psychology,1190673,640846,415315
+3205,Experimental and Cognitive Psychology,32,Psychology,982655,646353,328647
+3206,Neuropsychology and Physiological Psychology,32,Psychology,61781,38243,17700
+3207,Social Psychology,32,Psychology,1477156,948135,506675
+3300,General Social Sciences,33,Social Sciences,149435,65654,39163
+3302,Archeology,33,Social Sciences,37782,18953,10551
+3303,Development,33,Social Sciences,182257,110357,37087
+3304,Education,33,Social Sciences,5515374,2541758,1989012
+3305,"Geography, Planning and Development",33,Social Sciences,527137,258918,129991
+3306,Health,33,Social Sciences,463441,314573,196001
+3307,Human Factors and Ergonomics,33,Social Sciences,319737,150620,159424
+3308,Law,33,Social Sciences,2017125,905523,597207
+3309,Library and Information Sciences,33,Social Sciences,172300,119891,33937
+3310,Linguistics and Language,33,Social Sciences,378284,183088,132201
+3311,Safety Research,33,Social Sciences,902410,532063,310508
+3312,Sociology and Political Science,33,Social Sciences,6673732,3602711,1972434
+3313,Transportation,33,Social Sciences,375700,250869,89053
+3314,Anthropology,33,Social Sciences,976308,504066,234024
+3315,Communication,33,Social Sciences,838138,443043,210985
+3316,Cultural Studies,33,Social Sciences,1016345,502870,242704
+3317,Demography,33,Social Sciences,757907,382763,237362
+3318,Gender Studies,33,Social Sciences,752736,441043,251298
+3319,Life-span and Life-course Studies,33,Social Sciences,45016,21359,15017
+3320,Political Science and International Relations,33,Social Sciences,5279355,2720838,1377059
+3321,Public Administration,33,Social Sciences,360903,216093,75688
+3322,Urban Studies,33,Social Sciences,488208,223073,137211
+3402,Equine,34,Veterinary,49501,34563,10781
+3404,Small Animals,34,Veterinary,302367,214878,81258
+3500,General Dentistry,35,Dentistry,8638,6317,6285
+3504,Oral Surgery,35,Dentistry,262458,189407,94173
+3505,Orthodontics,35,Dentistry,296442,204762,92645
+3506,Periodontics,35,Dentistry,286311,199193,94518
+3600,General Health Professions,36,Health Professions,1507586,970508,483638
+3603,Complementary and Manual Therapy,36,Health Professions,56160,35857,16540
+3604,Emergency Medical Services,36,Health Professions,266492,192685,85382
+3605,Health Information Management,36,Health Professions,379141,267657,134704
+3607,Medical Laboratory Technology,36,Health Professions,24052,15390,5302
+3608,Medical Terminology,36,Health Professions,1133,842,193
+3609,Occupational Therapy,36,Health Professions,371560,199336,122031
+3611,Pharmacy,36,Health Professions,120874,74313,35510
+3612,"Physical Therapy, Sports Therapy and Rehabilitation",36,Health Professions,402163,201291,137100
+3614,Radiological and Ultrasound Technology,36,Health Professions,143325,97585,41344
+3616,Speech and Hearing,36,Health Professions,193810,124903,64927

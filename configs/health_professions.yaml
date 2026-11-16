@@ -1,0 +1,64 @@
+# OpenAlex: Health professions and nursing.
+# Ids: configs/openalex_subfields.csv. Needs the store next to the repository folder: tst openalex-fetch ../openalex
+name: health_professions
+workdir: ../runs/health_professions
+input:
+  path: ../../openalex                # relative to this file, i.e. <repository>/../openalex
+  format: openalex
+  openalex:
+    fields: [36, 29]
+  min_year: 1960
+preprocess:
+  min_tokens: 20
+  # Junk of this map only (topic review 2026-11-10, counts checked with scripts/pattern_hits.py on
+  # 2026-11-15); see export.notes.
+  extra_drop_patterns:
+    "Irish parliamentary questions":
+      - '^pq-\d+-\d+ - '
+      - '\bdeputy [^\n.]{1,60} asked the (minister|taoiseach|t[aá]naiste)\b'
+    "Court briefs":
+      - '^[^\n]{1,600}\bvs?\.? [^\n]{1,600}:\s*(?:[\w''/-]+ ){0,4}brief(?: of [^\n]{1,80})?\s*\n'
+      - '^[^\n]{1,600}\bvs?\.? [^\n]{1,600}:\s*(?:petition for rehearing|petition for (?:a )?writ of certiorari|response to petition for rehearing|docketing statement|addendum|answer to petition[^\n]*)\s*\n'
+      - '^in the matter of [^\n]{1,600}:\s*(?:[\w''/-]+ ){0,4}brief(?: of [^\n]{1,80})?\s*\n'
+      - '^[^\n]*\n\s*(?:an |on )?appeal (?:taken )?from\b[^\n]{0,400}\bhonorable\b'
+    "Repository deposit records instead of an abstract":
+      - '^[^\n]*\n\s*(?:submitted by|made available in dspace|approved for entry into archive by)\b'
+    "ACM Digital Library page text":
+      - '\bauthors? info (?:&|and) claims\b'
+      - 'new citation alert added'
+    "Publisher preview pages":
+      - '/docserver/preview/fulltext/'
+      - '^[^\n]*\n\s*preview this article:'
+    "Conference front matter instead of an abstract":
+      - '^[^\n]*\n\s*appears in: [a-z]+\d{2} proceedings'
+vectorize:
+  min_df: 50
+  max_df: 0.4
+  max_features: 60000
+topics:
+  k_grid: [24, 32, 40, 48, 56, 64, 80]
+  runs: 3
+  train_sample: 400000
+trajectories:
+  entities:
+    venue: {min_papers: 20, window: 3, smoothing: pooled}
+    author: {min_papers: 3, window: 3, smoothing: pooled, min_years: 3}
+  pairwise: {entity_type: venue, max_entities: 300}
+projection:
+  fit_sample: 200000
+  doc_sample: 1000000
+network:
+  min_author_papers: 10
+  window: 3
+export:
+  label: "Health professions and nursing"
+  group: "Health Sciences"
+  labels_file: labels/health_professions.tsv          # topic names (tst.topics.model.read_labels)
+  max_docs: 200000
+  url_template: "https://openalex.org/{source_id}"
+  notes:                           # why this corpus differs from the defaults; shown in the bundle
+    preprocess.extra_drop_patterns: "Records that are not research, found when the topics of this map were named (November 2026): Irish parliamentary questions; Court briefs; Repository deposit records instead of an abstract; ACM Digital Library page text; Publisher preview pages; Conference front matter instead of an abstract. They are dropped in the maps where they are frequent (at least 0.1 % of the papers, or a topic of their own); elsewhere a few remain."
+    input.openalex.fields: "Field 36 (Health Professions), field 29 (Nursing)."
+    trajectories.entities.author: "3 papers a year: about the 95th percentile of papers per author and year in this field."
+fine:
+  enabled: true                    # second, finer topic resolution in <workdir>/fine

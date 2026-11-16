@@ -1,0 +1,35 @@
+# A config for your own publication list, e.g. a Scopus CSV export. Copy it next to your data, adapt the
+# column names to the header of your file, then: tst run my_corpus.yaml
+# Every option and its default: src/tst/config.py. The manual: docs/MANUAL.md.
+name: my_corpus
+workdir: runs/my_corpus            # all results go here; relative paths start at this file's folder
+input:
+  path: scopus.csv                 # a file, or a folder of export files with the same header
+  format: csv
+  csv:
+    separator: ","                 # "\t" for tab-separated files (Web of Science)
+    list_separator: ";"            # between the names in the authors cell
+    columns:                       # canonical name: column in your file (omit columns you don't have)
+      year: Year
+      title: Title
+      abstract: Abstract
+      venue: Source title
+      authors: Authors
+      author_ids: Author(s) ID
+      citations: Cited by
+      source_id: DOI
+  min_year: 1990
+vectorize:
+  min_df: 3                        # a word must occur in at least 3 abstracts
+topics:
+  k_grid: [5, 8, 10, 12, 15, 20, 25]   # candidate numbers of topics; the best is chosen automatically
+trajectories:
+  entities:
+    # min_papers counts papers per year; min_years is the minimum number of trajectory points.
+    venue: {min_papers: 2, window: 3, smoothing: pooled, min_years: 5}
+    author: {min_papers: 1, window: 3, smoothing: pooled, min_years: 3}
+network:
+  min_author_papers: 2
+export:
+  # Link for each paper in the bundle; {source_id} and {title} (URL-encoded) are filled in; without it, no links.
+  url_template: "https://doi.org/{source_id}"

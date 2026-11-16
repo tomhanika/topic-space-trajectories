@@ -1,0 +1,65 @@
+id	name	terms
+0	Existence theory for nonlinear PDEs	solutions, existence, equations, uniqueness, periodic
+1	Multivariate analysis and missing data	data, analysis, statistical, missing, regression
+2	Modules and homological algebra	modules, category, projective, submodule, functor
+3	Mathematics learning in schools	students, learning, mathematics, mathematical, school
+4	Topological and normed spaces	space, banach, compact, topological, hilbert
+5	Analytic and meromorphic functions	function, continuous, analytic, zeta, derivative
+6	Prime numbers and conjectures	number, prime, conjecture, integer, odd
+7	Ratio estimators and survey sampling	estimators, estimation, mean, error, regression
+8	Spectral theory of operators	operator, spectrum, spectral, hilbert, bounded
+9	Graph theory and graph indices	graph, vertices, edge, index, tree
+10	Groups, subgroups and automorphisms	group, subgroup, abelian, automorphism, action
+11	Model selection and biomedical modeling	model, regression, parameter, modeling, selection
+12	Random variables and random walks	random, variables, independent, walk, probability
+13	Riemannian manifolds and Ricci curvature	manifold, curvature, compact, riemannian, kahler
+14	Generalized closed and open sets	set, subset, open, closed, convex
+15	Constrained and unconstrained optimization	algorithm, optimization, programming, constraints, gradient
+16	Rings, ideals and derivations	ring, ideal, commutative, prime, noetherian
+17	Hardy and Hermite–Hadamard inequalities	inequality, convex, hadamard, hardy, hermite
+18	Lie and Hopf algebras	algebra, lie, subalgebra, hopf, quantum
+19	Differential equations and solution methods	differential, equations, partial, ordinary, delay
+20	Clinical trial design	trials, treatment, clinical, design, patients
+21	Linear models and linear programming	linear, coefficients, regression, variables, programming
+22	Caputo and Riemann–Liouville derivatives	fractional, derivative, caputo, liouville, riemann
+23	Matrices, eigenvalues and determinants	matrix, eigenvalues, covariance, spectral, entries
+24	Probability distribution families	distribution, parameter, maximum, likelihood, moment
+25	Hypothesis tests and statistical power	test, sample, statistics, testing, hypothesis
+26	Orthogonal polynomials and their zeros	polynomial, orthogonal, coefficients, zero, root
+27	Navier–Stokes equations and gas flows	flow, energy, gas, stokes, navier
+28	Integrals and integral equations	integral, kernel, volterra, equations, fredholm
+29	Singularities and singular perturbations	singular, singularities, perturbation, kernel, regular
+30	Elliptic and algebraic curves	curves, elliptic, rational, genus, projective
+31	COVID-19 transmission and mortality	covid, pandemic, disease, health, infection
+32	Dynamical systems, bifurcation and chaos	systems, dynamical, periodic, dynamics, hamiltonian
+33	Fourier and wavelet transforms	transform, fourier, wavelet, signal, laplace
+34	Elliptic and parabolic boundary problems	boundary, conditions, domain, dirichlet, bounded
+35	Sequences, convergence and summability	sequence, convergence, limit, converges, convergent
+36	New proofs of classical theorems	theorem, proof, limit, existence, generalization
+37	Stochastic processes and Brownian motion	process, stochastic, markov, stationary, diffusion
+38	Fixed points of contractive mappings	fixed, metric, mapping, contraction, contractive
+39	Function classes and classroom experiments	class, subclass, conjugacy, control, equivalence
+40	Number fields and field extensions	field, vector, extension, quadratic, galois
+41	Sharp upper and lower bounds	bound, upper, sharp, dimension, eigenvalues
+42	Nonlinear oscillation and iterative solvers	nonlinear, equations, schrodinger, wave, iterative
+43	Positive integers and Diophantine equations	positive, integer, negative, nonnegative, cone
+44	Minimal and Riemann surfaces	surface, minimal, riemann, genus, hyperbolic
+45	Properties and characterizations	properties, topological, characterization, concept, relation
+46	Generalizations of classical notions	generalized, generalization, derivation, special, hypergeometric
+47	Power series and series expansions	series, power, coefficients, expansion, sum
+48	Finite and infinite dimensionality	finite, dimensional, dimension, infinite, lattice
+49	Numerical schemes and error analysis	numerical, scheme, approximation, convergence, error
+50	Asymptotic behavior of solutions	asymptotic, behavior, expansion, limit, infinity
+51	Explicit formulas and identities	formula, explicit, terms, sum, identity
+52	Continuous maps and topological dynamics	map, continuous, periodic, orbits, topological
+53	Measures, entropy and ergodic theory	measure, invariant, probability, entropy, lebesgue
+54	Complex numbers and holomorphic functions	complex, real, analytic, plane, holomorphic
+55	Time scales and time-dependent dynamics	time, scale, dependent, dynamics, diffusion
+56	Bayesian inference and MCMC	bayesian, chain, markov, carlo, monte
+57	Tensor, free and semidirect products	product, tensor, sum, decomposition, inner
+58	Group representations and automorphic forms	representation, irreducible, unitary, character, quantum
+59	Ulam stability of functional equations	stability, functional, ulam, hyers, delay
+60	Boundary and mean value problems	value, boundary, mean, parameter, interval
+61	Fuzzy sets and fuzzy numbers	fuzzy, interval, concept, intuitionistic, valued
+62	Formal statements and notation	let, denote, bounded, suppose, integer
+63	Mathematical theories and frameworks	theory, structure, mathematical, quantum, algebraic

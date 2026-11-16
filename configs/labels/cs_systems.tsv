@@ -1,0 +1,25 @@
+id	name	terms
+0	Hardware-software codesign and FPGAs	design, hardware, software, architecture, fpga
+1	Ad hoc network routing protocols	routing, protocol, nodes, hoc, route
+2	LDPC and error-correcting codes	code, decoding, ldpc, error, decoder
+3	ML-based intrusion and malware detection	detection, intrusion, learning, attacks, machine
+4	Energy-efficient wireless sensor networks	sensor, energy, wireless, wsn, nodes
+5	Cognitive radio spectrum sensing	spectrum, radio, cognitive, sensing, user
+6	Internet services, QoS and management	service, qos, user, management, quality
+7	Video coding and compression	video, coding, motion, frame, compression
+8	Array signal processing and speech	signal, noise, speech, array, estimation
+9	Databases and query processing	database, query, data, object, relational
+10	Multi-agent consensus and synchronization	control, agents, consensus, multiagent, distributed
+11	Network security and authentication protocols	security, attacks, authentication, secure, protocol
+12	Optimization and search algorithms	algorithm, optimization, optimal, search, complexity
+13	TCP congestion control and traffic	packet, traffic, control, tcp, congestion
+14	Circuit testing and fault tolerance	fault, test, circuit, testing, tolerance
+15	Internet of things and smart devices	iot, internet, devices, things, smart
+16	Edge, cloud and grid resource allocation	computing, edge, resources, cloud, offloading
+17	Memory, caches and storage	memory, cache, access, performance, storage
+18	Real-time task scheduling	time, real, scheduling, task, series
+19	Digital filter design	filter, digital, fir, design, frequency
+20	Mobile communication and MANETs	mobile, hoc, manet, mobility, communication
+21	Biometric recognition and audio classification	image, recognition, biometric, features, fingerprint
+22	Fading channels, interference and relaying	channel, relay, scheme, interference, transmission
+23	Parallel computing and programming	parallel, program, processor, programming, gpu

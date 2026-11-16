@@ -1,0 +1,49 @@
+id	name	terms
+0	Aircraft flight and piloting	flight, aircraft, landing, pilot, helicopter
+1	Antenna radiation patterns and dipoles	antenna, radiation, pattern, gain, dipole
+2	Centrifugal compressor flow	flow, pressure, compressor, velocity, inlet
+3	Linear accelerators and facilities	accelerator, energy, linac, mev, proton
+4	Radar systems and waveforms	radar, waveform, doppler, resolution, clutter
+5	Storage rings and beam-beam effects	beam, ring, electron, bunch, emittance
+6	Wind farms and wake effects	wind, turbine, power, energy, speed
+7	GPS precise positioning and RTK	gps, positioning, gnss, navigation, receiver
+8	Aluminum alloy heat treatment	alloy, aluminum, properties, microstructure, mechanical
+9	Mobile robot navigation and localization	robot, mobile, environment, sensor, localization
+10	Nuclear reactor cores and safety	reactor, fuel, nuclear, core, neutron
+11	Wireless communication and sensing	communication, wireless, systems, channel, link
+12	Satellite orbits and constellations	satellite, orbit, earth, leo, constellation
+13	Technology development plans	development, design, technology, systems, cost
+14	Phased arrays and sidelobe synthesis	array, element, phased, synthesis, pattern
+15	Jet noise and aeroacoustics	noise, acoustic, jet, sound, source
+16	SAR imaging and interferometry	sar, image, aperture, synthetic, imaging
+17	Spacecraft attitude control	control, controller, attitude, loop, disturbances
+18	UAV platforms and applications	uav, vehicle, aerial, unmanned, drone
+19	Thermal spray and barrier coatings	coating, thermal, plasma, spraying, spray
+20	Test facilities and testing	test, testing, facility, tunnel, tested
+21	Infrared small target detection	target, detection, clutter, background, infrared
+22	Rocket engines and propellants	engine, rocket, combustion, propellant, gas
+23	Genetic and swarm optimization	algorithm, optimization, optimal, genetic, constraints
+24	Piezoelectric active vibration control	structure, vibration, structural, piezoelectric, actuator
+25	Visual SLAM	slam, localization, visual, mapping, map
+26	Inertial navigation and Kalman filters	filter, inertial, error, kalman, navigation
+27	Dual circular polarization antennas	polarization, polarized, circularly, circular, dual
+28	Film cooling and heat transfer	heat, temperature, cooling, transfer, thermal
+29	Flapping wings and airfoil aerodynamics	wing, aerodynamic, lift, drag, airfoil
+30	Dual-band and UWB antennas	band, ghz, frequency, dual, bandwidth
+31	Ion sources and plasma	ion, source, plasma, current, electron
+32	Pulse signal processing and interference	signal, frequency, processing, receiver, time
+33	Differential equations and analytical solutions	equations, solution, motion, numerical, function
+34	Microstrip patch antenna design	patch, microstrip, antenna, bandwidth, rectangular
+35	Neural networks and deep learning	network, neural, learning, deep, training
+36	Magnetic fields and magnets	field, magnetic, magnet, electric, near
+37	Radiometric calibration	measurements, calibration, spectral, instrument, sensor
+38	Superconducting RF cavities	cavity, mode, superconducting, mhz, accelerating
+39	Missile guidance laws	guidance, missile, law, angle, trajectory
+40	Air traffic flow and airspace	air, traffic, airport, management, operation
+41	Data processing and deformation monitoring	data, time, processing, information, monitoring
+42	Blade and rotor aerodynamics	blade, rotor, turbine, tip, performance
+43	Phase measurement and phase shifters	phase, amplitude, error, carrier, reflectarray
+44	Space missions and exploration	space, mission, spacecraft, orbit, earth
+45	EM wave propagation and metasurfaces	wave, surface, electromagnetic, propagation, millimeter
+46	MIMO antenna isolation	mimo, isolation, input, output, coupling
+47	Dynamic modeling and simulation	model, simulation, modeling, dynamic, prediction

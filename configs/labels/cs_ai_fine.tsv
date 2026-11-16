@@ -1,0 +1,81 @@
+id	name	terms
+0	Assorted models and modeling	model, modeling, prediction, accuracy, trained
+1	Image restoration, registration and inpainting	image, processing, pixel, edge, medical
+2	Algorithm design and performance	algorithm, experimental, solve, performance, complexity
+3	Machine learning paradigms	learning, deep, machine, reinforcement, learn
+4	Stereo vision and camera calibration	camera, calibration, depth, vision, scene
+5	Sensor-based human activity recognition	sensor, devices, activities, mobile, smart
+6	Quantum computing and qubits	quantum, qubit, classical, circuit, computing
+7	Handwritten character and digit recognition	recognition, character, handwritten, rate, recognize
+8	Neural network architectures	network, neural, neurons, input, recurrent
+9	Cancer detection and clinical diagnosis	cancer, diagnosis, patient, medical, breast
+10	Speech and speaker recognition	speech, speaker, voice, acoustic, asr
+11	Heuristic search and search strategies	search, tree, heuristic, searching, solution
+12	Face and facial expression recognition	face, facial, expression, database, pose
+13	Assorted intelligent and formal systems	systems, intelligent, complex, distributed, expert
+14	Mobile robot path planning	robot, planning, path, obstacles, environment
+15	Support vector machines and kernels	vector, support, svm, machine, kernel
+16	Fuzzy rules and neuro-fuzzy inference	fuzzy, rules, controller, logic, membership
+17	Feature extraction and selection	features, extraction, selection, extract, extracted
+18	Anomaly and vehicle detection	detection, detect, anomaly, detecting, yolov
+19	Video content analysis	video, frame, temporal, surveillance, content
+20	Clustering algorithms	clustering, cluster, means, distance, similarity
+21	Multimedia classroom teaching	students, teaching, education, teacher, educational
+22	Augmented and virtual reality	reality, augmented, virtual, technology, experience
+23	Ontology engineering, OWL and RDF	semantic, ontology, web, concept, owl
+24	CNN-based image classification	cnn, deep, convolutional, architecture, accuracy
+25	Graph structures and GNNs	graph, nodes, edge, gnn, structure
+26	Radar and multi-target tracking	tracking, target, track, filter, tracker
+27	Domain adaptation and transfer	domain, adaptation, source, target, transfer
+28	Image compression and coding	compression, coding, bit, jpeg, quantization
+29	Noise filtering and image denoising	noise, filter, signal, filtering, denoising
+30	Interferometry and optical measurement	measurement, phase, optical, surface, light
+31	Content-based image retrieval	retrieval, query, content, database, similarity
+32	Multiclass and ensemble classification	classification, classifier, class, accuracy, classify
+33	Error-correcting codes and decoding	code, error, bound, binary, decoding
+34	Digital watermarking techniques	watermarking, watermark, digital, embedding, embedded
+35	Machine translation and parallel corpora	translation, machine, english, corpus, sentence
+36	Text categorization, summarization and document OCR	text, document, summarization, character, extraction
+37	Region and medical image segmentation	segmentation, regions, segment, boundary, contour
+38	Formal logic, proofs and program semantics	program, logic, programming, proof, theory
+39	Multi-task learning and shared tasks	task, performance, multitask, work, downstream
+40	Sentiment analysis and opinion mining	sentiment, social, media, opinion, twitter
+41	Object-oriented programming and object detection	object, moving, background, oriented, scene
+42	LLM reasoning and prompting	llms, reasoning, generation, fine, prompt
+43	Entangled photon states	state, entanglement, entangled, photon, qubit
+44	Particle swarm and metaheuristics	optimization, swarm, particle, pso, convergence
+45	Human action, behavior and cognition	human, interaction, computer, action, activities
+46	Attention modules and vision transformers	attention, module, mechanism, transformer, global
+47	Agent architectures, coordination and negotiation	agent, multiagent, reinforcement, environment, action
+48	Digital signatures and authentication	signature, digital, verification, group, protocol
+49	Big data mining and streams	data, set, mining, big, visualization
+50	Boolean functions and function approximation	function, value, linear, approximation, loss
+51	Adversarial attacks and defenses	attacks, adversarial, defense, robustness, perturbations
+52	Semi-supervised and data-efficient learning	training, datasets, samples, labels, trained
+53	Multimodal fusion and cross-modal learning	multimodal, fusion, modalities, cross, modal
+54	NLP and computational linguistics	language, natural, processing, nlp, linguistic
+55	Solar energy forecasting	solar, energy, power, radiation, photovoltaic
+56	Real-time processing and time series	time, real, world, series, speed
+57	Latent representations and dimensionality reduction	space, representation, structure, dimensional, latent
+58	Encryption schemes and ciphers	encryption, security, secure, cryptography, cryptographic
+59	Federated learning and data privacy	privacy, federated, preserving, client, distributed
+60	Knowledge bases and expert systems	knowledge, base, expert, reasoning, entities
+61	Visual understanding and visual analytics	visual, visualization, vision, understanding, perception
+62	Word senses and lexical semantics	word, sentence, corpus, embedding, chinese
+63	Color spaces, histograms and texture	color, histogram, texture, rgb, pixel
+64	Secret sharing and cryptographic schemes	scheme, secret, sharing, share, threshold
+65	User interfaces and visualization	user, interface, services, interaction, interactive
+66	Self-adaptive dynamic systems	dynamic, adaptive, dynamically, static, environment
+67	PID and intelligent controllers	control, controller, pid, simulation, policy
+68	Image super-resolution reconstruction	resolution, super, reconstruction, spatial, imaging
+69	Explainable AI and decision making	decision, making, tree, process, explanations
+70	AI overviews, adoption and impact	intelligence, artificial, technology, field, development
+71	Software architecture and components	software, design, components, development, architecture
+72	Information theory and information hiding	information, mutual, extract, technology, extraction
+73	Self-organizing, chaotic, depth and geological maps	map, self, depth, organizing, chaotic
+74	Wavelet transforms and multiresolution analysis	wavelet, transform, coefficients, discrete, frequency
+75	Quality assessment and evaluation metrics	quality, evaluation, metrics, assessment, measure
+76	Motion estimation and sequence analysis	motion, sequence, flow, temporal, moving
+77	String, stereo and pattern matching	matching, patterns, local, match, stereo
+78	Genetic algorithms and evolutionary operators	genetic, evolutionary, operator, solution, population
+79	Bayesian inference and mixture models	distribution, probability, bayesian, estimation, gaussian

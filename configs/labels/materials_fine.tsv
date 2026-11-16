@@ -1,0 +1,81 @@
+id	name	terms
+0	Synthesis and characterization routes	synthesis, synthesized, reaction, characterization, precursor
+1	Industrial production and sustainability	development, technology, design, production, process
+2	Mechanical properties and strength testing	mechanical, strength, properties, tensile, mpa
+3	Sputtered and epitaxial thin films	films, substrate, deposited, sputtering, thickness
+4	2D semiconductor devices and transistors	devices, mos, electronic, semiconductor, dimensional
+5	Corrosion inhibition and protection	corrosion, inhibitor, electrochemical, inhibition, polarization
+6	Anticancer drug delivery systems	drug, delivery, cancer, cell, tumor
+7	Block copolymers and copolymerization	poly, copolymer, acid, polymerization, monomer
+8	Optical absorption bands and gaps	band, spectra, absorption, gap, peak
+9	Electron microscopy techniques	electron, microscopy, scanning, transmission, sem
+10	Magnetic materials and ferrites	magnetic, magnetization, spin, ferromagnetic, moment
+11	Stainless steels and wear resistance	steel, stainless, wear, resistance, austenitic
+12	Liquid crystal phases and alignment	crystal, liquid, nematic, smectic, crystalline
+13	Single- and multiwalled carbon nanotubes	carbon, nanotubes, cnts, walled, multiwalled
+14	Thermoelectric transport properties	conductivity, electrical, thermoelectric, transport, seebeck
+15	X-ray powder diffraction	xray, diffraction, powder, xrd, patterns
+16	Ceramic powders and sintering	ceramic, sintering, powder, sintered, piezoelectric
+17	Supercapacitors and capacitance	electrode, supercapacitors, electrochemical, capacitance, performance
+18	Plastic deformation and strain rate	strain, deformation, dislocation, plastic, rate
+19	Natural fibers and electrospun nanofibers	fiber, nanofibers, electrospinning, cellulose, reinforced
+20	Supported catalysts and CO oxidation	catalyst, catalytic, oxidation, reaction, activity
+21	Phase transformations and phase diagrams	phase, transition, transformation, diagram, ferroelectric
+22	Magnesium alloys and alloying	alloy, magnesium, microstructure, memory, shape
+23	Graphene sheets and graphene electronics	graphene, sheet, oxide, graphite, rgo
+24	Fracture, stress cracking and fatigue	stress, crack, fracture, test, specimens
+25	Doping and dopant effects	doped, doping, concentration, dopant, undoped
+26	Composite materials and fillers	composite, matrix, reinforced, epoxy, filler
+27	Glasses and glass transition	glass, transition, sio, composition, silicate
+28	Partial discharge and cable insulation	voltage, discharge, insulation, cable, partial
+29	Nucleation and growth kinetics	growth, rate, nucleation, kinetics, process
+30	Modeling, prediction and machine learning	model, data, experimental, parameters, prediction
+31	Surface-enhanced Raman scattering	raman, sers, scattering, enhanced, mode
+32	ZnO nanorods and nanowires	zno, zinc, nanorods, nanowires, oxide
+33	SOFC cells, stacks and operation	oxide, cell, fuel, solid, sofc
+34	Gold and plasmonic nanoparticles	nanoparticles, nps, gold, silver, aunps
+35	Surface wettability and modification	surface, adsorption, contact, angle, modification
+36	Polymer blends and crystallization	blends, crystallization, melt, polyethylene, content
+37	Quantum dots and fluorescent nanocrystals	quantum, dots, qds, cds, fluorescence
+38	Functional and conducting polymers	polymer, chain, polymeric, conducting, network
+39	Electric fields and ferroelectric domains	field, electric, ferroelectric, polarization, domain
+40	Grain boundaries and texture	grain, boundary, microstructure, size, texture
+41	Thermal stability and thermal analysis	thermal, stability, expansion, decomposition, conductivity
+42	Phosphor emission and energy transfer	emission, phosphor, luminescence, excitation, light
+43	Pulsed lasers, ablation and damage	laser, pulsed, pulse, induced, beam
+44	Protective and anticorrosion coatings	coating, coated, resistance, protection, protective
+45	Metals and metal–insulator transitions	metal, transition, insulator, metallic, oxide
+46	Density functional theory calculations	density, state, calculations, theory, electronic
+47	Energy storage, conversion and activation	energy, activation, storage, free, transfer
+48	Multilayers, interlayers and interfaces	layer, thickness, interface, multilayer, double
+49	Hydrogen storage and hydrides	hydrogen, storage, hydride, bond, desorption
+50	Proteins, peptides and tissue scaffolds	protein, cell, binding, enzyme, collagen
+51	Oil–water separation and emulsions	water, oil, contact, cellulose, emulsion
+52	Temperature-dependent behavior	temperature, room, dependence, transition, decrease
+53	Particle size and size distribution	particles, size, distribution, powder, shape
+54	Heat treatment and heat transfer	heat, treatment, treated, cooling, transfer
+55	Self-assembly and supramolecular materials	self, assembly, assembled, supramolecular, block
+56	Materials science and engineering	materials, properties, science, raw, physical
+57	Nonlinear optics and harmonic generation	nonlinear, response, harmonic, generation, coefficient
+58	Molecular dynamics simulation	dynamic, molecular, simulation, relaxation, time
+59	Reactor irradiation and radiation damage	irradiation, radiation, irradiated, neutron, dose
+60	Mesoporous silica and templates	porous, pore, silica, mesoporous, template
+61	Sample preparation and measurements	samples, values, measurements, prepared, measured
+62	High-pressure effects	pressure, gas, gpa, hydrostatic, bubble
+63	Structure–property relationships	structure, structural, properties, crystal, dimensional
+64	Yarns, fabrics and textiles	fabric, yarn, flame, cotton, retardant
+65	Porous silicon and silicon carbide	silicon, sic, carbide, nitride, sio
+66	Chemical vapor deposition of diamond	deposition, chemical, vapor, diamond, plasma
+67	Lanthanide and metal coordination complexes	complex, ligand, iii, coordination, lanthanide
+68	Organic–inorganic hybrid materials	organic, hybrid, inorganic, molecules, cof
+69	Ion exchange and ion implantation	ions, exchange, earth, rare, sites
+70	Core–shell nanoparticles and core losses	core, shell, loss, transformer, nanocrystals
+71	Dielectric constant and loss	dielectric, constant, frequency, ferroelectric, loss
+72	Point defects and vacancies	defects, vacancy, oxygen, atoms, center
+73	Polymer–clay nanocomposites	nanocomposites, clay, matrix, montmorillonite, dispersion
+74	Antibacterial silver nanoparticles	silver, activity, antibacterial, extract, agnps
+75	Solid solutions and aqueous solutions	solution, concentration, solid, aqueous, acid
+76	Sol–gel processing and silica	gel, sol, prepared, sio, silica
+77	Optical properties and refractive index	optical, properties, index, refractive, light
+78	Metamaterial electromagnetic absorbers	wave, metamaterial, electromagnetic, frequency, metasurface
+79	New compounds and crystal structures	compounds, groups, space, derivatives, unit

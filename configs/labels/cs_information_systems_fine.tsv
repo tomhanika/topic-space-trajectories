@@ -1,0 +1,81 @@
+id	name	terms
+0	Swedish student theses on design	design, designing, designers, interaction, interface
+1	Student academic performance and assessment	students, class, skills, grade, assessment
+2	Libraries, librarians and readers	library, librarians, collection, book, readers
+3	Cloud computing and virtualization	cloud, computing, storage, infrastructure, providers
+4	Software engineering metrics and maintenance	software, engineering, developers, maintenance, metrics
+5	Subject teaching reform and experiments	teaching, reform, mode, practical, traditional
+6	Web service composition and QoS	services, composition, providers, qos, architecture
+7	Laboratory, specialty and informatization construction	construction, forward, puts, talents, china
+8	Authentication and password security	security, authentication, secure, password, protection
+9	Websites, HTML and browsers	web, pages, site, website, server
+10	Clustering, genetic and cryptographic algorithms	algorithm, optimization, clustering, genetic, curve
+11	Natural language and sign language	language, sign, foreign, natural, llms
+12	Blockchain transactions and cryptocurrency	blockchain, transactions, contracts, smart, chain
+13	Usability evaluation and heuristics	evaluation, usability, assessment, testing, evaluating
+14	Academic librarians, institutions and policy	academic, institutions, performance, institutional, higher
+15	Collaborative filtering algorithms	recommendations, items, recommender, filtering, collaborative
+16	English speaking, writing and vocabulary	english, speaking, writing, vocabulary, efl
+17	Computer history, crime and HCI	computer, human, interaction, hci, computing
+18	Social networking sites and social life	social, media, people, community, networking
+19	Learning styles, outcomes and analytics	learning, learners, outcomes, environment, machine
+20	Data stewardship, sharing and big data	data, big, storage, processing, collection
+21	Surveys of perceptions and attitudes	survey, questionnaire, perceptions, participants, positive
+22	Interactive multimedia and expert validation	media, materials, experts, multimedia, interactive
+23	Smartphone apps and mobile operating systems	mobile, devices, phone, app, android
+24	Digitalization and modernization of education	education, educational, higher, institutions, pedagogical
+25	Teacher pedagogical and digital competence	teachers, school, classroom, secondary, primary
+26	Neural, graph and computer networks	network, neural, graph, nodes, deep
+27	Digital literacy, forensics and economy	digital, literacy, transformation, competence, forensic
+28	Virtual reality and immersive environments	virtual, reality, environment, immersive, experience
+29	Search engines, ranking and SEO	search, engine, query, searching, google
+30	Information resource sharing and allocation	resources, allocation, utilization, sharing, electronic
+31	Code clones, bugs and refactoring	code, source, developers, llms, generation
+32	Higher vocational colleges in China	college, vocational, higher, reform, talents
+33	Hand gesture recognition	gesture, recognition, hand, sign, human
+34	Health records and patient privacy	health, medical, patient, healthcare, care
+35	Information concepts, protection and dissemination	information, retrieval, organizations, source, society
+36	Course design, curricula and textbooks	course, mooc, curriculum, undergraduate, introductory
+37	Decision making and decision trees	decision, making, tree, support, makers
+38	System architectures and recommender systems	systems, recommender, architecture, complex, intelligent
+39	Professional and personnel training	training, professional, skills, talents, competence
+40	University departments and staff	university, faculty, department, campus, state
+41	Pretest-posttest experiments with learning media	test, group, control, experimental, posttest
+42	Association rules and frequent itemsets	mining, rules, association, frequent, itemsets
+43	Supervised classifiers and spam detection	machine, classification, accuracy, prediction, features
+44	Scientific disciplines and science of science	science, scientific, field, disciplines, publications
+45	Artificial intelligence integration and ethics	intelligence, artificial, ethical, integration, generative
+46	Management, planning and administration	management, risk, managing, implementation, manage
+47	Children's reading literacy	reading, literacy, skills, children, book
+48	Internet of things	internet, iot, things, devices, smart
+49	Program analysis and degree programs	program, curriculum, implementation, graduate, community
+50	Software and economic development	development, developing, agile, rapid, stages
+51	Chemical, educational and software processes	process, educational, organizations, implementation, stages
+52	Document retrieval and relevance	retrieval, document, query, text, relevance
+53	Quality assurance and personnel quality	quality, assurance, metrics, standard, measures
+54	Agile project management and Scrum	project, team, agile, work, plan
+55	Support tools and visualization	tools, support, visualization, chatgpt, potential
+56	Knowledge organization and management	knowledge, domain, discovery, base, graph
+57	Software platforms and cross-platform integration	platform, architecture, integration, cross, implementation
+58	Cyber attacks, phishing and cybercrime	cyber, attacks, threats, cybersecurity, risk
+59	Object-oriented software and components	object, oriented, architecture, class, soa
+60	Digital content and content analysis	content, video, website, text, multimedia
+61	Emerging technologies and innovation	technology, modern, technological, field, innovative
+62	Requirements engineering	requirements, engineering, specification, elicitation, meet
+63	Business organizations and enterprise IT	business, organizations, companies, enterprise, industry
+64	Task analysis, scheduling and crowdsourcing	task, performance, scheduling, work, crowdsourcing
+65	Open source, open access and licensing	open, source, community, repository, access
+66	Introductory programming and novices	programming, thinking, introductory, programmers, game
+67	Conceptual and predictive modeling	model, modeling, llms, behavior, prediction
+68	User interface and user experience	user, interface, experience, interaction, usability
+69	Databases, SQL and bibliographic records	database, access, sql, server, relational
+70	Communication technologies and ICT4D	communication, ict, countries, rural, skills
+71	Eye tracking and gaze	eye, tracking, gaze, movement, visual
+72	Sequential pattern mining and design patterns	patterns, behavior, sequential, sequence, mining
+73	Practical teaching and professional practice	practice, theory, practical, agile, literature
+74	E-learning platforms and Moodle	elearning, electronic, moodle, lms, distance
+75	MOOCs, online learning and online behavior	online, mooc, covid, pandemic, massive
+76	Products, consumers and e-commerce	product, customer, consumer, ecommerce, market
+77	Pedagogical activities and collaborative work	activities, community, work, support, participants
+78	Concepts, definitions and concept maps	concept, understanding, theory, map, conceptual
+79	Real-time systems and data processing	time, real, cost, world, dynamic

@@ -1,0 +1,65 @@
+id	name	terms
+0	Adverse perinatal and neonatal outcomes	outcomes, perinatal, adverse, neonatal, pregnancy
+1	Cervical cancer prognosis and chemoradiation	stage, cervical, survival, carcinoma, node
+2	Rat reproductive endocrinology and toxicology	rats, days, animals, dose, induced
+3	Maternal health service utilization	health, services, care, facilities, antenatal
+4	Polycystic ovary syndrome	pcos, polycystic, syndrome, ovary, insulin
+5	Gonadal cell culture and proliferation	cells, proliferation, culture, apoptosis, stem
+6	Preterm infants and neurodevelopment	infants, preterm, weeks, born, premature
+7	Diagnostic accuracy and prediction	value, sensitivity, predictive, specificity, accuracy
+8	Semen quality and sperm motility	sperm, motility, parameters, men, morphology
+9	Indonesian cross-sectional health surveys	test, sampling, cross, sectional, relationship
+10	Gestational diabetes mellitus	diabetes, gdm, mellitus, gestational, glucose
+11	Cesarean section	cesarean, section, delivery, rate, vaginal
+12	Serum hormone and marker concentrations	serum, concentration, plasma, measured, correlation
+13	Labor induction and cervical ripening	labor, induction, delivery, vaginal, oxytocin
+14	Ovarian reserve, AMH and FSH	hormone, fsh, follicle, ovarian, amh
+15	Endometriosis pathogenesis and lesions	endometriosis, pelvic, disease, endometriotic, lesions
+16	Child stunting in Indonesia	stunting, toddlers, nutritional, nutrition, food
+17	Uterine fibroids and embolization	uterine, fibroids, leiomyoma, uterus, myoma
+18	Ovarian tumors	tumor, ovarian, malignant, benign, ovary
+19	Gonadotropins and GnRH regulation	gnrh, pituitary, hormone, gonadotropin, releasing
+20	IVF, ICSI and embryo transfer	embryo, ivf, transfer, fertilization, rate
+21	Laparoscopic gynecologic and urologic surgery	surgery, laparoscopic, postoperative, surgical, patients
+22	Vesicoureteral reflux and urinary infection	renal, urinary, tract, kidney, reflux
+23	Animal semen cryopreservation and extenders	semen, motility, quality, extender, bull
+24	Male and couple infertility	infertility, infertile, male, couples, men
+25	Prenatal genetic screening and NIPT	prenatal, screening, chromosomal, trisomy, chromosome
+26	Testis and spermatogenesis	testicular, testis, spermatogenesis, mice, testes
+27	Prepregnancy BMI and gestational weight gain	bmi, body, mass, weight, index
+28	Neonatal hypoxic-ischemic encephalopathy	brain, hypoxic, ischemic, hie, encephalopathy
+29	Control-group comparisons	group, control, divided, higher, statistically
+30	Clinical pharmacokinetics and drug development	drug, dose, pharmacokinetic, pediatric, model
+31	Fetal ultrasound and amniotic fluid	fetal, fetus, weeks, gestation, pregnancy
+32	Hospital case series and clinical reviews	hospital, obstetric, department, medical, gynecology
+33	COVID-19 in pregnancy and newborns	covid, sars, cov, infection, pandemic
+34	Maternal and perinatal mortality	mortality, death, maternal, cause, rate
+35	Postpartum hemorrhage	postpartum, hemorrhage, pph, bleeding, blood
+36	Endometrial hyperplasia and postmenopausal bleeding	endometrial, endometrium, hyperplasia, carcinoma, bleeding
+37	Systematic reviews and meta-analyses	systematic, trial, metaanalysis, randomized, search
+38	Risk factor associations in cohorts	risk, association, regression, ratio, odds
+39	Neonatal intensive care and jaundice	neonatal, bilirubin, neonates, newborn, hyperbilirubinemia
+40	Twin pregnancy and twin transfusion	twin, pregnancy, monochorionic, gestation, weeks
+41	Pediatric and pelvic pain management	pain, scale, management, anxiety, chronic
+42	Gene expression in reproductive tissues	expression, protein, mrna, gene, tissue
+43	Ovarian cancer and childhood cancer survivors	cancer, ovarian, chemotherapy, epithelial, survival
+44	Postnatal mother and newborn care	mothers, babies, maternal, newborn, pregnancy
+45	Fetal and gynecologic imaging diagnosis	diagnosis, imaging, ultrasound, mri, examination
+46	Maternity and neonatal care experiences	care, experience, support, parents, family
+47	Preeclampsia and eclampsia	preeclampsia, hypertension, severe, pregnancy, hypertensive
+48	Children, families and child abuse	children, parents, pediatric, abuse, childhood
+49	Births and low birth weight	birth, weight, live, babies, born
+50	Health of pregnant women and anemia	women, pregnant, pregnancy, trimester, anemia
+51	Community health education and outreach	knowledge, community, education, program, health
+52	Assisted reproductive technology	reproductive, assisted, technology, art, reproduction
+53	Maternal diet and metabolic programming	offspring, diet, disease, metabolic, life
+54	Placenta previa, accreta and placental biology	placenta, placental, previa, accreta, trophoblast
+55	Fetal growth restriction	growth, intrauterine, restriction, iugr, retardation
+56	Oxidative stress and antioxidants	stress, oxidative, antioxidant, damage, induced
+57	Puberty and menarche	girls, adolescents, age, puberty, boys
+58	Sperm membrane proteins and fertilization	spermatozoa, protein, human, acrosome, sperm
+59	Drug therapy and treatment response	treatment, therapy, patients, treated, months
+60	Fetal Doppler and blood pressure	blood, artery, doppler, umbilical, flow
+61	Genetic variants and mutations	gene, polymorphism, genetic, mutations, genotype
+62	Prenatal alcohol exposure and FASD	alcohol, exposure, disorders, prenatal, fasd
+63	Hysterectomy and uterine surgery	hysterectomy, vaginal, abdominal, pelvic, uterus
