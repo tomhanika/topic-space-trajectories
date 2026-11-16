@@ -6,6 +6,7 @@ authors:
   - family-names: Hanika
     given-names: Tom
 version: 0.1.0
+date-released: 2026-11-16
 license: AGPL-3.0-only
 repository-code: "https://github.com/tomhanika/topic-space-trajectories"
 keywords:

@@ -13,6 +13,10 @@
 
 The methods are described in two papers (see [Citation](#citation)).
 
+**See it in use:** [flow.sci-rec.org](https://flow.sci-rec.org) shows the maps `tst` computes from all of
+OpenAlex: 45 fields at two resolutions, with named topics, venue and author trajectories, a term explorer
+and researchers moving between fields.
+
 ## Data
 
 There are two ways to bring in data:
