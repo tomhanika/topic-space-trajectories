@@ -486,6 +486,29 @@ notes in the [README](../README.md#data-quality-notes) list the cleaning that Op
 For a few thousand works, e.g. those of an institution, query the OpenAlex API instead, write the results
 as CSV and use the `csv` format.
 
+### Citation flow between topics
+
+References cross maps, so the citation flow is computed once for all OpenAlex maps, after their runs:
+
+```bash
+tst openalex-fetch /data/openalex --links      # references, authors, titles of all works (about 33 GB)
+tst citations configs/*.yaml                   # all steps; --steps fit,global,... to redo some
+tst run configs/philosophy.yaml --stages export --force   # for every map: puts citations.json into the bundle
+tst collect bundle configs/*.yaml              # adds _global/citations.json
+```
+
+A paper cites an earlier work at a rate given by its number of references, an aging kernel over the citation
+lag, and a topic affinity between the topic mixes of the two works (from their text, fixed). The affinity is
+fitted per window of citing years. From it come the **flow** between topics (citations within one topic are not
+split over the topics a paper mixes), **rates** that do not grow with a topic's size, so they show direction,
+the **lift** over a random choice of cited works from the same years, an **upstream potential** per topic and a
+**hierarchy** index (a Hodge decomposition of the rate asymmetries), and per paper a **knowledge-base surprise**
+(how unusual its references are for its topics). Works without an abstract are placed by their title;
+citations between papers that share an author are left out. A global fit on the main topics of all maps gives
+the flow between fields; channels between twin topics (one subject in two maps) are flagged. Settings are in
+the `citations` section of the config, the files in [schema/citations.md](../schema/citations.md). Runtime for
+all of OpenAlex on 272 threads: about 8 hours.
+
 ## Troubleshooting
 
 | symptom | cause and fix |

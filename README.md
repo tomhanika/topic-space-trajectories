@@ -8,14 +8,16 @@
 * a 2D **topic map** of papers and trajectories,
 * the **topic collaboration graph**, co-authorship oriented by topic expertise, and its analyses:
   intertopic flows, PageRank, SNA measures, communities and coreness,
+* the **citation flow between topics** (OpenAlex maps): which topics and fields draw on which, with
+  directions that do not follow topic size, an upstream–downstream order and a hierarchy index,
 * a **visualization bundle**: plain JSON/Parquet files for web apps, specified in [schema/](schema/README.md),
   one file per data modality.
 
 The methods are described in two papers (see [Citation](#citation)).
 
 **See it in use:** [flow.sci-rec.org](https://flow.sci-rec.org) shows the maps `tst` computes from all of
-OpenAlex: 45 fields at two resolutions, with named topics, venue and author trajectories, a term explorer
-and researchers moving between fields.
+OpenAlex: 45 fields at two resolutions, with named topics, venue and author trajectories, a term explorer,
+researchers moving between fields and the citation flow between topics and fields.
 
 ## Data
 
@@ -60,6 +62,7 @@ tst status configs/philosophy.yaml
 tst stages                                       # list the stages and their config sections
 tst embed-text runs/philosophy/model "We discuss Kant's ethics ..."
 tst collect bundle configs/*.yaml                # bundle/<name>, bundle/<name>_fine, index.json for a web app
+tst citations configs/*.yaml                     # citation flow between topics of all OpenAlex maps (needs --links)
 ```
 
 One YAML file describes one run. Every option and its default is in `src/tst/config.py`.

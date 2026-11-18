@@ -413,6 +413,41 @@ class NoveltyConfig(_Section):
     unusual_ratio: float = 0.5
 
 
+class CitationsConfig(_Section):
+    """Citation flow between topics (`tst citations`, tst.citations, notes/citation_flow_theory.md)."""
+
+    enabled: bool = True
+    # Store written by `tst openalex-fetch <store> --links`; default: links/ in the OpenAlex store (input.path).
+    links: Path | None = None
+    # Citing years per window within a corpus (all corpora together: `tst citations --global-window`).
+    window: int = 3
+    # Each work keeps its strongest topics (renormalised); the EM costs grow with the square of this.
+    top_topics: int = 6
+    # Works without an abstract (same types, subfields and years as the corpus) get a topic mix from their title.
+    title_only: bool = True
+    # "exclude": citations between papers with a shared author are left out of the flows.
+    self_citations: Literal["exclude", "include"] = "exclude"
+    # Pseudo-citations per topic pair, pulling rates with little exposure towards the mean rate (gamma prior).
+    prior: float = 0.5
+    max_iter: int = 500
+    # Relative change of the log-likelihood at which EM stops.
+    tol: float = 1e-8
+    # Bootstrap replicates (citing papers resampled with Poisson(1) weights) for the main resolution.
+    bootstrap: int = 20
+    bootstrap_iter: int = 40
+    # Topic pairs with fewer citations in both directions together are left out of the Hodge decomposition.
+    hodge_min_flow: float = 20.0
+    # Windows with fewer citations are not fitted.
+    min_citations: int = 2000
+    # Flows between different topics listed per window in the bundle.
+    top_flows: int = 200
+    # Papers with fewer resolved references get no knowledge-base surprise.
+    min_refs_surprise: int = 3
+    # Channels between fields whose two topics are each other's closest topic in the other corpus and share at
+    # least this cosine similarity of their topic-word weights are flagged as twins (one subject in two maps).
+    twin_similarity: float = 0.5
+
+
 class IndicatorsConfig(_Section):
     # Topic life cycle: shares smoothed over this many years; "growing"/"declining" if the share of the last
     # `recent` years differs by at least `change` (relative) from the `recent` years before.
@@ -485,6 +520,7 @@ class RunConfig(_Section):
     novelty: NoveltyConfig = Field(default_factory=NoveltyConfig)
     indicators: IndicatorsConfig = Field(default_factory=IndicatorsConfig)
     terms: TermsConfig = Field(default_factory=TermsConfig)
+    citations: CitationsConfig = Field(default_factory=CitationsConfig)
     export: ExportConfig = Field(default_factory=ExportConfig)
     fine: FineConfig = Field(default_factory=FineConfig)
 

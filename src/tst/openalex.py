@@ -21,6 +21,7 @@ import urllib.request
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from pathlib import Path
 
+import numpy as np
 import polars as pl
 import pyarrow as pa
 import pyarrow.parquet as pq
@@ -173,6 +174,164 @@ def fetch(store: Path, n_jobs: int = 48, limit: int | None = None) -> dict:
     if missing:
         log.warning("%d files failed; run fetch again to retry them", missing)
     return {"snapshot": manifest["date"], "fetched": done, "failed": missing, "works": n_in, "with_abstract": n_out}
+
+
+# Links: the citation graph and author countries of ALL works (with or without abstract), in <store>/links/,
+# one file per snapshot file like works/. Titles are kept only for works without an abstract (the others have
+# their text in works/), so that a topic model can place them from the title alone.
+LINK_COLUMNS = [
+    "id", "publication_year", "type", "language", "title", "is_paratext", "is_retracted",
+    "primary_topic.id", "primary_topic.subfield.id", "primary_topic.field.id", "referenced_works",
+    "authorships.list.element.author.id", "authorships.list.element.countries",
+    "authorships.list.element.institutions.list.element.id",
+]
+LINK_AUTHOR_TYPE = pa.struct([("id", pa.int64()), ("countries", pa.list_(pa.string())),
+                              ("institutions", pa.list_(pa.int64()))])
+LINKS_SCHEMA = pa.schema([
+    ("work_id", pa.int64()),
+    ("part", pa.int32()),
+    ("year", pa.int32()),
+    ("type", pa.string()),
+    ("language", pa.string()),
+    ("has_abstract", pa.bool_()),
+    ("title", pa.string()),
+    ("paratext", pa.bool_()),
+    ("retracted", pa.bool_()),
+    ("topic", pa.int32()),
+    ("subfield", pa.int32()),
+    ("field", pa.int32()),
+    ("refs", pa.list_(pa.int64())),
+    ("authors", pa.list_(LINK_AUTHOR_TYPE)),
+])
+_ID_PREFIX = r"^https://openalex\.org/(?:subfields/|fields/)?[WAITS]?"
+
+
+def _ids(arr: pa.Array, typ=pa.int64()) -> pa.Array:
+    """OpenAlex URLs -> integer ids, vectorised (nulls and malformed ids become null)."""
+    import pyarrow.compute as pc
+
+    tail = pc.replace_substring_regex(arr, pattern=_ID_PREFIX, replacement="")
+    ok = pc.match_substring_regex(tail, pattern=r"^\d+$")
+    return pc.if_else(ok, pc.cast(pc.if_else(ok, tail, pa.scalar("0")), typ), pa.scalar(None, typ))
+
+
+def _id_lists(arr: pa.Array) -> pa.Array:
+    """list<url> -> list<int64>, dropping malformed ids inside the lists."""
+    import pyarrow.compute as pc
+
+    arr = arr.combine_chunks() if isinstance(arr, pa.ChunkedArray) else arr
+    flat = _ids(arr.flatten())
+    parents = pc.list_parent_indices(arr)
+    keep = pc.is_valid(flat)
+    lens = pc.value_counts(pc.filter(parents, keep))  # per row, rows with no kept ids are missing
+    counts = np.zeros(len(arr), np.int64)
+    if len(lens):
+        counts[lens.field("values").to_numpy()] = lens.field("counts").to_numpy()
+    offsets = np.concatenate([[0], np.cumsum(counts)])
+    out = pa.ListArray.from_arrays(pa.array(offsets, pa.int32() if offsets[-1] < 2**31 else pa.int64()),
+                                   pc.filter(flat, keep))
+    return pc.if_else(pc.is_valid(arr), out, pa.scalar(None, out.type)) if arr.null_count else out
+
+
+def _convert_links(tab: pa.Table, part: int, with_abstract: pa.Array) -> pa.Table:
+    import pyarrow.compute as pc
+
+    tab = tab.combine_chunks()
+    wid = _ids(tab["id"].chunk(0))
+    year = tab["publication_year"].chunk(0)
+    keep = pc.and_(pc.is_valid(wid), pc.is_valid(year))
+    tab, wid = tab.filter(keep), pc.filter(wid, keep)
+    has_abs = pc.fill_null(pc.is_in(wid, value_set=with_abstract), False)
+    topic = tab["primary_topic"].chunk(0)
+    title = pc.if_else(has_abs, pa.scalar(None, pa.string()), tab["title"].chunk(0))
+
+    au = tab["authorships"].chunk(0)  # list<struct<author: struct<id>, countries, institutions: list<struct<id>>>>
+    items = au.flatten()
+    inst = items.field("institutions")
+    inst_ids = pa.ListArray.from_arrays(inst.offsets, _ids(inst.flatten().field("id")))
+    authors_flat = pa.StructArray.from_arrays(
+        [_ids(items.field("author").field("id")), items.field("countries"), inst_ids],
+        fields=list(LINK_AUTHOR_TYPE))
+    authors = pa.ListArray.from_arrays(au.offsets, authors_flat, type=pa.list_(LINK_AUTHOR_TYPE))
+
+    n = tab.num_rows
+    return pa.table({
+        "work_id": wid,
+        "part": pa.array(np.full(n, part, np.int32)),
+        "year": tab["publication_year"].chunk(0),
+        "type": tab["type"].chunk(0),
+        "language": tab["language"].chunk(0),
+        "has_abstract": has_abs,
+        "title": title,
+        "paratext": tab["is_paratext"].chunk(0),
+        "retracted": tab["is_retracted"].chunk(0),
+        "topic": _ids(topic.field("id"), pa.int32()),
+        "subfield": _ids(topic.field("subfield").field("id"), pa.int32()),
+        "field": _ids(topic.field("field").field("id"), pa.int32()),
+        "refs": _id_lists(tab["referenced_works"].chunk(0)),
+        "authors": authors,
+    }, schema=LINKS_SCHEMA)
+
+
+def _fetch_links_file(args) -> tuple[str, int, int]:
+    import pyarrow.fs as pfs
+
+    key, part, target, works_file = args
+    target = Path(target)
+    with_abstract = pq.read_table(works_file, columns=["work_id"])["work_id"].combine_chunks() \
+        if Path(works_file).exists() else pa.array([], pa.int64())
+    fs = pfs.S3FileSystem(anonymous=True, region="us-east-1", retry_strategy=pfs.AwsStandardS3RetryStrategy(10))
+    f = pq.ParquetFile(fs.open_input_file(f"{BUCKET}/{key}"), pre_buffer=True)
+    tmp = target.with_suffix(".tmp")
+    n_works = n_refs = 0
+    with pq.ParquetWriter(tmp, LINKS_SCHEMA, compression="zstd") as w:
+        for rg in range(f.metadata.num_row_groups):
+            tab = _convert_links(f.read_row_group(rg, columns=LINK_COLUMNS), part, with_abstract)
+            n_works += tab.num_rows
+            n_refs += len(tab["refs"].combine_chunks().flatten())
+            w.write_table(tab)
+    tmp.rename(target)
+    return key, n_works, n_refs
+
+
+def fetch_links(store: Path, n_jobs: int = 48, limit: int | None = None) -> dict:
+    """Download references, authors' countries and institutions of all works into `store/links`.
+
+    Uses the snapshot files listed in `store/manifest.json` (the snapshot of works/), so both parts match.
+    """
+    manifest = json.loads((store / "manifest.json").read_text())
+    current = json.loads(urllib.request.urlopen(MANIFEST_URL, timeout=120).read())["date"]
+    if current != manifest["date"]:
+        raise RuntimeError(f"store snapshot {manifest['date']} is no longer on S3 (now {current}); "
+                           "fetch works/ again first")
+    links = store / "links"
+    links.mkdir(exist_ok=True)
+    keys = manifest["files"][:limit] if limit else manifest["files"]
+    tasks = []
+    for part, key in enumerate(keys):
+        name = key.split("updated_date=")[1].replace("/", "_")
+        if not (links / name).exists():
+            tasks.append((key, part, str(links / name), str(store / "works" / name)))
+    log.info("openalex links %s: %d files, %d to fetch", manifest["date"], len(keys), len(tasks))
+    t0, done, n_works, n_refs = time.time(), 0, 0, 0
+    pa.set_io_thread_count(8)
+    with limited_threads(2), ProcessPoolExecutor(max(1, min(n_jobs, len(tasks) or 1)),
+                                                 mp_context=mp.get_context("spawn")) as ex:
+        futures = [ex.submit(_fetch_links_file, t) for t in tasks]
+        for fut in as_completed(futures):
+            try:
+                key, a, b = fut.result()
+            except Exception as e:  # noqa: BLE001 - keep going; a rerun retries the missing files
+                log.warning("failed: %s", e)
+                continue
+            done, n_works, n_refs = done + 1, n_works + a, n_refs + b
+            if done % 20 == 0 or done == len(tasks):
+                log.info("  %d/%d files, %.1fM works, %.1fM references, %.0f min", done, len(tasks),
+                         n_works / 1e6, n_refs / 1e6, (time.time() - t0) / 60)
+    missing = len(tasks) - done
+    if missing:
+        log.warning("%d files failed; run fetch again to retry them", missing)
+    return {"snapshot": manifest["date"], "fetched": done, "failed": missing, "works": n_works, "references": n_refs}
 
 
 def snapshot_year(store: Path) -> int | None:

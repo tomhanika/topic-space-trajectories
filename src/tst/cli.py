@@ -43,6 +43,15 @@ def main(argv: list[str] | None = None) -> None:
     o.add_argument("store", type=Path, help="local store folder (use it as input.path with format: openalex)")
     o.add_argument("--jobs", type=int, default=48, help="parallel downloads")
     o.add_argument("--limit", type=int, help="only the first N snapshot files (for testing)")
+    o.add_argument("--links", action="store_true",
+                   help="references, authors' countries and institutions of all works, into <store>/links")
+
+    ci = sub.add_parser("citations", help="citation flow between topics, for all corpora at once")
+    ci.add_argument("configs", nargs="+")
+    ci.add_argument("--steps", help="comma-separated subset of: titles,nodes,authors,resolve,fit,global,papers")
+    ci.add_argument("--jobs", type=int, default=200, help="worker processes for the title topics")
+    ci.add_argument("--global-window", type=int, default=5, help="citing years per window of the global fit")
+    ci.add_argument("--force", action="store_true", help="recompute steps whose outputs exist")
 
     c = sub.add_parser("collect", help="gather the bundles of several runs in one folder for a web app")
     c.add_argument("out", type=Path, help="folder: <out>/<name>, <out>/<name>_fine and <out>/index.json")
@@ -82,10 +91,18 @@ def main(argv: list[str] | None = None) -> None:
         for st in STAGES:
             print(f"{st.name:<13} after: {', '.join(st.deps) or '-':<22} config: {', '.join(st.sections) or '-'}")
     elif a.cmd == "openalex-fetch":
-        from .openalex import fetch
+        from .openalex import fetch, fetch_links
 
-        setup_logging(a.store / "fetch.log")
-        print(json.dumps(fetch(a.store, a.jobs, a.limit), indent=1))
+        setup_logging(a.store / ("fetch_links.log" if a.links else "fetch.log"))
+        print(json.dumps((fetch_links if a.links else fetch)(a.store, a.jobs, a.limit), indent=1))
+    elif a.cmd == "citations":
+        from .citations import STEPS, run as run_citations
+
+        steps = a.steps.split(",") if a.steps else None
+        if steps and (bad := set(steps) - set(STEPS)):
+            p.error(f"unknown steps {bad}; choose from {STEPS}")
+        setup_logging()
+        print(json.dumps(run_citations(a.configs, steps, a.jobs, a.force, a.global_window), indent=1, default=str))
     elif a.cmd == "collect":
         from .export import collect
 
@@ -105,9 +122,16 @@ def main(argv: list[str] | None = None) -> None:
             result["terms"] = crossfield.build_terms(a.out, [(n, r) for n, r, _ in roots])
             # Works without an OpenAlex topic are no research field to move to or from.
             result["mobility"] = crossfield.build_mobility(a.out, [(n, r) for n, r, g in roots if g != "Unclassified"])
+            # Citation flow between fields (tst citations writes it next to the run folders).
+            gcit = Path(os.path.commonpath([str(r) for _, r, _ in roots])) / "_citations" / "global.json"
+            if gcit.exists():
+                (a.out / "_global").mkdir(parents=True, exist_ok=True)
+                (a.out / "_global" / "citations.json").write_text(gcit.read_text())
+                result["citations"] = True
             index_file = a.out / "index.json"
             index = json.loads(index_file.read_text())
-            index["global"] = {k: v for k, v in (("terms", "_terms/index.json"), ("mobility", "_global/mobility.json"))
+            index["global"] = {k: v for k, v in (("terms", "_terms/index.json"), ("mobility", "_global/mobility.json"),
+                                                 ("citations", "_global/citations.json"))
                                if (a.out / v).exists()}
             index_file.write_text(json.dumps(index, indent=1, ensure_ascii=False))
         print(json.dumps(result, indent=1))

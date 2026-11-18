@@ -1,4 +1,4 @@
-# Visualization bundle, schema 1.4
+# Visualization bundle, schema 1.5
 
 `tst run` writes one self-contained folder `<workdir>/bundle/` per corpus. A web app needs only these files
 and no code from this package. This folder describes the bundle, one file per data modality:
@@ -11,6 +11,7 @@ and no code from this package. This folder describes the bundle, one file per da
 | [trajectories.md](trajectories.md) | venues and authors moving through topic space | `trajectories.parquet`, `trajectories_<type>.json`, `entities.parquet`, `pairwise.parquet` |
 | [network.md](network.md) | the topic collaboration graph of authors | `network/*` |
 | [derived.md](derived.md) | topic pages, field indicators per year, paper novelty and citation percentiles | `topic_pages.json`, `field_indicators.json`, columns of `documents.parquet` |
+| [citations.md](citations.md) | citation flow between topics: flows, rates, lift, upstream potentials, hierarchy; between fields; knowledge-base surprise of papers | `citations.json`, `_global/citations.json`, columns of `documents.parquet` |
 | [global.md](global.md) | across corpora, next to the bundles: term explorer, researchers moving between corpora | `_terms/*`, `_global/mobility.json` |
 | [methods.md](methods.md) | how the bundle was made: parameters with reasons and literature, cleaning and vocabulary | `manifest.json` (`run.parameters`, `run.references`), `methods.json`, `vocabulary.json` |
 
@@ -41,7 +42,7 @@ Every bundle starts here; read it first.
 
 ```json
 {
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "generator": "topic-space-trajectories 0.1.0",
   "created": "2026-10-29T22:59:36",
   "k": 24,
@@ -100,7 +101,7 @@ Every bundle starts here; read it first.
 `index.json` lists the fields and their resolutions:
 
 ```json
-{"schema_version": "1.4", "fields": [
+{"schema_version": "1.5", "fields": [
   {"name": "philosophy", "label": "Philosophy", "group": "Arts and Humanities",
    "resolutions": {"main": {"path": "philosophy", "k": 32, "created": "2026-11-02T05:26:21"},
                    "fine": {"path": "philosophy_fine", "k": 40, "created": "..."}}}],
@@ -128,6 +129,10 @@ Bundles of your own data (CSV input) have a `source_id` only if you mapped one, 
 Additive changes (new files, new columns) keep the major version. Renamed or removed fields raise
 `schema_version` to 2.0. Web apps should check `schema_version` and ignore unknown fields.
 
+* **1.5** (2026-11-17): citation flow between topics (`citations.json`, `_global/citations.json`,
+  [citations.md](citations.md)), `documents.parquet` columns `references`, `references_resolved`, `kb_surprise`,
+  `kb_surprise_pct`; `index.json` `global.citations`. 2026-11-18, additive: channel columns `similarity` and
+  `twin` in `_global/citations.json`.
 * **1.4** (2026-11-07): topic names (`topics.json` `name`, `terms_label`, `parent` in fine resolutions),
   `topic_pages.json`, `field_indicators.json`, `documents.parquet` columns `novelty`, `novelty_pct`, `unusual`,
   `citation_pct`, `sna.parquet` column `avg_shortest_path`, manifest `label` and `group`, parameter group

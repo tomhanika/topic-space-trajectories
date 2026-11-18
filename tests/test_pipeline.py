@@ -73,7 +73,7 @@ def test_full_pipeline(tmp_path):
     assert params["Topic model"]["Topics"]["value"] == "2"
     assert params["Trajectories"]["Authors"]["value"].startswith("at least 1 paper in a year")
     # Every parameter is a decision record; the literature it cites and the lists it points to are in the bundle.
-    assert manifest["schema_version"] == "1.4"
+    assert manifest["schema_version"] == "1.5"
     refs = {r["id"]: r for r in manifest["run"]["references"]}
     for g in manifest["run"]["parameters"]:
         for p in g["parameters"]:

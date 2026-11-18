@@ -26,6 +26,7 @@ case for every OpenAlex field. The full corpus is behind the density background
 | novelty_pct | float32 \| null | novelty as a percentile within the publication year (0–100) |
 | unusual | bool | the paper has a topic pair that occurs at most half as often as expected |
 | citation_pct | float32 | citation count as a percentile within the corpus and publication year (0–100) |
+| references, references_resolved, kb_surprise, kb_surprise_pct | | references and knowledge-base surprise (schema 1.5, [citations.md](citations.md)); null where `tst citations` has not run |
 | url | string | link to the paper, from `export.url_template` (OpenAlex: `https://openalex.org/W…`; CSV input e.g. a DOI link). Only present if a template is set; null for papers without a `source_id` |
 
 Venue names are as the source database spells them and can have leading or trailing spaces; trim them

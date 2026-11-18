@@ -22,7 +22,7 @@ from .run import write_json
 
 log = logging.getLogger("tst.export")
 
-SCHEMA_VERSION = "1.4"
+SCHEMA_VERSION = "1.5"
 
 
 def topic_colors(k: int) -> list[str]:
@@ -90,7 +90,7 @@ def density_image(Z: np.ndarray, colors: list[str], path: Path) -> None:
 
 def write_bundle(root: Path, out: Path, cfg: ExportConfig, k: int, seed: int, run_info: dict,
                  labels: list[str] | None = None, documents: Path | None = None, methods: dict | None = None,
-                 vocabulary: dict | None = None) -> dict:
+                 vocabulary: dict | None = None, citations: Path | None = None, papers: Path | None = None) -> dict:
     documents = documents or root / "documents.parquet"
     if out.exists():
         shutil.rmtree(out)
@@ -136,6 +136,9 @@ def write_bundle(root: Path, out: Path, cfg: ExportConfig, k: int, seed: int, ru
     if novelty.exists():
         docs = docs.join(pl.read_parquet(novelty, columns=["doc_id", "novelty", "novelty_pct", "unusual",
                                                            "citation_pct"]), on="doc_id", how="left")
+    if papers is not None and papers.exists():  # tst citations: references and knowledge-base surprise
+        docs = docs.join(pl.read_parquet(papers, columns=["doc_id", "references", "references_resolved",
+                                                          "kb_surprise", "kb_surprise_pct"]), on="doc_id", how="left")
     if cfg.max_docs is not None and docs.height > cfg.max_docs:
         docs = docs.sample(cfg.max_docs, seed=seed)
     docs = docs.with_columns(
@@ -218,6 +221,11 @@ def write_bundle(root: Path, out: Path, cfg: ExportConfig, k: int, seed: int, ru
                     p["url"] = paper_url(cfg.url_template, p.get("title"), p.get("source_id"))
         (out / f"{name}.json").write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")))
         files[name] = f"{name}.json"
+
+    # Citation flow between topics (tst citations), when computed for this corpus and resolution.
+    if citations is not None and citations.exists():
+        (out / "citations.json").write_text(citations.read_text())
+        files["citations"] = "citations.json"
 
     # How the bundle was made: the lists behind run.parameters, and the vocabulary (large, so compact JSON).
     if methods is not None:

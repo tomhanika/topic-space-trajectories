@@ -306,7 +306,9 @@ def bundle(ctx: RunContext) -> dict:
                 "config": parameters.resolved_config(ctx.cfg)}
     return export.write_bundle(ctx.root, ctx.bundle_dir, ctx.cfg.export, k, ctx.cfg.seed, run_info, labels,
                                documents=ctx.documents, methods=methods,
-                               vocabulary=parameters.vocabulary(stages, ctx.vectorizer_dir))
+                               vocabulary=parameters.vocabulary(stages, ctx.vectorizer_dir),
+                               citations=ctx.path("citations", "bundle.json"),
+                               papers=ctx.main_path("citations", "papers.parquet"))
 
 
 _net = lambda ctx: ctx.cfg.network.enabled  # noqa: E731
