@@ -15,7 +15,9 @@ def test_top_topics_renormalises_and_pads():
 
 
 def test_windows_end_at_the_last_year():
-    assert ci.windows_of(2000, 2010, 3) == [(2000, 2001), (2002, 2004), (2005, 2007), (2008, 2010)]
+    assert ci.windows_of(2000, 2010, 3) == [(2002, 2004), (2005, 2007), (2008, 2010)]
+    assert ci.windows_of(2000, 2011, 3) == [(2000, 2002), (2003, 2005), (2006, 2008), (2009, 2011)]
+    assert ci.windows_of(2000, 2001, 3) == [(2000, 2001)]
 
 
 def test_estep_matches_dense_formula():

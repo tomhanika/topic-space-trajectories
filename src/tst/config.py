@@ -420,7 +420,7 @@ class CitationsConfig(_Section):
     # Store written by `tst openalex-fetch <store> --links`; default: links/ in the OpenAlex store (input.path).
     links: Path | None = None
     # Citing years per window within a corpus (all corpora together: `tst citations --global-window`).
-    window: int = 3
+    window: int = 5
     # Each work keeps its strongest topics (renormalised); the EM costs grow with the square of this.
     top_topics: int = 6
     # Works without an abstract (same types, subfields and years as the corpus) get a topic mix from their title.

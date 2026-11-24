@@ -132,7 +132,7 @@ Additive changes (new files, new columns) keep the major version. Renamed or rem
 * **1.5** (2026-11-17): citation flow between topics (`citations.json`, `_global/citations.json`,
   [citations.md](citations.md)), `documents.parquet` columns `references`, `references_resolved`, `kb_surprise`,
   `kb_surprise_pct`; `index.json` `global.citations`. 2026-11-18, additive: channel columns `similarity` and
-  `twin` in `_global/citations.json`.
+  `twin` in `_global/citations.json`; windows within a corpus 5 years (was 3), no shorter first window.
 * **1.4** (2026-11-07): topic names (`topics.json` `name`, `terms_label`, `parent` in fine resolutions),
   `topic_pages.json`, `field_indicators.json`, `documents.parquet` columns `novelty`, `novelty_pct`, `unusual`,
   `citation_pct`, `sna.parquet` column `avg_shortest_path`, manifest `label` and `group`, parameter group

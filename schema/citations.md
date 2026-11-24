@@ -40,13 +40,13 @@ author are left out (`self_citations: "exclude"`).
 ## Bundle file `citations.json`
 
 ```json
-{"resolution": "main", "k": 20, "window": 3, "unit": "citations", "self_citations": "exclude",
+{"resolution": "main", "k": 20, "window": 5, "unit": "citations", "self_citations": "exclude",
  "title_only": true, "top_topics": 6,
  "flow_columns": ["from", "to", "citations", "rate", "lift", "lift_lo", "lift_hi", "lag"],
  "coverage": {"references": 4100000, "resolved": 2300000, "same_corpus": 1500000, "same_corpus_title_only": 90000,
               "other_corpora": 800000, "self_citations": 200000, "cited_later": 5000, "used": 1300000},
  "windows": [
-   {"start": 2023, "end": 2025, "fitted": true, "citations": 160000, "citing_papers": 21000,
+   {"start": 2021, "end": 2025, "fitted": true, "citations": 160000, "citing_papers": 21000,
     "diagonal_share": {"product": 0.31, "model": 0.62},
     "hierarchy": {"gradient": 0.71, "curl": 0.22, "harmonic": 0.07, "gradient_se": 0.03},
     "aging": [0.01, 0.04, ...],
@@ -58,8 +58,9 @@ author are left out (`self_citations: "exclude"`).
 * `coverage`: references of the corpus papers in OpenAlex; how many resolve to a citable work; of those, in
   the same corpus (and how many of them title-only), in other corpora; self-citations and citations of works
   published later (version mix-ups), both left out; `used`: citations in the flows of this file.
-* `windows`: consecutive windows of `window` citing years, the last ending with the corpus's last year. Windows
-  with fewer than `min_citations` citations have `"fitted": false` and nothing else.
+* `windows`: consecutive windows of `window` citing years (5 by default), the last ending with the corpus's last
+  year. Earlier years that do not fill a window are cited but not citing. Windows with fewer than
+  `min_citations` citations have `"fitted": false` and nothing else.
 * `diagonal_share`: share of citations within one topic, with product attribution and in the model.
 * `aging`: g by lag (0 = same year), first 41 lags, summing to 1 over all lags.
 * `topics.*`: arrays indexed by topic id. `cited` / `citing`: flow received from / made by the topic within

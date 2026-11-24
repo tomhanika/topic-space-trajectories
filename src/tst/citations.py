@@ -886,12 +886,13 @@ def hodge(B: np.ndarray, F: np.ndarray, min_flow: float, volume: np.ndarray | No
 
 
 def windows_of(lo: int, hi: int, size: int) -> list[tuple[int, int]]:
-    """Consecutive windows of `size` citing years, the last one ending at hi; the first may be shorter."""
+    """Consecutive windows of `size` citing years, the last one ending at hi. Years before the first full window
+    are cited but not citing; only a span shorter than one window gives a shorter window."""
     out, end = [], hi
-    while end >= lo:
-        out.append((max(lo, end - size + 1), end))
+    while end - size + 1 >= lo:
+        out.append((end - size + 1, end))
         end -= size
-    return out[::-1]
+    return out[::-1] or [(lo, hi)]
 
 
 def node_volumes(year: np.ndarray, ti: np.ndarray, tw: np.ndarray, K: int, min_year: int, max_year: int):
@@ -1191,6 +1192,7 @@ def twins(sim: np.ndarray, toff: np.ndarray, threshold: float) -> np.ndarray:
 
 
 def global_bundle(fits, corpora, toff, ccfg, window, sim: np.ndarray | None = None) -> dict:
+    fits = [f for f in fits if f["hi"] - f["lo"] + 1 >= window] or fits   # saved fits may have a short first window
     nf = len(corpora)
     blocks = np.searchsorted(toff, np.arange(toff[-1]), side="right") - 1   # topic -> corpus
     twin = twins(sim, toff, ccfg.twin_similarity) if sim is not None else None
